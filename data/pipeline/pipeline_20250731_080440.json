@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-07-31T08:04:40.015343",
+  "roteiro": {
+    "hook": "Já viu gelo PEGAR FOGO?! 😱🔥",
+    "roteiro_completo": "[Cena: Close em um cubo de gelo aparentemente normal. Música animada e curiosa de fundo.]\n\n**Voz (tom animado):** GENTE, olha isso! Parece gelo normal, né? Mas se liga nesse truque de ciência INSANO!\n\n[Cena: A pessoa pega um isqueiro e acende o gelo. O gelo parece pegar fogo com uma chama azul.]\n\n**Voz (tom surpreso):** QUEEEÊ?! Tá pegando fogo! Como assim?!\n\n[Cena: Transição rápida para uma explicação com desenhos simples e texto na tela: \"Hidrato de Metano: CH₄·nH₂O\"]\n\n**Voz (tom explicativo):** Calma, não é mágica! É CIÊNCIA! Esse não é gelo comum. É hidrato de metano! Um composto que aprisiona gás metano dentro de uma estrutura de água congelada.\n\n[Cena: Volta para o gelo queimando.]\n\n**Voz (tom divertido):** O metano é um gás inflamável, e quando a gente acende, ele queima, liberando a água e... bum! Fogo no gelo!\n\n[Cena: Close no gelo queimando, com emojis de fogo 🔥 e surpresa 😮.]\n\n**Voz (tom informativo):** Esse fenômeno acontece naturalmente no fundo do oceano, sabia? E é uma fonte de energia POTENTE!\n\n[Cena: Finalização com a pessoa apontando para cima e sorrindo.]\n\n**Voz (tom animado):** Curtiu a dica? Compartilha com os amigos e me segue pra mais curiosidades científicas! 😉\n\n[Tela final: Texto com \"#GeloQuePegaFogo #HidratoDeMetano #CienciaEmCasa\" e emojis relacionados]",
+    "hashtags": [
+      "#gelonofogo",
+      "#cienciadivertida",
+      "#experimento",
+      "#fy",
+      "#foryou",
+      "#cienciatiktok",
+      "#aprendanotiktok"
+    ],
+    "titulo": "Gelo em Chamas! 🔥🧊 #CienciaNoTikTok",
+    "categoria": "ciencia",
+    "timestamp": "2025-07-31T12:47:22.987123"
+  },
+  "audio_file": "../media/audio/audio_google_20250731_080403.mp3",
+  "images": [
+    {
+      "file": "../media/images/picsum_laboratory_0_080403_20250731_080404.jpg",
+      "description": "Imagem 1 para laboratory",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_laboratory_2_080408_20250731_080409.jpg",
+      "description": "Imagem 3 para laboratory",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_technology_0_080409_20250731_080411.jpg",
+      "description": "Imagem 1 para technology",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_technology_1_080411_20250731_080415.jpg",
+      "description": "Imagem 2 para technology",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_technology_2_080415_20250731_080418.jpg",
+      "description": "Imagem 3 para technology",
+      "source": "picsum"
+    }
+  ],
+  "video": {
+    "success": true,
+    "video_file": "../media/videos/tiktok_Gelo_em_Chamas_CienciaNoTikTok_20250731_080418.mp4",
+    "size_mb": 2.8938159942626953,
+    "duration": 44.088,
+    "images_count": 5,
+    "roteiro": {
+      "hook": "Já viu gelo PEGAR FOGO?! 😱🔥",
+      "roteiro_completo": "[Cena: Close em um cubo de gelo aparentemente normal. Música animada e curiosa de fundo.]\n\n**Voz (tom animado):** GENTE, olha isso! Parece gelo normal, né? Mas se liga nesse truque de ciência INSANO!\n\n[Cena: A pessoa pega um isqueiro e acende o gelo. O gelo parece pegar fogo com uma chama azul.]\n\n**Voz (tom surpreso):** QUEEEÊ?! Tá pegando fogo! Como assim?!\n\n[Cena: Transição rápida para uma explicação com desenhos simples e texto na tela: \"Hidrato de Metano: CH₄·nH₂O\"]\n\n**Voz (tom explicativo):** Calma, não é mágica! É CIÊNCIA! Esse não é gelo comum. É hidrato de metano! Um composto que aprisiona gás metano dentro de uma estrutura de água congelada.\n\n[Cena: Volta para o gelo queimando.]\n\n**Voz (tom divertido):** O metano é um gás inflamável, e quando a gente acende, ele queima, liberando a água e... bum! Fogo no gelo!\n\n[Cena: Close no gelo queimando, com emojis de fogo 🔥 e surpresa 😮.]\n\n**Voz (tom informativo):** Esse fenômeno acontece naturalmente no fundo do oceano, sabia? E é uma fonte de energia POTENTE!\n\n[Cena: Finalização com a pessoa apontando para cima e sorrindo.]\n\n**Voz (tom animado):** Curtiu a dica? Compartilha com os amigos e me segue pra mais curiosidades científicas! 😉\n\n[Tela final: Texto com \"#GeloQuePegaFogo #HidratoDeMetano #CienciaEmCasa\" e emojis relacionados]",
+      "hashtags": [
+        "#gelonofogo",
+        "#cienciadivertida",
+        "#experimento",
+        "#fy",
+        "#foryou",
+        "#cienciatiktok",
+        "#aprendanotiktok"
+      ],
+      "titulo": "Gelo em Chamas! 🔥🧊 #CienciaNoTikTok",
+      "categoria": "ciencia",
+      "timestamp": "2025-07-31T12:47:22.987123"
+    },
+    "status": "Aguardando Revisão"
+  },
+  "status": "completed"
+}

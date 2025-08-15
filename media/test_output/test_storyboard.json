@@ -1,0 +1,41 @@
+{
+  "title": "Newton e o Prisma - Descoberta da Luz",
+  "description": "A histórica descoberta de Isaac Newton sobre a decomposição da luz",
+  "scenes": [
+    {
+      "t_start": 0.0,
+      "t_end": 4.0,
+      "narration": "Em 1666, Isaac Newton fez uma descoberta que mudaria nossa compreensão da luz para sempre.",
+      "image_prompt": "Isaac Newton in his study, 1600s period accurate, warm candlelight, books and scientific instruments, painterly realistic, cinematic lighting, 9:16 vertical",
+      "motion_prompt": "slow zoom in on Newton's face, subtle parallax movement, warm lighting"
+    },
+    {
+      "t_start": 4.0,
+      "t_end": 8.0,
+      "narration": "Usando um simples prisma de vidro, ele direcionou um feixe de luz solar através dele.",
+      "image_prompt": "Glass prism on wooden table with sunlight beam, rainbow spectrum emerging, scientific setting, detailed crystal texture, dramatic lighting, 9:16 vertical",
+      "motion_prompt": "gentle rotation of prism, light beam movement, rainbow spectrum appearing"
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 12.0,
+      "narration": "Para sua surpresa, a luz branca se separou em um espectro completo de cores: vermelho, laranja, amarelo, verde, azul, anil e violeta.",
+      "image_prompt": "Beautiful rainbow spectrum on wall, seven distinct colors, prism experiment, scientific laboratory 1600s, magical light rays, painterly style, 9:16 vertical",
+      "motion_prompt": "slow pan across the spectrum colors, light rays dancing, magical atmosphere"
+    },
+    {
+      "t_start": 12.0,
+      "t_end": 16.0,
+      "narration": "Newton descobriu que a luz branca não era pura, mas sim uma combinação de todas as cores do espectro visível.",
+      "image_prompt": "Newton writing notes by candlelight, scientific breakthrough moment, period accurate 1600s study, quill pen and parchment, thoughtful expression, 9:16 vertical",
+      "motion_prompt": "focus pull from notes to Newton's face, candlelight flickering, contemplative moment"
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 20.0,
+      "narration": "Esta descoberta revolucionou a óptica e nossa compreensão da natureza da luz, estabelecendo as bases da física moderna.",
+      "image_prompt": "Modern physics laboratory with prism experiment setup, scientific equipment, colorful light spectrum, educational setting, professional lighting, 9:16 vertical",
+      "motion_prompt": "smooth camera movement around modern lab setup, light beams and spectrum display"
+    }
+  ]
+}

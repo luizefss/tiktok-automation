@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-07-31T05:35:45.793559",
+  "roteiro": {
+    "hook": "Sabia que existe um planeta feito de DIAMANTE?! 💎😱",
+    "roteiro_completo": "**(Cena: Vídeo começa com um close em um anel de diamante brilhando. Transição rápida para o criador com expressão de surpresa)**\n\n**Criador:** MANO DO CÉU! Vocês não vão ACREDITAR nisso! Prepara o queixo que ele vai CAIR! 😱\n\n**(Transição para imagens do espaço com animações de um planeta brilhando)**\n\n**Criador (voz animada):** Existe um exoplaneta, tipo, fora do nosso sistema solar, chamado 55 Cancri e… ele é basicamente FEITO DE DIAMANTE PURO! 💎✨\n\n**(Imagens com texto explicativo: 55 Cancri e - Planeta de Diamante)**\n\n**Criador:**  É tipo, DUAS VEZES maior que a Terra e tem uma massa OITO VEZES maior! Imagina o tamanho daquela pedra preciosa?! 🤑\n\n**(Meme de alguém babando)**\n\n**Criador:** Os cientistas acreditam que ele é feito principalmente de carbono cristalizado. E com a pressão e o calor lá dentro… BOOM! DIAMANTE GIGANTE! 💥\n\n**(Transição rápida para o criador)**\n\n**Criador:** Queria ser astronauta só pra dar uma passadinha lá e pegar uns pedacinhos, né? 😂 Brincadeira… ou não? 👀\n\n**(Música animada de fundo durante todo o vídeo. Finaliza com um gesto de “joia” com a mão)**",
+    "hashtags": [
+      "#viral",
+      "#curiosidades",
+      "#fyp",
+      "#universo",
+      "#diamante",
+      "#planeta",
+      "#ciencia",
+      "#astronomia",
+      "#incrivel",
+      "#55cancrie"
+    ],
+    "titulo": "Planeta de DIAMANTE?! 😱💎 #curiosidades",
+    "categoria": "curiosidades",
+    "timestamp": "2025-07-31T05:34:46.049130"
+  },
+  "audio_file": "../media/audio/audio_20250731_053457.mp3",
+  "images": [
+    {
+      "file": "../media/images/picsum_mystery_0_053502_20250731_053503.jpg",
+      "description": "Imagem 1 para mystery",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_mystery_1_053503_20250731_053505.jpg",
+      "description": "Imagem 2 para mystery",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_science_0_053508_20250731_053512.jpg",
+      "description": "Imagem 1 para science",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_science_1_053512_20250731_053513.jpg",
+      "description": "Imagem 2 para science",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_science_2_053513_20250731_053514.jpg",
+      "description": "Imagem 3 para science",
+      "source": "picsum"
+    }
+  ],
+  "video": {
+    "success": true,
+    "video_file": "../media/videos/tiktok_Planeta_de_DIAMANTE_curiosidad_20250731_053514.mp4",
+    "size_mb": 3.156550407409668,
+    "duration": 54.096,
+    "images_count": 5,
+    "roteiro": {
+      "titulo": "Planeta de DIAMANTE?! 😱💎 #curiosidades",
+      "categoria": "curiosidades",
+      "hook": "Sabia que existe um planeta feito de DIAMANTE?! 💎😱",
+      "hashtags": [
+        "#viral",
+        "#curiosidades",
+        "#fyp",
+        "#universo",
+        "#diamante",
+        "#planeta",
+        "#ciencia",
+        "#astronomia",
+        "#incrivel",
+        "#55cancrie"
+      ]
+    }
+  },
+  "status": "completed"
+}

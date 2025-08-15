@@ -1,0 +1,181 @@
+{
+  "tiktok": {
+    "enabled": false,
+    "auth_method": "selenium",
+    "upload_settings": {
+      "max_file_size_mb": 287,
+      "supported_formats": [
+        "mp4",
+        "mov",
+        "avi"
+      ],
+      "max_duration_seconds": 180,
+      "auto_captions": true,
+      "privacy_default": "public"
+    },
+    "selenium_config": {
+      "headless": true,
+      "timeout": 30,
+      "retry_attempts": 3
+    },
+    "credentials": {
+      "username": "",
+      "password": "",
+      "phone": ""
+    }
+  },
+  "youtube": {
+    "enabled": false,
+    "auth_method": "oauth2",
+    "upload_settings": {
+      "max_file_size_mb": 1024,
+      "supported_formats": [
+        "mp4",
+        "mov",
+        "avi",
+        "wmv"
+      ],
+      "max_duration_seconds": 60,
+      "category": "22",
+      "privacy_default": "public"
+    },
+    "oauth2_config": {
+      "client_id": "",
+      "client_secret": "",
+      "redirect_uri": "http://localhost:8080/oauth/callback",
+      "scopes": [
+        "https://www.googleapis.com/auth/youtube.upload"
+      ]
+    },
+    "credentials": {}
+  },
+  "instagram": {
+    "enabled": false,
+    "auth_method": "graph_api",
+    "upload_settings": {
+      "max_file_size_mb": 100,
+      "supported_formats": [
+        "mp4",
+        "mov"
+      ],
+      "max_duration_seconds": 90,
+      "aspect_ratio": "9:16",
+      "min_resolution": "720p"
+    },
+    "graph_api_config": {
+      "app_id": "",
+      "app_secret": "",
+      "access_token": "",
+      "instagram_business_account_id": ""
+    },
+    "credentials": {}
+  },
+  "facebook": {
+    "enabled": false,
+    "auth_method": "graph_api",
+    "upload_settings": {
+      "max_file_size_mb": 100,
+      "supported_formats": [
+        "mp4",
+        "mov"
+      ],
+      "max_duration_seconds": 60,
+      "aspect_ratio": "9:16"
+    },
+    "graph_api_config": {
+      "app_id": "",
+      "app_secret": "",
+      "access_token": "",
+      "page_id": ""
+    },
+    "credentials": {}
+  },
+  "twitter": {
+    "enabled": false,
+    "auth_method": "api_v2",
+    "upload_settings": {
+      "max_file_size_mb": 512,
+      "supported_formats": [
+        "mp4",
+        "mov"
+      ],
+      "max_duration_seconds": 140,
+      "aspect_ratio": "16:9"
+    },
+    "api_v2_config": {
+      "api_key": "",
+      "api_secret": "",
+      "access_token": "",
+      "access_token_secret": "",
+      "bearer_token": ""
+    },
+    "credentials": {}
+  },
+  "linkedin": {
+    "enabled": false,
+    "auth_method": "api",
+    "upload_settings": {
+      "max_file_size_mb": 200,
+      "supported_formats": [
+        "mp4",
+        "mov"
+      ],
+      "max_duration_seconds": 600,
+      "aspect_ratio": "16:9"
+    },
+    "api_config": {
+      "client_id": "",
+      "client_secret": "",
+      "access_token": "",
+      "person_id": ""
+    },
+    "credentials": {}
+  },
+  "scheduling": {
+    "enabled": true,
+    "timezone": "America/Sao_Paulo",
+    "optimal_times": {
+      "tiktok": [
+        "07:00",
+        "20:00"
+      ],
+      "instagram": [
+        "12:00",
+        "20:00"
+      ],
+      "youtube": [
+        "15:00",
+        "21:00"
+      ],
+      "facebook": [
+        "13:00",
+        "19:00"
+      ],
+      "twitter": [
+        "09:00",
+        "17:00"
+      ],
+      "linkedin": [
+        "08:00",
+        "18:00"
+      ]
+    }
+  },
+  "analytics": {
+    "enabled": true,
+    "metrics_tracking": [
+      "views",
+      "likes",
+      "comments",
+      "shares",
+      "reach"
+    ],
+    "reporting_frequency": "daily"
+  },
+  "content_optimization": {
+    "hashtag_research": true,
+    "trending_topics": true,
+    "audience_analysis": true,
+    "performance_tracking": true
+  }
+}

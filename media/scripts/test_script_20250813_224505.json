@@ -1,0 +1,27 @@
+{
+  "fileName": "2025-08-13_19-45-07_claude_60s_a-historia-de-georg-wilhelm-ri",
+  "timestamp": "2025-08-13T22:45:07.497Z",
+  "script": "No século XVIII, um cientista ousou desafiar as forças da natureza.\nGeorg Wilhelm Richmann, físico russo-alemão, pioneiro no estudo da eletricidade atmosférica.\nInspirado por Benjamin Franklin, Richmann construiu seu próprio 'coletor de raios'.\nEm 6 de agosto de 1753, durante uma tempestade, ele realizou seu experimento fatal.\nUm globo de fogo azul saltou do aparelho, atingindo Richmann na testa.\nRichmann tornou-se a primeira pessoa conhecida a morrer durante um experimento elétrico.\nSua morte trágica alertou outros cientistas sobre os perigos da eletricidade, mas também impulsionou avanços na segurança elétrica.",
+  "topic": "a historia de Georg Wilhelm Richmann",
+  "ai_model": "claude",
+  "video_duration": 60,
+  "script_length": 620,
+  "estimated_audio_duration": 62,
+  "word_count": 83,
+  "generation_settings": {
+    "provider": "claude",
+    "format": "tiktok",
+    "duration": 60,
+    "theme": "a historia de Georg Wilhelm Richmann"
+  },
+  "category": "technology",
+  "tags": [
+    "historia",
+    "georg",
+    "wilhelm",
+    "richmann",
+    "medium"
+  ],
+  "status": "generated",
+  "version": "1.0"
+}

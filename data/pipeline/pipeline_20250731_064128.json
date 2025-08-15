@@ -1,0 +1,78 @@
+{
+  "timestamp": "2025-07-31T06:41:28.707356",
+  "roteiro": {
+    "hook": "Sabia que Cleópatra viveu mais perto da invenção do iPhone do que da construção da Grande Pirâmide?",
+    "roteiro_completo": "[Cena: Criador com expressão de surpresa] \n\n**Voz:**  Mano, que doideira! Cleópatra, aquela rainha egípcia toda poderosa, viveu mais perto da gente do que da construção da Grande Pirâmide! \n\n[Texto na tela: Cleópatra governou o Egito de 51 a 30 a.C.]\n\n**Voz:** A Grande Pirâmide de Gizé foi construída por volta de 2580-2560 a.C.  Isso significa que tem uma diferença de mais de 2.500 anos entre a construção da pirâmide e o reinado de Cleópatra! \n\n[Animação simples de uma linha do tempo mostrando a distância entre a construção da pirâmide e o reinado de Cleópatra, depois a distância entre Cleópatra e os dias atuais, consideravelmente menor]\n\n**Voz:** Agora, pensa comigo: o primeiro iPhone foi lançado em 2007.  Cleópatra morreu em 30 a.C.  Isso é uma diferença de, tipo, 2000 anos, bem menor do que a diferença com a pirâmide! \n\n[Texto na tela: 🤯]\n\n**Voz:**  Chocante, né? Compartilha esse vídeo com seus amigos para explodir a cabeça deles também! \n\n[Cena final: Criador apontando para o botão de compartilhar e curtir]",
+    "hashtags": [
+      "#cleopatra",
+      "#historiaantiga",
+      "#egito",
+      "#curiosidades",
+      "#viral",
+      "#historia",
+      "#fyp",
+      "#choque",
+      "#inutilmasinteressante",
+      "#tiktokbrasil"
+    ],
+    "titulo": "Cleópatra e o iPhone 🤯",
+    "categoria": "historia",
+    "timestamp": "2025-07-31T06:40:11.507851"
+  },
+  "audio_file": "../media/audio/audio_20250731_064029.mp3",
+  "images": [
+    {
+      "file": "../media/images/picsum_ancient_0_064036_20250731_064037.jpg",
+      "description": "Imagem 1 para ancient",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_ancient_2_064040_20250731_064042.jpg",
+      "description": "Imagem 3 para ancient",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_historical_1_064046_20250731_064048.jpg",
+      "description": "Imagem 2 para historical",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_historical_2_064048_20250731_064053.jpg",
+      "description": "Imagem 3 para historical",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_abstract_0_064053_20250731_064056.jpg",
+      "description": "Imagem 1 para abstract",
+      "source": "picsum"
+    }
+  ],
+  "video": {
+    "success": true,
+    "video_file": "../media/videos/tiktok_Cleópatra_e_o_iPhone__20250731_064056.mp4",
+    "size_mb": 4.202550888061523,
+    "duration": 62.76,
+    "images_count": 5,
+    "roteiro": {
+      "hook": "Sabia que Cleópatra viveu mais perto da invenção do iPhone do que da construção da Grande Pirâmide?",
+      "roteiro_completo": "[Cena: Criador com expressão de surpresa] \n\n**Voz:**  Mano, que doideira! Cleópatra, aquela rainha egípcia toda poderosa, viveu mais perto da gente do que da construção da Grande Pirâmide! \n\n[Texto na tela: Cleópatra governou o Egito de 51 a 30 a.C.]\n\n**Voz:** A Grande Pirâmide de Gizé foi construída por volta de 2580-2560 a.C.  Isso significa que tem uma diferença de mais de 2.500 anos entre a construção da pirâmide e o reinado de Cleópatra! \n\n[Animação simples de uma linha do tempo mostrando a distância entre a construção da pirâmide e o reinado de Cleópatra, depois a distância entre Cleópatra e os dias atuais, consideravelmente menor]\n\n**Voz:** Agora, pensa comigo: o primeiro iPhone foi lançado em 2007.  Cleópatra morreu em 30 a.C.  Isso é uma diferença de, tipo, 2000 anos, bem menor do que a diferença com a pirâmide! \n\n[Texto na tela: 🤯]\n\n**Voz:**  Chocante, né? Compartilha esse vídeo com seus amigos para explodir a cabeça deles também! \n\n[Cena final: Criador apontando para o botão de compartilhar e curtir]",
+      "hashtags": [
+        "#cleopatra",
+        "#historiaantiga",
+        "#egito",
+        "#curiosidades",
+        "#viral",
+        "#historia",
+        "#fyp",
+        "#choque",
+        "#inutilmasinteressante",
+        "#tiktokbrasil"
+      ],
+      "titulo": "Cleópatra e o iPhone 🤯",
+      "categoria": "historia",
+      "timestamp": "2025-07-31T06:40:11.507851"
+    },
+    "status": "Aguardando Revisão"
+  },
+  "status": "completed"
+}

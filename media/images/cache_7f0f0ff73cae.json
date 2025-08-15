@@ -1,0 +1,38 @@
+{
+  "script_hash": "7f0f0ff73cae",
+  "script_elements": {
+    "title": "Teste Imagen 4",
+    "description": "",
+    "visual_cues": [],
+    "hook": "",
+    "content": "Cena de teste vertical 9:16 para validar Imagen 4.",
+    "visual_style": "misterio",
+    "image_provider": "imagen"
+  },
+  "images": [
+    "/var/www/tiktok-automation/media/images/scene_1_20250814_055548.png",
+    "/var/www/tiktok-automation/media/images/scene_2_20250814_055559.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_3_20250814_055616.png",
+    "/var/www/tiktok-automation/media/images/scene_4_20250814_055627.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_5_20250814_055643.png",
+    "/var/www/tiktok-automation/media/images/scene_6_20250814_055655.png",
+    "/var/www/tiktok-automation/media/images/scene_7_20250814_055707.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_8_20250814_055723.png",
+    "/var/www/tiktok-automation/media/images/scene_9_20250814_055735.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_10_20250814_055751.png",
+    "/var/www/tiktok-automation/media/images/scene_11_20250814_055802.png",
+    "/var/www/tiktok-automation/media/images/scene_12_20250814_055815.png",
+    "/var/www/tiktok-automation/media/images/scene_13_20250814_055827.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_14_20250814_055844.png",
+    "/var/www/tiktok-automation/media/images/scene_15_20250814_055855.png",
+    "/var/www/tiktok-automation/media/images/scene_16_20250814_055907.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_17_20250814_055923.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_18_20250814_055939.png",
+    "/var/www/tiktok-automation/media/images/scene_19_20250814_055951.png",
+    "/var/www/tiktok-automation/media/images/scene_20_20250814_060003.png"
+  ],
+  "generated_at": "2025-08-14T06:00:04.414631",
+  "last_used": "2025-08-14T06:00:04.414650",
+  "image_count": 20,
+  "visual_style": "misterio"
+}

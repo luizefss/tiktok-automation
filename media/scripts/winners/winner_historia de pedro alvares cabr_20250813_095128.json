@@ -1,0 +1,562 @@
+{
+  "winner_provider": "Gemini",
+  "battle_theme": "historia de pedro alvares cabral",
+  "script_data": {
+    "fileName": "2025-08-13_06-51-29_WINNER-gemini_60s_historia-de-pedro-alvares",
+    "timestamp": "2025-08-13T09:51:29.847Z",
+    "type": "battle_winner",
+    "winner_ai": "Gemini",
+    "topic": "historia de pedro alvares cabral",
+    "script": "Imagine navegar por meses em mar aberto, sem GPS, sem internet, apenas com as estrelas como guia. Assustador, não é? Agora imagine fazer isso e acabar descobrindo um continente inteiro sem querer! Foi exatamente o que aconteceu com Pedro Álvares Cabral. A expedição de Cabral tinha como destino as Índias, seguindo a rota de Vasco da Gama. No entanto, ventos fortes e correntes marítimas inesperadas desviaram as caravelas consideravelmente para oeste. O resultado? O avistamento do Monte Pascoal em vinte e dois de abril de mil e quinhentos, marco inicial da história do Brasil. Pense em como um evento inesperado pode mudar completamente o curso da história, às vezes até criando uma nação inteira. A descoberta do Brasil nos lembra que o acaso e o imprevisível têm um papel fundamental na construção do nosso mundo. Quer saber mais sobre as grandes navegações e seus desdobramentos? Continue assistindo a Parte 2 para descobrir o resto da história!",
+    "winning_settings": {
+      "ai_model": "gemini",
+      "video_duration": 60,
+      "theme": "historia de pedro alvares cabral",
+      "provider": "gemini"
+    },
+    "battle_context": {
+      "participants": [
+        "Gpt",
+        "Claude",
+        "Gemini"
+      ],
+      "total_participants": 3,
+      "winner_score": 40,
+      "battle_timestamp": "2025-08-13T09:51:29.847Z"
+    },
+    "success_factors": {
+      "script_length": 951,
+      "estimated_engagement": "high",
+      "category": "technology",
+      "tags": [
+        "historia",
+        "pedro",
+        "alvares",
+        "cabral",
+        "medium"
+      ]
+    },
+    "status": "battle_winner",
+    "confidence": "user_selected",
+    "replication_ready": true
+  },
+  "battle_results": [
+    {
+      "name": "Gpt",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "gpt",
+        "call_to_action": "Deixe um comentário sobre uma descoberta inesperada que você já teve e compartilhe esse vídeo com alguém que precisa de inspiração hoje!",
+        "duracao_estimada": 75,
+        "estilo_visual": "curiosidade",
+        "estimated_duration": 59,
+        "estimated_parts": 2,
+        "estrutura_usada": [
+          "gancho_curiosidade",
+          "fato_surpreendente",
+          "explicacao_contexto",
+          "conexao_vida_real",
+          "conclusao_impactante",
+          "call_to_action"
+        ],
+        "hashtags": [
+          "#viral",
+          "#tiktok",
+          "#brasil",
+          "#interessante",
+          "#conteudo"
+        ],
+        "hook": "Você já se perguntou como uma única decisão pode mudar o destino de um",
+        "ia_used": "gpt",
+        "leonardo_prompts": [
+          {
+            "animation": "pan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "animation": "zoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 2,
+            "timing": "9-17s"
+          },
+          {
+            "animation": "rotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 3,
+            "timing": "17-26s"
+          },
+          {
+            "animation": "fade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 4,
+            "timing": "26-34s"
+          },
+          {
+            "animation": "slide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 5,
+            "timing": "34-43s"
+          },
+          {
+            "animation": "zoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 6,
+            "timing": "43-51s"
+          },
+          {
+            "animation": "tilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 7,
+            "timing": "51-60s"
+          }
+        ],
+        "leonardo_prompts_text": "⏰ Cena 1: 0-9s\n🎬 PROMPT LEONARDO AI:\npan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 2: 9-17s\n🎬 PROMPT LEONARDO AI:\nzoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 3: 17-26s\n🎬 PROMPT LEONARDO AI:\nrotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 4: 26-34s\n🎬 PROMPT LEONARDO AI:\nfade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 5: 34-43s\n🎬 PROMPT LEONARDO AI:\nslide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 6: 43-51s\n🎬 PROMPT LEONARDO AI:\nzoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 7: 51-60s\n🎬 PROMPT LEONARDO AI:\ntilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n",
+        "needs_parts": true,
+        "parte_atual": 1,
+        "roteiro_completo": "Você já se perguntou como uma única decisão pode mudar o destino de um continente inteiro? A história de Pedro Álvares Cabral é cheia de momentos assim. Você sabia que ele não era a primeira escolha para comandar a expedição que descobriu o Brasil? Isso mesmo, o posto foi oferecido a Vasco da Gama, que recusou. Agora, imagine se isso não tivesse acontecido... Cabral, um nobre português, empreendeu sua jornada em mil quinhentos e com o objetivo de estabelecer uma rota para as Índias. Mas, em abril daquele ano, ele avistou terras desconhecidas. O Brasil. É interessante pensar como a rota de Cabral, desviada por tempestades, resultou na descoberta de um novo mundo. Isso nos faz refletir sobre as curvas inesperadas da vida, não é? Às vezes, são essas mudanças de plano que nos levam a grandes descobertas. Continue assistindo a Parte 2 para descobrir o resto da história!",
+        "roteiro_original": "Você já se perguntou como uma única decisão pode mudar o destino de um continente inteiro? [PAUSA] A história de Pedro Álvares Cabral é cheia de momentos assim. [PAUSA] Você sabia que ele não era a primeira escolha para comandar a expedição que descobriu o Brasil? [PAUSA] Isso mesmo, o posto foi oferecido a Vasco da Gama, que recusou. [PAUSA] Agora, imagine se isso não tivesse acontecido... [PAUSA] Cabral, um nobre português, empreendeu sua jornada em mil quinhentos e [PAUSA] com o objetivo de estabelecer uma rota para as Índias. [PAUSA] Mas, em abril daquele ano, ele avistou terras desconhecidas. [ÊNFASE] O Brasil. [PAUSA] É interessante pensar como a rota de Cabral, desviada por tempestades, resultou na descoberta de um novo mundo. [PAUSA] Isso nos faz refletir sobre as curvas inesperadas da vida, não é? [PAUSA] Às vezes, são essas mudanças de plano que nos levam a grandes descobertas. [PAUSA] Então, da próxima vez que algo não sair como planejado, lembre-se de Cabral e do Brasil. [PAUSA] Deixe um comentário sobre uma descoberta inesperada que você já teve e compartilhe esse vídeo com alguém que precisa de inspiração hoje!",
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "curiosidade",
+        "tipo_historia": "curiosidade",
+        "titulo": "O Destino Surpreendente de Pedro Álvares Cabral",
+        "tom_narrativa": "envolvente e surpreendente",
+        "viral_analysis": {
+          "category_match": "curiosidade",
+          "cta_score": 0.7,
+          "hook_score": 0.7999999999999999,
+          "optimization_tips": [
+            "❓ Adicione pontuação impactante no hook (?, !, ...)"
+          ],
+          "recommendations": [
+            "⚠️ Potencial médio. Revise hook e hashtags.",
+            "Adicione mais elementos virais e um CTA mais forte."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 45.5
+        },
+        "viral_score": 87,
+        "visual_prompts": [
+          {
+            "image_prompt": "Imagem de um mapa antigo com uma rota inesperada, você perguntou como, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Você já se perguntou como uma única decisão pode mudar o destino de um continente inteiro? A história de Pedro Álvares",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "image_prompt": "Retrato de Vasco da Gama seguido de Pedro Álvares Cabral, cabral cheia momentos, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Cabral é cheia de momentos assim. Você sabia que ele não era a primeira escolha para comandar a expedição que descobriu",
+            "scene_number": 2,
+            "timing": "9-17s"
+          },
+          {
+            "image_prompt": "Cenas de uma viagem marítima turbulenta, brasil? isso mesmo,, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "o Brasil? Isso mesmo, o posto foi oferecido a Vasco da Gama, que recusou. Agora, imagine se isso não tivesse acontecido...",
+            "scene_number": 3,
+            "timing": "17-26s"
+          },
+          {
+            "image_prompt": "Imagens de descobertas e invenções históricas, cabral, nobre português,, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Cabral, um nobre português, empreendeu sua jornada em mil quinhentos e com o objetivo de estabelecer uma rota para as Índias.",
+            "scene_number": 4,
+            "timing": "26-34s"
+          },
+          {
+            "image_prompt": "Texto inspirador sobre mudanças de plano, mas, abril daquele, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Mas, em abril daquele ano, ele avistou terras desconhecidas. O Brasil. É interessante pensar como a rota de Cabral, desviada por",
+            "scene_number": 5,
+            "timing": "34-43s"
+          },
+          {
+            "image_prompt": "Imagem de um mapa antigo com uma rota inesperada, tempestades, resultou descoberta, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "tempestades, resultou na descoberta de um novo mundo. Isso nos faz refletir sobre as curvas inesperadas da vida, não é? Às",
+            "scene_number": 6,
+            "timing": "43-51s"
+          },
+          {
+            "image_prompt": "Retrato de Vasco da Gama seguido de Pedro Álvares Cabral, vezes, essas mudanças, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "vezes, são essas mudanças de plano que nos levam a grandes descobertas. Continue assistindo a Parte 2 para descobrir o resto da história!",
+            "scene_number": 7,
+            "timing": "51-60s"
+          }
+        ],
+        "visual_prompts_text": "⏰ Cena 1: 0-9s\n📸 PROMPT IMAGEN 3:\nImagem de um mapa antigo com uma rota inesperada, você perguntou como, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 2: 9-17s\n📸 PROMPT IMAGEN 3:\nRetrato de Vasco da Gama seguido de Pedro Álvares Cabral, cabral cheia momentos, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 3: 17-26s\n📸 PROMPT IMAGEN 3:\nCenas de uma viagem marítima turbulenta, brasil? isso mesmo,, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 4: 26-34s\n📸 PROMPT IMAGEN 3:\nImagens de descobertas e invenções históricas, cabral, nobre português,, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 5: 34-43s\n📸 PROMPT IMAGEN 3:\nTexto inspirador sobre mudanças de plano, mas, abril daquele, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 6: 43-51s\n📸 PROMPT IMAGEN 3:\nImagem de um mapa antigo com uma rota inesperada, tempestades, resultou descoberta, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 7: 51-60s\n📸 PROMPT IMAGEN 3:\nRetrato de Vasco da Gama seguido de Pedro Álvares Cabral, vezes, essas mudanças, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n"
+      },
+      "score": 45.5,
+      "analysis": {
+        "category_match": "curiosidade",
+        "cta_score": 0.7,
+        "hook_score": 0.7999999999999999,
+        "optimization_tips": [
+          "❓ Adicione pontuação impactante no hook (?, !, ...)"
+        ],
+        "recommendations": [
+          "⚠️ Potencial médio. Revise hook e hashtags.",
+          "Adicione mais elementos virais e um CTA mais forte."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 45.5
+      }
+    },
+    {
+      "name": "Claude",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "claude",
+        "call_to_action": "Pesquise mais sobre as expedições portuguesas e descubra outras curiosidades históricas surpreendentes!",
+        "duracao_estimada": 75,
+        "estilo_visual": "curiosidade",
+        "estimated_duration": 59,
+        "estimated_parts": 2,
+        "estrutura_usada": [
+          "gancho_curiosidade",
+          "fato_surpreendente",
+          "explicacao_contexto",
+          "conexao_vida_real",
+          "conclusao_impactante",
+          "call_to_action"
+        ],
+        "hashtags": [
+          "#viral",
+          "#tiktok",
+          "#brasil",
+          "#interessante",
+          "#conteudo"
+        ],
+        "hook": "Você sabia que o famoso descobridor do Brasil quase não embarcou na viagem que o",
+        "ia_used": "claude",
+        "leonardo_prompts": [
+          {
+            "animation": "pan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "animation": "zoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 2,
+            "timing": "9-17s"
+          },
+          {
+            "animation": "rotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 3,
+            "timing": "17-26s"
+          },
+          {
+            "animation": "fade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 4,
+            "timing": "26-34s"
+          },
+          {
+            "animation": "slide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 5,
+            "timing": "34-43s"
+          },
+          {
+            "animation": "zoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 6,
+            "timing": "43-51s"
+          },
+          {
+            "animation": "tilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 7,
+            "timing": "51-60s"
+          }
+        ],
+        "leonardo_prompts_text": "⏰ Cena 1: 0-9s\n🎬 PROMPT LEONARDO AI:\npan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 2: 9-17s\n🎬 PROMPT LEONARDO AI:\nzoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 3: 17-26s\n🎬 PROMPT LEONARDO AI:\nrotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 4: 26-34s\n🎬 PROMPT LEONARDO AI:\nfade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 5: 34-43s\n🎬 PROMPT LEONARDO AI:\nslide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 6: 43-51s\n🎬 PROMPT LEONARDO AI:\nzoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 7: 51-60s\n🎬 PROMPT LEONARDO AI:\ntilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n",
+        "needs_parts": true,
+        "parte_atual": 1,
+        "roteiro_completo": "Você sabia que o famoso descobridor do Brasil quase não embarcou na viagem que o tornou célebre? Pedro Álvares Cabral, o navegador português que chegou às terras brasileiras em 1500, inicialmente recusou o comando da expedição! Surpreendentemente, Cabral não era a primeira escolha para liderar a frota. O rei Dom Manuel I havia convidado Vasco da Gama, mas este declinou devido ao cansaço de viagens anteriores. Cabral, um nobre sem experiência marítima significativa, hesitou em aceitar tamanha responsabilidade. Foi apenas após insistência real e promessas de recompensas que ele finalmente concordou. Imagine como seria diferente nossa história se Cabral tivesse mantido sua recusa inicial! O Brasil poderia ter sido descoberto por outro navegador, talvez em um momento diferente, alterando completamente o curso da colonização. Esta curiosidade nos mostra como decisões aparentemente pequenas podem mudar o rumo da história. Continue assistindo a Parte 2 para descobrir o resto da história!",
+        "roteiro_original": "Você sabia que o famoso descobridor do Brasil quase não embarcou na viagem que o tornou célebre? [PAUSA] Pedro Álvares Cabral, o navegador português que chegou às terras brasileiras em 1500, inicialmente recusou o comando da expedição! [ÊNFASE] [PAUSA] Surpreendentemente, Cabral não era a primeira escolha para liderar a frota. O rei Dom Manuel I havia convidado Vasco da Gama, mas este declinou devido ao cansaço de viagens anteriores. [PAUSA] Cabral, um nobre sem experiência marítima significativa, hesitou em aceitar tamanha responsabilidade. Foi apenas após insistência real e promessas de recompensas que ele finalmente concordou. [PAUSA] Imagine como seria diferente nossa história se Cabral tivesse mantido sua recusa inicial! O Brasil poderia ter sido descoberto por outro navegador, talvez em um momento diferente, alterando completamente o curso da colonização. [PAUSA] Esta curiosidade nos mostra como decisões aparentemente pequenas podem mudar o rumo da história. [ÊNFASE] Cabral, reluctante no início, acabou se tornando uma figura central na formação do Brasil que conhecemos hoje. [PAUSA] Da próxima vez que visitar uma praia brasileira, lembre-se: você está pisando em terras que quase não foram descobertas por Cabral. Que outras surpresas a história ainda guarda? Pesquise mais sobre as expedições portuguesas e descubra!",
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "curiosidade",
+        "tipo_historia": "curiosidade",
+        "titulo": "O Relutante Descobridor: Pedro Álvares Cabral Quase Não Veio ao Brasil",
+        "tom_narrativa": "envolvente e surpreendente",
+        "viral_analysis": {
+          "category_match": "curiosidade",
+          "cta_score": 0.5,
+          "hook_score": 0.7999999999999999,
+          "optimization_tips": [
+            "❓ Adicione pontuação impactante no hook (?, !, ...)"
+          ],
+          "recommendations": [
+            "⚠️ Potencial médio. Revise hook e hashtags.",
+            "Adicione mais elementos virais e um CTA mais forte."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 42.5
+        },
+        "viral_score": 87,
+        "visual_prompts": [
+          {
+            "image_prompt": "Imagem de Cabral hesitando diante de um navio, você sabia famoso, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Você sabia que o famoso descobridor do Brasil quase não embarcou na viagem que o tornou célebre? Pedro Álvares Cabral, o",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "image_prompt": "Retrato de Vasco da Gama recusando o convite do rei, navegador português chegou, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "navegador português que chegou às terras brasileiras em 1500, inicialmente recusou o comando da expedição! Surpreendentemente, Cabral não era a primeira",
+            "scene_number": 2,
+            "timing": "9-17s"
+          },
+          {
+            "image_prompt": "Mapa antigo mostrando a rota de Cabral ao Brasil, escolha liderar frota., vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "escolha para liderar a frota. O rei Dom Manuel I havia convidado Vasco da Gama, mas este declinou devido ao cansaço",
+            "scene_number": 3,
+            "timing": "17-26s"
+          },
+          {
+            "image_prompt": "Cena de praia brasileira moderna contrastando com caravelas, viagens anteriores. cabral,, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "de viagens anteriores. Cabral, um nobre sem experiência marítima significativa, hesitou em aceitar tamanha responsabilidade. Foi apenas após insistência real e",
+            "scene_number": 4,
+            "timing": "26-34s"
+          },
+          {
+            "image_prompt": "Montagem de diferentes navegadores portugueses da época, promessas recompensas finalmente, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "promessas de recompensas que ele finalmente concordou. Imagine como seria diferente nossa história se Cabral tivesse mantido sua recusa inicial! O",
+            "scene_number": 5,
+            "timing": "34-43s"
+          },
+          {
+            "image_prompt": "Imagem de Cabral hesitando diante de um navio, brasil poderia sido, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Brasil poderia ter sido descoberto por outro navegador, talvez em um momento diferente, alterando completamente o curso da colonização. Esta curiosidade",
+            "scene_number": 6,
+            "timing": "43-51s"
+          },
+          {
+            "image_prompt": "Retrato de Vasco da Gama recusando o convite do rei, mostra como decisões, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "nos mostra como decisões aparentemente pequenas podem mudar o rumo da história. Continue assistindo a Parte 2 para descobrir o resto da história!",
+            "scene_number": 7,
+            "timing": "51-60s"
+          }
+        ],
+        "visual_prompts_text": "⏰ Cena 1: 0-9s\n📸 PROMPT IMAGEN 3:\nImagem de Cabral hesitando diante de um navio, você sabia famoso, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 2: 9-17s\n📸 PROMPT IMAGEN 3:\nRetrato de Vasco da Gama recusando o convite do rei, navegador português chegou, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 3: 17-26s\n📸 PROMPT IMAGEN 3:\nMapa antigo mostrando a rota de Cabral ao Brasil, escolha liderar frota., vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 4: 26-34s\n📸 PROMPT IMAGEN 3:\nCena de praia brasileira moderna contrastando com caravelas, viagens anteriores. cabral,, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 5: 34-43s\n📸 PROMPT IMAGEN 3:\nMontagem de diferentes navegadores portugueses da época, promessas recompensas finalmente, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 6: 43-51s\n📸 PROMPT IMAGEN 3:\nImagem de Cabral hesitando diante de um navio, brasil poderia sido, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 7: 51-60s\n📸 PROMPT IMAGEN 3:\nRetrato de Vasco da Gama recusando o convite do rei, mostra como decisões, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n"
+      },
+      "score": 42.5,
+      "analysis": {
+        "category_match": "curiosidade",
+        "cta_score": 0.5,
+        "hook_score": 0.7999999999999999,
+        "optimization_tips": [
+          "❓ Adicione pontuação impactante no hook (?, !, ...)"
+        ],
+        "recommendations": [
+          "⚠️ Potencial médio. Revise hook e hashtags.",
+          "Adicione mais elementos virais e um CTA mais forte."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 42.5
+      }
+    },
+    {
+      "name": "Gemini",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "gemini",
+        "call_to_action": "Explore os links na descrição para aprender mais.",
+        "duracao_estimada": 75,
+        "estilo_visual": "curiosidade",
+        "estimated_duration": 62,
+        "estimated_parts": 2,
+        "estrutura_usada": [
+          "gancho_curiosidade",
+          "fato_surpreendente",
+          "explicacao_contexto",
+          "conexao_vida_real",
+          "conclusao_impactante",
+          "call_to_action"
+        ],
+        "hashtags": [
+          "#viral",
+          "#tiktok",
+          "#brasil",
+          "#interessante",
+          "#conteudo"
+        ],
+        "hook": "Imagine navegar por meses em mar aberto, sem GPS, sem internet, apenas com as",
+        "ia_used": "gemini",
+        "leonardo_prompts": [
+          {
+            "animation": "pan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "animation": "zoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 2,
+            "timing": "9-18s"
+          },
+          {
+            "animation": "rotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 3,
+            "timing": "18-27s"
+          },
+          {
+            "animation": "fade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 4,
+            "timing": "27-36s"
+          },
+          {
+            "animation": "slide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 5,
+            "timing": "36-45s"
+          },
+          {
+            "animation": "zoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 6,
+            "timing": "45-53s"
+          },
+          {
+            "animation": "tilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 7,
+            "timing": "53-62s"
+          }
+        ],
+        "leonardo_prompts_text": "⏰ Cena 1: 0-9s\n🎬 PROMPT LEONARDO AI:\npan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 2: 9-18s\n🎬 PROMPT LEONARDO AI:\nzoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 3: 18-27s\n🎬 PROMPT LEONARDO AI:\nrotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 4: 27-36s\n🎬 PROMPT LEONARDO AI:\nfade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 5: 36-45s\n🎬 PROMPT LEONARDO AI:\nslide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 6: 45-53s\n🎬 PROMPT LEONARDO AI:\nzoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 7: 53-62s\n🎬 PROMPT LEONARDO AI:\ntilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n",
+        "needs_parts": true,
+        "parte_atual": 1,
+        "roteiro_completo": "Imagine navegar por meses em mar aberto, sem GPS, sem internet, apenas com as estrelas como guia. Assustador, não é? Agora imagine fazer isso e acabar descobrindo um continente inteiro sem querer! Foi exatamente o que aconteceu com Pedro Álvares Cabral. A expedição de Cabral tinha como destino as Índias, seguindo a rota de Vasco da Gama. No entanto, ventos fortes e correntes marítimas inesperadas desviaram as caravelas consideravelmente para oeste. O resultado? O avistamento do Monte Pascoal em vinte e dois de abril de mil e quinhentos, marco inicial da história do Brasil. Pense em como um evento inesperado pode mudar completamente o curso da história, às vezes até criando uma nação inteira. A descoberta do Brasil nos lembra que o acaso e o imprevisível têm um papel fundamental na construção do nosso mundo. Quer saber mais sobre as grandes navegações e seus desdobramentos? Continue assistindo a Parte 2 para descobrir o resto da história!",
+        "roteiro_original": "Imagine navegar por meses em mar aberto, sem GPS, sem internet, apenas com as estrelas como guia. [PAUSA] Assustador, não é? [PAUSA] Agora imagine fazer isso e acabar descobrindo um continente inteiro sem querer! [PAUSA] Foi exatamente o que aconteceu com Pedro Álvares Cabral. [PAUSA]  A expedição de Cabral tinha como destino as Índias, seguindo a rota de Vasco da Gama. [PAUSA] No entanto,  ventos fortes e correntes marítimas inesperadas desviaram as caravelas consideravelmente para oeste. [PAUSA] O resultado? [PAUSA] O avistamento do Monte Pascoal em vinte e dois de abril de mil e quinhentos, marco inicial da história do Brasil. [PAUSA] Pense em como um evento inesperado pode mudar completamente o curso da história, às vezes até criando uma nação inteira. [PAUSA] A descoberta do Brasil nos lembra que o acaso e o imprevisível têm um papel fundamental na construção do nosso mundo. [PAUSA]  Quer saber mais sobre as grandes navegações e seus desdobramentos? [PAUSA]  Explore os links na descrição e mergulhe nesse capítulo fascinante da história!",
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "curiosidade",
+        "tipo_historia": "curiosidade",
+        "titulo": "Brasil: Uma Descoberta Acidental?",
+        "tom_narrativa": "envolvente e surpreendente",
+        "viral_analysis": {
+          "category_match": "curiosidade",
+          "cta_score": 0.5,
+          "hook_score": 0.7,
+          "optimization_tips": [
+            "❓ Adicione pontuação impactante no hook (?, !, ...)",
+            "⏱️ Duração ideal é entre 45s e 60s."
+          ],
+          "recommendations": [
+            "⚠️ Potencial médio. Revise hook e hashtags.",
+            "Adicione mais elementos virais e um CTA mais forte."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 40
+        },
+        "viral_score": 87,
+        "visual_prompts": [
+          {
+            "image_prompt": "Animação de um antigo mapa-múndi com foco nas estrelas, imagine navegar meses, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Imagine navegar por meses em mar aberto, sem GPS, sem internet, apenas com as estrelas como guia. Assustador, não é? Agora imagine",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "image_prompt": "Ilustração das caravelas de Cabral desviando da rota original, fazer isso acabar, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "fazer isso e acabar descobrindo um continente inteiro sem querer! Foi exatamente o que aconteceu com Pedro Álvares Cabral. A expedição de",
+            "scene_number": 2,
+            "timing": "9-18s"
+          },
+          {
+            "image_prompt": "Mapa mostrando a rota planejada para as Índias e o desvio para o Brasil, cabral tinha como, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Cabral tinha como destino as Índias, seguindo a rota de Vasco da Gama. No entanto, ventos fortes e correntes marítimas inesperadas desviaram",
+            "scene_number": 3,
+            "timing": "18-27s"
+          },
+          {
+            "image_prompt": "Montagem de imagens mostrando eventos inesperados que mudaram a história, caravelas consideravelmente oeste., vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "as caravelas consideravelmente para oeste. O resultado? O avistamento do Monte Pascoal em vinte e dois de abril de mil e quinhentos,",
+            "scene_number": 4,
+            "timing": "27-36s"
+          },
+          {
+            "image_prompt": "Animação do Monte Pascoal com a data da descoberta, marco inicial história, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "marco inicial da história do Brasil. Pense em como um evento inesperado pode mudar completamente o curso da história, às vezes até",
+            "scene_number": 5,
+            "timing": "36-45s"
+          },
+          {
+            "image_prompt": "Animação de um antigo mapa-múndi com foco nas estrelas, criando nação inteira., vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "criando uma nação inteira. A descoberta do Brasil nos lembra que o acaso e o imprevisível têm um papel fundamental na construção",
+            "scene_number": 6,
+            "timing": "45-53s"
+          },
+          {
+            "image_prompt": "Ilustração das caravelas de Cabral desviando da rota original, nosso mundo. quer, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "do nosso mundo. Quer saber mais sobre as grandes navegações e seus desdobramentos? Continue assistindo a Parte 2 para descobrir o resto da história!",
+            "scene_number": 7,
+            "timing": "53-62s"
+          }
+        ],
+        "visual_prompts_text": "⏰ Cena 1: 0-9s\n📸 PROMPT IMAGEN 3:\nAnimação de um antigo mapa-múndi com foco nas estrelas, imagine navegar meses, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 2: 9-18s\n📸 PROMPT IMAGEN 3:\nIlustração das caravelas de Cabral desviando da rota original, fazer isso acabar, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 3: 18-27s\n📸 PROMPT IMAGEN 3:\nMapa mostrando a rota planejada para as Índias e o desvio para o Brasil, cabral tinha como, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 4: 27-36s\n📸 PROMPT IMAGEN 3:\nMontagem de imagens mostrando eventos inesperados que mudaram a história, caravelas consideravelmente oeste., vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 5: 36-45s\n📸 PROMPT IMAGEN 3:\nAnimação do Monte Pascoal com a data da descoberta, marco inicial história, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 6: 45-53s\n📸 PROMPT IMAGEN 3:\nAnimação de um antigo mapa-múndi com foco nas estrelas, criando nação inteira., vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 7: 53-62s\n📸 PROMPT IMAGEN 3:\nIlustração das caravelas de Cabral desviando da rota original, nosso mundo. quer, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n"
+      },
+      "score": 40,
+      "analysis": {
+        "category_match": "curiosidade",
+        "cta_score": 0.5,
+        "hook_score": 0.7,
+        "optimization_tips": [
+          "❓ Adicione pontuação impactante no hook (?, !, ...)",
+          "⏱️ Duração ideal é entre 45s e 60s."
+        ],
+        "recommendations": [
+          "⚠️ Potencial médio. Revise hook e hashtags.",
+          "Adicione mais elementos virais e um CTA mais forte."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 40
+      }
+    }
+  ],
+  "timestamp": "2025-08-13T09:51:28.986957",
+  "saved_at": "2025-08-13 09:51:28"
+}

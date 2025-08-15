@@ -1,0 +1,13 @@
+# Single-page application (SPA) - redirecionar todas as rotas para index.html
+RewriteEngine On
+
+# Para single-page application (SPA) - redirecionar todas as rotas para index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+
+# Headers para melhor performance
+<FilesMatch "\.(js|css|png|jpg|jpeg|gif|ico|svg)$">
+    ExpiresActive On
+    ExpiresDefault "access plus 1 month"
+</FilesMatch>

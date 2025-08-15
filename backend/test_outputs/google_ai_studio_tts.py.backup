@@ -1,0 +1,827 @@
+# /var/www/tiktok-automation/backend/google_ai_studio_tts.py
+
+import os
+import re
+import json
+import logging
+import hashlib
+from datetime import datetime
+from typing import Optional, Dict, Any, List, Tuple
+from dotenv import load_dotenv
+
+# Google Cloud TTS
+from google.cloud import texttospeech
+from google.oauth2 import service_account
+
+# Gemini para análise de emoções
+import google.generativeai as genai
+
+# Processamento de áudio
+from pydub import AudioSegment
+from pydub.effects import normalize
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
+class GoogleAIStudioTTS:
+    def __init__(self):
+        load_dotenv()
+
+        # Configuração das credenciais
+        self.setup_credentials()
+
+        # Diretórios
+        self.audio_dir = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)),
+            "..", "media", "audio"
+        )
+        os.makedirs(self.audio_dir, exist_ok=True)
+
+        # Mapeamento completo de vozes
+        self.voice_mapping = self._setup_voice_mapping()
+
+        # Configurações de emoção otimizadas
+        self.emotion_configs = self._setup_emotion_configs()
+
+        logger.info("✅ Google AI Studio TTS inicializado")
+
+    def setup_credentials(self):
+        """Configura credenciais do Google Cloud"""
+        try:
+            # Tenta usar arquivo de credenciais
+            credentials_path = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
+            if credentials_path and os.path.exists(credentials_path):
+                credentials = service_account.Credentials.from_service_account_file(
+                    credentials_path
+                )
+                self.client = texttospeech.TextToSpeechClient(
+                    credentials=credentials)
+            else:
+                # Usa API Key como fallback
+                api_key = os.getenv("GOOGLE_AI_STUDIO_API_KEY")
+                from google.api_core.client_options import ClientOptions
+                self.client = texttospeech.TextToSpeechClient(
+                    client_options=ClientOptions(api_key=api_key)
+                )
+
+            # Configurar Gemini para análise
+            gemini_key = os.getenv("GEMINI_API_KEY")
+            if gemini_key:
+                genai.configure(api_key=gemini_key)
+                self.emotion_analyzer = genai.GenerativeModel(
+                    'gemini-2.0-flash-latest')
+            else:
+                self.emotion_analyzer = None
+
+        except Exception as e:
+            logger.error(f"❌ Erro ao configurar credenciais: {e}")
+            self.client = None
+
+    def _setup_voice_mapping(self) -> Dict:
+        """Mapeamento completo de vozes por perfil"""
+        return {
+            # Vozes Masculinas PT-BR (mais naturais)
+            'male-professional': 'pt-BR-Neural2-B',     # Mais natural e profissional
+            'male-youthful': 'pt-BR-Wavenet-B',         # Tom jovem, mais natural que Neural2-C
+            'male-mature': 'pt-BR-Wavenet-C',           # Maduro e autoritativo
+            'male-casual': 'pt-BR-Standard-B',          # Casual e amigável
+            'male-dramatic': 'pt-BR-Neural2-C',         # Dramático mas natural
+
+            # Vozes Femininas PT-BR (mais naturais)
+            'female-warm': 'pt-BR-Neural2-A',           # Calorosa e acolhedora
+            'female-professional': 'pt-BR-Wavenet-A',   # Profissional mas natural
+            'female-energetic': 'pt-BR-Neural2-C',      # Energética
+            'female-storyteller': 'pt-BR-Wavenet-C',    # Narradora
+            'female-youthful': 'pt-BR-Standard-A',      # Jovem
+
+            # Fallbacks (vozes mais naturais)
+            'default-male': 'pt-BR-Wavenet-B',         # Mudei para Wavenet que é mais natural
+            'default-female': 'pt-BR-Neural2-A'
+        }
+
+    def _setup_emotion_configs(self) -> Dict:
+        """Configurações detalhadas para cada emoção"""
+        return {
+            'neutral': {
+                'pitch': 0.0,
+                'speed': 1.0,
+                'volume_gain': 0.0,
+                'emphasis': 'moderate',
+                'pauses': {'sentence': 600, 'comma': 300, 'dramatic': 800}
+            },
+            'dramatic': {
+                'pitch': -3.0,
+                'speed': 0.85,
+                'volume_gain': 2.0,
+                'emphasis': 'strong',
+                'pauses': {'sentence': 800, 'comma': 400, 'dramatic': 1200}
+            },
+            'mysterious': {
+                'pitch': -5.0,
+                'speed': 0.80,
+                'volume_gain': -1.0,
+                'emphasis': 'moderate',
+                'pauses': {'sentence': 1000, 'comma': 500, 'dramatic': 1500}
+            },
+            'enthusiastic': {
+                'pitch': 2.0,
+                'speed': 1.15,
+                'volume_gain': 3.0,
+                'emphasis': 'strong',
+                'pauses': {'sentence': 500, 'comma': 200, 'dramatic': 600}
+            },
+            'calm': {
+                'pitch': -1.0,
+                'speed': 0.90,
+                'volume_gain': 0.0,
+                'emphasis': 'reduced',
+                'pauses': {'sentence': 700, 'comma': 350, 'dramatic': 900}
+            },
+            'suspenseful': {
+                'pitch': -2.0,
+                'speed': 0.75,
+                'volume_gain': 1.0,
+                'emphasis': 'moderate',
+                'pauses': {'sentence': 1200, 'comma': 600, 'dramatic': 2000}
+            },
+            'happy': {
+                'pitch': 3.0,
+                'speed': 1.1,
+                'volume_gain': 2.0,
+                'emphasis': 'moderate',
+                'pauses': {'sentence': 600, 'comma': 300, 'dramatic': 700}
+            },
+            'sad': {
+                'pitch': -4.0,
+                'speed': 0.85,
+                'volume_gain': -2.0,
+                'emphasis': 'reduced',
+                'pauses': {'sentence': 900, 'comma': 450, 'dramatic': 1100}
+            },
+            'angry': {
+                'pitch': 1.0,
+                'speed': 1.2,
+                'volume_gain': 4.0,
+                'emphasis': 'strong',
+                'pauses': {'sentence': 400, 'comma': 200, 'dramatic': 500}
+            }
+        }
+
+    def analyze_text_emotions(self, text: str) -> List[Tuple[str, str]]:
+        """Analisa o texto e detecta emoções por segmento"""
+        if not self.emotion_analyzer:
+            return [(text, 'neutral')]
+
+        try:
+            prompt = f"""
+            Analise o texto e identifique as emoções em cada parte.
+            Divida o texto em segmentos lógicos e atribua uma emoção para cada.
+            
+            Emoções disponíveis: neutral, dramatic, mysterious, enthusiastic, calm, suspenseful, happy, sad, angry
+            
+            Texto: {text}
+            
+            Retorne APENAS um JSON no formato:
+            [
+                {{"text": "segmento 1", "emotion": "emoção"}},
+                {{"text": "segmento 2", "emotion": "emoção"}}
+            ]
+            """
+
+            response = self.emotion_analyzer.generate_content(prompt)
+            segments = json.loads(response.text.strip())
+
+            return [(s['text'], s['emotion']) for s in segments]
+
+        except Exception as e:
+            logger.warning(f"⚠️ Erro na análise de emoções: {e}")
+            return [(text, 'neutral')]
+
+    def create_ssml(self, text: str, emotion: str = 'neutral',
+                    custom_settings: Dict = None) -> str:
+        """Cria SSML avançado com prosódia e efeitos"""
+        config = self.emotion_configs.get(
+            emotion, self.emotion_configs['neutral'])
+
+        # Merge com configurações customizadas se fornecidas
+        if custom_settings:
+            config = {**config, **custom_settings}
+
+        # Remove formatações indesejadas e normaliza o texto
+        clean_text = re.sub(r'\[.*?\]|\*\*.*?\*\*|#\w+', '', text)
+        
+        # Normaliza acentos e caracteres especiais para melhor pronúncia
+        clean_text = self._normalize_text_for_tts(clean_text)
+
+        # Adiciona pausas baseadas na pontuação
+        pauses = config['pauses']
+        clean_text = clean_text.replace(
+            '...', f'<break time="{pauses["dramatic"]}ms"/>')
+        clean_text = clean_text.replace(
+            '.', f'.<break time="{pauses["sentence"]}ms"/>')
+        clean_text = clean_text.replace(
+            '!', f'!<break time="{pauses["sentence"] + 100}ms"/>')
+        clean_text = clean_text.replace(
+            '?', f'?<break time="{pauses["sentence"] + 200}ms"/>')
+        clean_text = clean_text.replace(
+            ',', f',<break time="{pauses["comma"]}ms"/>')
+
+        # Adiciona ênfase em palavras importantes (MAIÚSCULAS)
+        emphasis = config['emphasis']
+        clean_text = re.sub(
+            r'\b([A-Z]{2,})\b',
+            rf'<emphasis level="{emphasis}">\1</emphasis>',
+            clean_text
+        )
+
+        # Adiciona prosódia para palavras-chave baseado na emoção
+        prosody_rules = self._get_prosody_rules(emotion)
+        for pattern, replacement in prosody_rules.items():
+            clean_text = re.sub(pattern, replacement,
+                                clean_text, flags=re.IGNORECASE)
+
+        # Adiciona efeitos especiais
+        if emotion == 'mysterious':
+            # Adiciona sussurro em partes específicas
+            clean_text = re.sub(
+                r'(segredo|mistério|oculto)',
+                r'<prosody volume="soft" rate="slow">\1</prosody>',
+                clean_text,
+                flags=re.IGNORECASE
+            )
+        elif emotion == 'dramatic':
+            # Adiciona volume crescente em revelações
+            clean_text = re.sub(
+                r'(incrível|chocante|revelação)',
+                r'<prosody volume="loud" rate="slow">\1</prosody>',
+                clean_text,
+                flags=re.IGNORECASE
+            )
+
+        # Wrap com prosódia global
+        ssml = f'''<speak>
+            <prosody pitch="{config['pitch']:+.1f}st" rate="{config['speed']:.0%}">
+                {clean_text}
+            </prosody>
+        </speak>'''
+
+        return ssml
+
+    def _get_prosody_rules(self, emotion: str) -> Dict[str, str]:
+        """Retorna regras de prosódia específicas por emoção"""
+        rules = {
+            'mysterious': {
+                r'\b(mistério|segredo|oculto|enigma)\b':
+                    r'<prosody rate="slow" pitch="-2st">\1</prosody>',
+                r'\b(descoberta|revelação)\b':
+                    r'<prosody rate="slow" volume="+2dB">\1</prosody>'
+            },
+            'dramatic': {
+                r'\b(incrível|impressionante|chocante)\b':
+                    r'<prosody rate="slow" volume="+3dB">\1</prosody>',
+                r'\b(nunca|jamais|impossível)\b':
+                    r'<emphasis level="strong">\1</emphasis>'
+            },
+            'enthusiastic': {
+                r'\b(fantástico|maravilhoso|genial)\b':
+                    r'<prosody rate="fast" pitch="+2st">\1</prosody>',
+                r'\b(vamos|bora|agora)\b':
+                    r'<emphasis level="strong">\1</emphasis>'
+            },
+            'suspenseful': {
+                r'\b(mas|porém|entretanto)\b':
+                    r'<break time="500ms"/>\1<break time="300ms"/>',
+                r'\b(então|finalmente|enfim)\b':
+                    r'<prosody rate="x-slow">\1</prosody>'
+            }
+        }
+        return rules.get(emotion, {})
+
+    def _normalize_text_for_tts(self, text: str) -> str:
+        """Normaliza texto para melhor síntese de voz"""
+        # Remove caracteres problemáticos
+        text = re.sub(r'[""''`´]', '"', text)  # Normaliza aspas
+        text = re.sub(r'[…]', '...', text)     # Normaliza reticências
+        text = re.sub(r'[—–]', '-', text)      # Normaliza travessões
+        
+        # Converte números por extenso para palavras onde apropriado
+        text = re.sub(r'\b(\d+)%\b', r'\1 por cento', text)
+        text = re.sub(r'\b(\d+)\s*º\b', r'\1 graus', text)
+        
+        # Melhora pronúncia de siglas comuns
+        replacements = {
+            'TikTok': 'Tik Tok',
+            'YouTube': 'You Tube',
+            'WhatsApp': 'Whats App',
+            'Instagram': 'Insta gram',
+            'Facebook': 'Face book',
+            'COVID-19': 'Covid dezenove',
+            'PIX': 'Piks',
+            'CPF': 'Cê Pê Efe',
+            'CNPJ': 'Cê Ene Pê Jota',
+            'CEO': 'C E O',
+            'AI': 'A I',
+            'IA': 'I A'
+        }
+        
+        for original, replacement in replacements.items():
+            text = re.sub(rf'\b{re.escape(original)}\b', replacement, text, flags=re.IGNORECASE)
+        
+        # Remove excesso de espaços
+        text = re.sub(r'\s+', ' ', text).strip()
+        
+        return text
+
+    def convert_custom_tags_to_ssml(self, text: str, emotion: str = 'neutral', config: Dict = None) -> str:
+        """
+        Converte tags customizadas para SSML oficial do Google Cloud
+        Baseado na documentação: https://cloud.google.com/text-to-speech/docs/ssml
+        """
+        if not config:
+            config = self.emotion_configs.get(emotion, self.emotion_configs['neutral'])
+        
+        # Normalizar texto primeiro
+        text = self._normalize_text_for_tts(text)
+        
+        # Conversões de tags customizadas para SSML padrão
+        conversions = {
+            # Pausas
+            r'<pausa (\d+)s>': r'<break time="\1s"/>',
+            r'<pausa (\d+)ms>': r'<break time="\1ms"/>',
+            
+            # Ênfase
+            r'<enfático>(.*?)</enfático>': r'<emphasis level="strong">\1</emphasis>',
+            r'<ênfase>(.*?)</ênfase>': r'<emphasis level="moderate">\1</emphasis>',
+            
+            # Sussurro (usar prosody com volume baixo)
+            r'<sussurro>(.*?)</sussurro>': r'<prosody volume="-10dB" rate="0.9">\1</prosody>',
+            
+            # Acelerar/Desacelerar
+            r'<acelerar>(.*?)</acelerar>': r'<prosody rate="1.3">\1</prosody>',
+            r'<desacelerar>(.*?)</desacelerar>': r'<prosody rate="0.7">\1</prosody>',
+            
+            # Respiração
+            r'<respirar>': '<break strength="medium"/>',
+            
+            # Riso
+            r'<riso leve>': '<break time="200ms"/>',
+            
+            # Tom alto/baixo
+            r'<alto>(.*?)</alto>': r'<prosody pitch="+5st">\1</prosody>',
+            r'<baixo>(.*?)</baixo>': r'<prosody pitch="-5st">\1</prosody>',
+            
+            # Volume
+            r'<forte>(.*?)</forte>': r'<prosody volume="+6dB">\1</prosody>',
+            r'<suave>(.*?)</suave>': r'<prosody volume="-6dB">\1</prosody>',
+        }
+        
+        # Aplicar conversões
+        for pattern, replacement in conversions.items():
+            text = re.sub(pattern, replacement, text, flags=re.IGNORECASE)
+        
+        # Converter números por extenso (requerido pelo SSML)
+        text = self._convert_numbers_to_words(text)
+        
+        # Escapar caracteres reservados do SSML
+        text = self._escape_ssml_characters(text)
+        
+        return text
+
+    def _convert_numbers_to_words(self, text: str) -> str:
+        """Converte números para palavras por extenso (português brasileiro)"""
+        
+        def number_to_words_pt(num: int) -> str:
+            """Converte número para texto em português"""
+            if num == 0:
+                return "zero"
+                
+            # Números básicos
+            unidades = ["", "um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove"]
+            dezenas_especiais = ["dez", "onze", "doze", "treze", "quatorze", "quinze", "dezesseis", "dezessete", "dezoito", "dezenove"]
+            dezenas = ["", "", "vinte", "trinta", "quarenta", "cinquenta", "sessenta", "setenta", "oitenta", "noventa"]
+            centenas = ["", "cento", "duzentos", "trezentos", "quatrocentos", "quinhentos", "seiscentos", "setecentos", "oitocentos", "novecentos"]
+            
+            if num < 10:
+                return unidades[num]
+            elif num < 20:
+                return dezenas_especiais[num - 10]
+            elif num < 100:
+                d = num // 10
+                u = num % 10
+                return dezenas[d] + ("" if u == 0 else " e " + unidades[u])
+            elif num == 100:
+                return "cem"
+            elif num < 1000:
+                c = num // 100
+                resto = num % 100
+                result = centenas[c]
+                if resto > 0:
+                    result += " e " + number_to_words_pt(resto)
+                return result
+            elif num < 1000000:
+                milhares = num // 1000
+                resto = num % 1000
+                if milhares == 1:
+                    result = "mil"
+                else:
+                    result = number_to_words_pt(milhares) + " mil"
+                if resto > 0:
+                    if resto < 100:
+                        result += " e " + number_to_words_pt(resto)
+                    else:
+                        result += " " + number_to_words_pt(resto)
+                return result
+            else:
+                return str(num)  # Para números muito grandes, manter como está
+        
+        # Substituir números no texto
+        def replace_number(match):
+            try:
+                num = int(match.group(0))
+                return number_to_words_pt(num)
+            except:
+                return match.group(0)
+        
+        # Padrão para encontrar números isolados
+        text = re.sub(r'\b\d+\b', replace_number, text)
+        
+        # Casos especiais comuns
+        special_cases = {
+            r'\b2024\b': 'dois mil e vinte e quatro',
+            r'\b2025\b': 'dois mil e vinte e cinco',
+            r'\b99%\b': 'noventa e nove por cento',
+            r'\b100%\b': 'cem por cento',
+            r'\b50%\b': 'cinquenta por cento',
+            r'\b24h\b': 'vinte e quatro horas',
+            r'\b7h\b': 'sete horas',
+            r'\bCOVID-19\b': 'Covid dezenove',
+            r'\bCOVID19\b': 'Covid dezenove',
+        }
+        
+        for pattern, replacement in special_cases.items():
+            text = re.sub(pattern, replacement, text, flags=re.IGNORECASE)
+        
+        return text
+
+    def _escape_ssml_characters(self, text: str) -> str:
+        """Escapa caracteres reservados do SSML"""
+        # Caracteres que precisam ser escapados no SSML
+        escapes = {
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&apos;'
+        }
+        
+        # Primeiro, proteger tags SSML válidas
+        valid_ssml_pattern = r'<(/?(?:speak|break|emphasis|prosody|say-as|voice|lang|mark|audio|sub|phoneme|google:style)(?:\s[^>]*)?)>'
+        protected_tags = []
+        
+        def protect_tag(match):
+            tag_id = f"__PROTECTED_TAG_{len(protected_tags)}__"
+            protected_tags.append(match.group(0))
+            return tag_id
+        
+        text = re.sub(valid_ssml_pattern, protect_tag, text, flags=re.IGNORECASE)
+        
+        # Escapar caracteres reservados no texto restante
+        for char, escape in escapes.items():
+            text = text.replace(char, escape)
+        
+        # Restaurar tags protegidas
+        for i, tag in enumerate(protected_tags):
+            text = text.replace(f"__PROTECTED_TAG_{i}__", tag)
+        
+        return text
+
+    def create_ssml(self, text: str, emotion: str = 'neutral', config: Dict = None) -> str:
+        """
+        Cria SSML otimizado para Google Cloud Text-to-Speech
+        """
+        if not config:
+            config = self.emotion_configs.get(emotion, self.emotion_configs['neutral'])
+        
+        # Converter tags customizadas para SSML padrão
+        processed_text = self.convert_custom_tags_to_ssml(text, emotion, config)
+        
+        # Aplicar configurações de prosódia baseadas na emoção
+        prosody_attrs = []
+        
+        # Configurações de pitch
+        pitch = config.get('pitch', 0.0)
+        if pitch != 0:
+            if pitch > 0:
+                prosody_attrs.append(f'pitch="+{pitch}st"')
+            else:
+                prosody_attrs.append(f'pitch="{pitch}st"')
+        
+        # Configurações de velocidade
+        speed = config.get('speed', 1.0)
+        if speed != 1.0:
+            if speed < 0.5:
+                prosody_attrs.append('rate="x-slow"')
+            elif speed < 0.8:
+                prosody_attrs.append('rate="slow"')
+            elif speed > 1.5:
+                prosody_attrs.append('rate="fast"')
+            elif speed > 1.2:
+                prosody_attrs.append('rate="medium"')
+        
+        # Configurações de volume
+        volume_gain = config.get('volume_gain', 0.0)
+        if volume_gain != 0:
+            if volume_gain > 0:
+                prosody_attrs.append(f'volume="+{volume_gain}dB"')
+            else:
+                prosody_attrs.append(f'volume="{volume_gain}dB"')
+        
+        # Aplicar prosódia se houver configurações
+        if prosody_attrs:
+            prosody_attr_str = ' '.join(prosody_attrs)
+            processed_text = f'<prosody {prosody_attr_str}>{processed_text}</prosody>'
+        
+        # Configurações específicas de emoção usando Google Styles (se disponível)
+        emotion_styles = {
+            'enthusiastic': 'lively',
+            'calm': 'calm',
+            'dramatic': 'firm',
+            'mysterious': 'calm',
+            'suspenseful': 'firm'
+        }
+        
+        google_style = emotion_styles.get(emotion)
+        if google_style:
+            processed_text = f'<google:style name="{google_style}">{processed_text}</google:style>'
+        
+        # Adicionar quebras de frase automáticas
+        processed_text = self._add_sentence_breaks(processed_text, config)
+        
+        # Envolver em tag speak
+        ssml = f'<speak>{processed_text}</speak>'
+        
+        # Validar SSML
+        if self._validate_ssml(ssml):
+            logger.info(f"✅ SSML válido gerado para emoção: {emotion}")
+            return ssml
+        else:
+            logger.warning(f"⚠️ SSML pode ter problemas, usando versão simples")
+            # Fallback para SSML simples
+            simple_text = re.sub(r'<[^>]+>', '', text)  # Remove todas as tags
+            simple_text = self._convert_numbers_to_words(simple_text)
+            simple_text = self._escape_ssml_characters(simple_text)
+            return f'<speak>{simple_text}</speak>'
+
+    def _add_sentence_breaks(self, text: str, config: Dict) -> str:
+        """Adiciona quebras automáticas entre frases"""
+        # Pausas configuráveis por emoção
+        sentence_pause = config.get('pauses', {}).get('sentence', 600)
+        comma_pause = config.get('pauses', {}).get('comma', 300)
+        
+        # Adicionar pausas após pontos finais
+        text = re.sub(r'\.(\s+)', rf'.<break time="{sentence_pause}ms"/>\1', text)
+        
+        # Adicionar pausas após vírgulas (mais curtas)
+        text = re.sub(r',(\s+)', rf',<break time="{comma_pause}ms"/>\1', text)
+        
+        # Adicionar pausas após pontos de exclamação e interrogação
+        text = re.sub(r'([!?])(\s+)', rf'\1<break time="{sentence_pause}ms"/>\2', text)
+        
+        return text
+
+    def _validate_ssml(self, ssml: str) -> bool:
+        """Validação básica do SSML"""
+        try:
+            # Verificar se tem tag speak
+            if not ssml.startswith('<speak>') or not ssml.endswith('</speak>'):
+                return False
+            
+            # Verificar balanceamento básico de tags
+            open_tags = re.findall(r'<([^/>]+)>', ssml)
+            close_tags = re.findall(r'</([^>]+)>', ssml)
+            
+            # Tags que se fecham sozinhas
+            self_closing = re.findall(r'<[^>]+/>', ssml)
+            
+            # Verificação simplificada
+            return len(ssml.strip()) > 15  # Pelo menos algum conteúdo
+            
+        except Exception as e:
+            logger.error(f"❌ Erro na validação SSML: {e}")
+            return False
+
+    def generate_audio_segment(self, text: str, voice_id: str,
+                               emotion: str, config: Dict) -> bytes:
+        """Gera um segmento de áudio com configurações SSML otimizadas"""
+        try:
+            # Criar SSML otimizado com base no manual do Google
+            ssml = self.create_ssml(text, emotion, config)
+            
+            logger.info(f"🎙️ Gerando áudio com SSML: {ssml[:100]}...")
+
+            synthesis_input = texttospeech.SynthesisInput(ssml=ssml)
+
+            voice = texttospeech.VoiceSelectionParams(
+                language_code="pt-BR",
+                name=voice_id,
+                ssml_gender=texttospeech.SsmlVoiceGender.NEUTRAL  # Deixar o SSML controlar
+            )
+
+            # Configurações de áudio otimizadas
+            audio_config = texttospeech.AudioConfig(
+                audio_encoding=texttospeech.AudioEncoding.MP3,
+                # Não usar speaking_rate, pitch, volume_gain_db aqui pois estão no SSML
+                sample_rate_hertz=24000,  # Alta qualidade
+                effects_profile_id=['headphone-class-device']  # Otimizado para fones
+            )
+
+            response = self.client.synthesize_speech(
+                input=synthesis_input,
+                voice=voice,
+                audio_config=audio_config
+            )
+
+            logger.info("✅ Segmento de áudio gerado com sucesso")
+            return response.audio_content
+
+        except Exception as e:
+            logger.error(f"❌ Erro ao gerar segmento: {e}")
+            # Fallback para texto simples
+            try:
+                simple_text = re.sub(r'<[^>]+>', '', text)
+                simple_ssml = f'<speak>{self._escape_ssml_characters(simple_text)}</speak>'
+                
+                synthesis_input = texttospeech.SynthesisInput(ssml=simple_ssml)
+                voice = texttospeech.VoiceSelectionParams(
+                    language_code="pt-BR",
+                    name=voice_id
+                )
+                audio_config = texttospeech.AudioConfig(
+                    audio_encoding=texttospeech.AudioEncoding.MP3,
+                    sample_rate_hertz=24000
+                )
+                
+                response = self.client.synthesize_speech(
+                    input=synthesis_input,
+                    voice=voice,
+                    audio_config=audio_config
+                )
+                
+                logger.info("✅ Áudio gerado com fallback simples")
+                return response.audio_content
+                
+            except Exception as fallback_error:
+                logger.error(f"❌ Fallback também falhou: {fallback_error}")
+                return None
+
+    def generate_audio(self, text: str, settings: Dict[str, Any]) -> Optional[str]:
+        """Gera áudio principal com todas as configurações"""
+        if not self.client:
+            logger.error("❌ Cliente TTS não inicializado")
+            return None
+
+        try:
+            # Extrai configurações
+            voice_profile = settings.get('voice_profile', 'male-professional')
+            voice_id = self.voice_mapping.get(
+                voice_profile, self.voice_mapping['default-male'])
+
+            emotion = settings.get('voice_emotion', 'neutral')
+            auto_emotion = settings.get('auto_emotion_detection', False)
+
+            # Configurações customizadas
+            custom_config = {
+                'pitch': settings.get('voice_pitch', 0.0),
+                'speed': settings.get('speaking_speed', 1.0),
+                'volume_gain': settings.get('voice_volume_gain', 0.0)
+            }
+
+            audio_segments = []
+
+            if auto_emotion and self.emotion_analyzer:
+                # Gera com múltiplas emoções
+                logger.info("🎭 Modo multi-emoção ativado")
+                emotion_segments = self.analyze_text_emotions(text)
+
+                for segment_text, segment_emotion in emotion_segments:
+                    if not segment_text.strip():
+                        continue
+
+                    logger.info(
+                        f"  Processando segmento com emoção: {segment_emotion}")
+
+                    # Merge configurações da emoção com custom
+                    emotion_config = self.emotion_configs.get(
+                        segment_emotion,
+                        self.emotion_configs['neutral']
+                    )
+                    merged_config = {**emotion_config, **custom_config}
+
+                    audio_data = self.generate_audio_segment(
+                        segment_text, voice_id, segment_emotion, merged_config
+                    )
+
+                    if audio_data:
+                        audio_segments.append(audio_data)
+            else:
+                # Gera com emoção única
+                logger.info(f"🎤 Gerando áudio com emoção: {emotion}")
+
+                emotion_config = self.emotion_configs.get(
+                    emotion,
+                    self.emotion_configs['neutral']
+                )
+                merged_config = {**emotion_config, **custom_config}
+
+                audio_data = self.generate_audio_segment(
+                    text, voice_id, emotion, merged_config
+                )
+
+                if audio_data:
+                    audio_segments.append(audio_data)
+
+            if not audio_segments:
+                logger.error("❌ Nenhum segmento de áudio gerado")
+                return None
+
+            # Combina e processa o áudio
+            final_audio = self.process_audio(audio_segments, settings)
+
+            # Salva o arquivo
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            text_hash = hashlib.md5(text.encode()).hexdigest()[:8]
+            filename = f"audio_{timestamp}_{text_hash}.mp3"
+            filepath = os.path.join(self.audio_dir, filename)
+
+            with open(filepath, 'wb') as f:
+                f.write(final_audio)
+
+            logger.info(f"✅ Áudio gerado: {filepath}")
+            return filepath
+
+        except Exception as e:
+            logger.error(f"❌ Erro na geração de áudio: {e}")
+            return None
+
+    def process_audio(self, audio_segments: List[bytes], settings: Dict) -> bytes:
+        """Processa e combina segmentos de áudio"""
+        try:
+            # Combina segmentos
+            combined = AudioSegment.empty()
+
+            for segment_data in audio_segments:
+                segment = AudioSegment.from_mp3(segment_data)
+                combined += segment
+
+            # Normaliza o áudio
+            combined = normalize(combined)
+
+            # Adiciona fade in/out para suavidade
+            combined = combined.fade_in(500).fade_out(500)
+
+            # Exporta como MP3
+            import io
+            buffer = io.BytesIO()
+            combined.export(buffer, format='mp3', bitrate='192k')
+            return buffer.getvalue()
+
+        except Exception as e:
+            logger.error(f"❌ Erro no processamento de áudio: {e}")
+            # Retorna o primeiro segmento como fallback
+            return audio_segments[0] if audio_segments else b''
+
+    def test_voice(self, text: str, settings: Dict) -> Optional[str]:
+        """Testa configurações de voz"""
+        return self.generate_audio(text, settings)
+
+
+# Teste
+if __name__ == "__main__":
+    tts = GoogleAIStudioTTS()
+
+    test_settings = {
+        'voice_profile': 'male-dramatic',
+        'voice_emotion': 'mysterious',
+        'voice_pitch': -2.0,
+        'speaking_speed': 0.9,
+        'voice_volume_gain': 1.0,
+        'auto_emotion_detection': True
+    }
+
+    test_text = """
+    Você sabia que existe um segredo oculto nas profundezas do oceano?
+    
+    Cientistas descobriram algo INCRÍVEL que pode mudar tudo!
+    
+    Mas o que eles encontraram é tão misterioso, tão perturbador...
+    Que as autoridades tentaram esconder a verdade.
+    
+    Prepare-se para uma revelação CHOCANTE!
+    """
+
+    audio_file = tts.generate_audio(test_text, test_settings)
+    if audio_file:
+        print(f"✅ Teste concluído: {audio_file}")
+    else:
+        print("❌ Falha no teste")

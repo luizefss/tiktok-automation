@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-07-31T11:02:14.451604",
+  "roteiro": {
+    "titulo": "🔮 Tecnologias Mágicas?! 🤯 #misterios",
+    "hook": "Você acredita em magia? Prepare-se para questionar tudo!",
+    "roteiro_completo": "[Cena: Close em um smartphone mostrando uma imagem gerada por IA] (Voz empolgada): Você acredita em magia?  A tecnologia hoje faz coisas que pareciam impossíveis há poucos anos!\n\n[Cena: Transição rápida para imagens de assistentes virtuais, reconhecimento facial e realidade aumentada] (Voz explicativa, ritmo acelerado):  Imagine falar com uma máquina e ela te entender, seu rosto desbloquear seu celular ou ver dinossauros na sua sala. Isso não é feitiçaria, é tecnologia avançada, mas tão incrível que parece mágica!\n\n[Cena: Zoom em um chip de computador] (Voz em tom de suspense): Mas o mais impressionante é a Inteligência Artificial. Máquinas aprendendo sozinhas, criando arte, compondo música… Como se tivessem uma mente própria!  É quase assustador, não é?\n\n[Cena: Fundo com as hashtags do vídeo] (Voz animada e convidativa): Qual dessas tecnologias te impressiona mais? Conta aí nos comentários!  E não esquece de seguir para mais mistérios da ciência! #misterios #tecnologia",
+    "hashtags": [
+      "#viral",
+      "#misterios",
+      "#curiosidades",
+      "#aprendanotiktok",
+      "#tecnologia",
+      "#magia"
+    ],
+    "categoria": "misterios",
+    "topico_original": "tecnologias que parecem mágica",
+    "timestamp": "2025-07-31T10:53:50.782473"
+  },
+  "audio_file": "../media/audio/audio_google_20250731_105355.mp3",
+  "images": [
+    "../media/images/picsum_mystery_0_105355_20250731_105356.jpg",
+    "../media/images/picsum_mystery_1_105356_20250731_105400.jpg",
+    "../media/images/picsum_mystery_2_105400_20250731_105406.jpg",
+    "../media/images/picsum_dark_0_105406_20250731_105407.jpg",
+    "../media/images/picsum_dark_1_105407_20250731_105409.jpg"
+  ],
+  "video": {
+    "success": true,
+    "video_file": "../media/videos/tiktok__Tecnologias_Mágicas_misterios_20250731_105412.mp4",
+    "size_mb": 2.6899757385253906,
+    "duration": 43.224,
+    "images_count": 5,
+    "roteiro": {
+      "titulo": "🔮 Tecnologias Mágicas?! 🤯 #misterios",
+      "hook": "Você acredita em magia? Prepare-se para questionar tudo!",
+      "roteiro_completo": "[Cena: Close em um smartphone mostrando uma imagem gerada por IA] (Voz empolgada): Você acredita em magia?  A tecnologia hoje faz coisas que pareciam impossíveis há poucos anos!\n\n[Cena: Transição rápida para imagens de assistentes virtuais, reconhecimento facial e realidade aumentada] (Voz explicativa, ritmo acelerado):  Imagine falar com uma máquina e ela te entender, seu rosto desbloquear seu celular ou ver dinossauros na sua sala. Isso não é feitiçaria, é tecnologia avançada, mas tão incrível que parece mágica!\n\n[Cena: Zoom em um chip de computador] (Voz em tom de suspense): Mas o mais impressionante é a Inteligência Artificial. Máquinas aprendendo sozinhas, criando arte, compondo música… Como se tivessem uma mente própria!  É quase assustador, não é?\n\n[Cena: Fundo com as hashtags do vídeo] (Voz animada e convidativa): Qual dessas tecnologias te impressiona mais? Conta aí nos comentários!  E não esquece de seguir para mais mistérios da ciência! #misterios #tecnologia",
+      "hashtags": [
+        "#viral",
+        "#misterios",
+        "#curiosidades",
+        "#aprendanotiktok",
+        "#tecnologia",
+        "#magia"
+      ],
+      "categoria": "misterios",
+      "topico_original": "tecnologias que parecem mágica",
+      "timestamp": "2025-07-31T10:53:50.782473"
+    },
+    "status": "Aguardando Revisão"
+  },
+  "status": "completed"
+}

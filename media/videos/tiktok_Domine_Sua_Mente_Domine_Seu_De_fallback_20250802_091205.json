@@ -1,0 +1,82 @@
+{
+  "success": true,
+  "video_file": "/var/www/tiktok-automation/media/videos/tiktok_Domine_Sua_Mente_Domine_Seu_De_fallback_20250802_091205.mp4",
+  "size_mb": 3.105404853820801,
+  "duration": 54.936,
+  "images_count": 1,
+  "type": "fallback",
+  "created_at": "2025-08-02T09:12:45.987055",
+  "settings_used": {
+    "content_ai_model": "gemini",
+    "content_type": "custom_message",
+    "custom_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "message_categories": [
+      "Motivação",
+      "Conhecimento",
+      "Reflexão"
+    ],
+    "tone": "motivational",
+    "image_style": "realistic",
+    "color_palette": "vibrant",
+    "animation_type": "parallax",
+    "voice_emotion": "enthusiastic",
+    "speaking_speed": 1.05,
+    "use_topmedia_ai": false,
+    "background_music": true,
+    "background_music_volume": 0.1,
+    "video_duration": 60,
+    "transitions": "smooth",
+    "text_overlay": true,
+    "custom_prompt_roteiro": "Crie um roteiro viral e impactante para TikTok com foco em {tema} e tom {tom}.",
+    "custom_prompt_imagem": "Cena visualmente impressionante para vídeo vertical, no estilo {estilo_imagem} com paleta {paleta_cores}, sem texto ou pessoas."
+  },
+  "generation_type": "custom_message",
+  "estimated_metrics": {
+    "engagement_score": 8.8,
+    "viral_potential": 7.3,
+    "audience_match": 8.13301037421298
+  },
+  "roteiro": {
+    "titulo": "🚀Domine Sua Mente, Domine Seu Destino!💪",
+    "hook": "Pare tudo que você está fazendo!  95% das pessoas desistem quando estão a 5% do sucesso... Você vai ser uma delas?",
+    "roteiro_completo": "Pare tudo que você está fazendo!  95% das pessoas desistem quando estão a 5% do sucesso... Você vai ser uma delas? (Pausa) Eu te garanto que a única coisa te separando do seu objetivo é a sua **MENTE**. É ela que decide se você vai persistir ou desistir. (Pausa) Imagine só... você está quase lá!  Sentindo o gostinho da vitória... e de repente... joga tudo pro alto!  (Ênfase) Não faça isso!  (Pausa)  Você é mais forte do que pensa!  Você é capaz de conquistar tudo o que deseja! Repita comigo: EU SOU CAPAZ! (Pausa) Comece a acreditar no seu potencial, alimente sua mente com pensamentos positivos, visualize seu sucesso! (Pausa)  A cada obstáculo, lembre-se do porquê você começou.  A cada queda, levante com mais força! (Ênfase) Acredite em mim, a jornada pode ser difícil, mas a recompensa... ah, a recompensa vale cada gota de suor! (Pausa)  E aí, pronto para dominar sua mente e conquistar o mundo?  Compartilha esse vídeo com alguém que precisa dessa injeção de ânimo!",
+    "message_core": "Domine sua mente e você dominará seu destino, persistência é a chave para o sucesso.",
+    "call_to_action": "Marque aquele amigo que precisa ouvir isso e compartilhe nos seus stories! 🚀",
+    "hashtags": [
+      "#motivacao",
+      "#mindset",
+      "#sucesso",
+      "#persistencia",
+      "#inspiracao"
+    ],
+    "categoria": "motivational",
+    "estimated_duration": 55,
+    "key_moments": [
+      "Hook impactante",
+      "Reflexão sobre persistência",
+      "Chamado à ação"
+    ],
+    "music_style": "Música épica e inspiradora",
+    "timestamp": "2025-08-02T09:11:15.018163",
+    "is_personalized": true,
+    "selected_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "main_category": "Motivação",
+    "tone_applied": "motivational",
+    "voice_emotion": "enthusiastic",
+    "generation_type": "custom_message",
+    "ia_used": "gemini"
+  },
+  "prompts_usados": [
+    "Sprouting plant breaking through cracked asphalt, realistic, dramatic backlighting, vertical 9:16, triumphant and hopeful, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "Single vibrant flower blooming on a barren mountain peak, realistic, golden hour lighting, vertical 9:16, powerful and serene, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "A key unlocking a complex, ornate lock, realistic, sharp focused lighting, close-up vertical 9:16, mysterious and intriguing, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "Rushing waterfall cascading down a cliff face, realistic, vibrant sunset lighting, vertical 9:16, energetic and inspiring, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "A small boat navigating through a stormy sea, realistic, moody dramatic lighting, vertical 9:16, challenging and determined, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition"
+  ]
+}

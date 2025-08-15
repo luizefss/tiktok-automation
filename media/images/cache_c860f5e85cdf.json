@@ -1,0 +1,26 @@
+{
+  "script_hash": "c860f5e85cdf",
+  "script_elements": {
+    "title": "conte a historia de Santos Dumont um roteiro para video de 1 minuto",
+    "description": "",
+    "visual_cues": [],
+    "hook": "",
+    "content": "Nascido em Minas Gerais, em 1873,  Alberto Santos Dumont desde cedo demonstrou fascínio por máquinas e pelo céu.  Seu pai, um rico cafeicultor, incentivou sua paixão pela mecânica.\nMudando-se para Paris, Santos Dumont dedicou-se a construir dirigíveis.  Seu primeiro projeto bem-sucedido, o número 1, voou em 1898, causando espanto na capital francesa.\nEm 1901, contornou a Torre Eiffel com o dirigível número 6, ganhando o Prêmio Deutsch de la Meurthe e se tornando uma celebridade internacional.\nInsatisfeito com os dirigíveis, Santos Dumont voltou sua atenção para máquinas mais pesadas que o ar. Ele acreditava no potencial do voo com asas fixas.\nEm 1906, Santos Dumont realizou o primeiro voo homologado com o 14-Bis, um biplano movido a um motor a combustão. O voo histórico percorreu 60 metros a uma altura de 2 a 3 metros.\nO 14-Bis foi um marco na história da aviação, inspirando outros pioneiros e abrindo caminho para o desenvolvimento dos aviões modernos.\nSantos Dumont compartilhou suas invenções livremente, sem patenteá-las, acreditando que o progresso científico deveria beneficiar a todos.\nAlberto Santos Dumont, um visionário brasileiro que conquistou o céu e deixou um legado duradouro para a humanidade.",
+    "visual_style": "misterio",
+    "image_provider": "hybrid"
+  },
+  "images": [
+    "/var/www/tiktok-automation/media/images/scene_1_20250814_001201.png",
+    "/var/www/tiktok-automation/media/images/scene_2_20250814_001213.png",
+    "/var/www/tiktok-automation/media/images/scene_3_20250814_001225.png",
+    "/var/www/tiktok-automation/media/images/scene_4_20250814_001237.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_001304.png",
+    "/var/www/tiktok-automation/media/images/scene_6_20250814_001251.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_001302.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_001301.png"
+  ],
+  "generated_at": "2025-08-14T00:13:04.522012",
+  "last_used": "2025-08-14T00:13:04.522025",
+  "image_count": 8,
+  "visual_style": "misterio"
+}

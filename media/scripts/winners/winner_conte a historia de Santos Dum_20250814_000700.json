@@ -1,0 +1,599 @@
+{
+  "winner_provider": "Gemini",
+  "battle_theme": "conte a historia de Santos Dumont um roteiro para video de 1 minuto",
+  "script_data": {
+    "fileName": "2025-08-14_21-07-01_WINNER-gemini_60s_conte-a-historia-de-santo",
+    "timestamp": "2025-08-14T00:07:01.832Z",
+    "type": "battle_winner",
+    "winner_ai": "Gemini",
+    "topic": "conte a historia de Santos Dumont um roteiro para video de 1 minuto",
+    "script": "Nascido em Minas Gerais, em 1873,  Alberto Santos Dumont desde cedo demonstrou fascínio por máquinas e pelo céu.  Seu pai, um rico cafeicultor, incentivou sua paixão pela mecânica.\nMudando-se para Paris, Santos Dumont dedicou-se a construir dirigíveis.  Seu primeiro projeto bem-sucedido, o número 1, voou em 1898, causando espanto na capital francesa.\nEm 1901, contornou a Torre Eiffel com o dirigível número 6, ganhando o Prêmio Deutsch de la Meurthe e se tornando uma celebridade internacional.\nInsatisfeito com os dirigíveis, Santos Dumont voltou sua atenção para máquinas mais pesadas que o ar. Ele acreditava no potencial do voo com asas fixas.\nEm 1906, Santos Dumont realizou o primeiro voo homologado com o 14-Bis, um biplano movido a um motor a combustão. O voo histórico percorreu 60 metros a uma altura de 2 a 3 metros.\nO 14-Bis foi um marco na história da aviação, inspirando outros pioneiros e abrindo caminho para o desenvolvimento dos aviões modernos.\nSantos Dumont compartilhou suas invenções livremente, sem patenteá-las, acreditando que o progresso científico deveria beneficiar a todos.\nAlberto Santos Dumont, um visionário brasileiro que conquistou o céu e deixou um legado duradouro para a humanidade.",
+    "winning_settings": {
+      "ai_model": "gemini",
+      "video_duration": 60,
+      "theme": "conte a historia de Santos Dumont um roteiro para video de 1 minuto",
+      "provider": "gemini"
+    },
+    "battle_context": {
+      "participants": [
+        "Claude",
+        "Gemini",
+        "Gpt"
+      ],
+      "total_participants": 3,
+      "winner_score": 15,
+      "battle_timestamp": "2025-08-14T00:07:01.832Z"
+    },
+    "success_factors": {
+      "script_length": 1222,
+      "estimated_engagement": "high",
+      "category": "technology",
+      "tags": [
+        "conte",
+        "historia",
+        "santos",
+        "dumont",
+        "roteiro",
+        "para",
+        "video",
+        "minuto",
+        "medium"
+      ]
+    },
+    "status": "battle_winner",
+    "confidence": "user_selected",
+    "replication_ready": true
+  },
+  "battle_results": [
+    {
+      "name": "Claude",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "claude",
+        "audience": "history",
+        "call_to_action": "Experimenta hoje mesmo e depois me conta nos comentários como foi!",
+        "duration_target_sec": 60,
+        "estimated_duration": 55,
+        "hashtags": [
+          "#produtividade",
+          "#foco",
+          "#dicas",
+          "#viral",
+          "#motivacao"
+        ],
+        "hook": "Olha só pessoal, vocês não vão acreditar no que eu descobri sobre produtividade",
+        "ia_used": "claude",
+        "leonardo_prompts": [
+          "0 a 60s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+        ],
+        "leonardo_prompts_text": "0 a 60s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+        "music_style": "tensa_cinematica",
+        "roteiro_completo": "Olha só pessoal, vocês não vão acreditar no que eu descobri sobre produtividade. Cara, isso aqui mudou completamente minha vida e tenho certeza que vai mudar a de vocês também. Então assim, a maioria das pessoas fica pulando de tarefa em tarefa o dia todo, sabe como é né. Mas escuta só isso, estudos mostram que quando você foca numa coisa só por vez, sua eficiência aumenta em até oitenta por cento. É muita coisa gente! A técnica é simples, escolhe uma tarefa importante, desliga todas as notificações, e se dedica por vinte e cinco minutos sem parar. Parece pouco mas faz uma diferença absurda. Experimenta hoje mesmo e depois me conta nos comentários como foi, combinado?",
+        "scenes": [
+          {
+            "image_prompt": "cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "intro_suave",
+            "narration": "Olha só pessoal, vocês não vão acreditar no que eu descobri sobre produtividade. Cara, isso aqui mudou completamente minha vida e tenho certeza que vai mudar a de vocês também. Então assim, a maioria das pessoas fica pulando de tarefa em tarefa o dia todo, sabe como é né. Mas esc",
+            "on_screen_text": "",
+            "sfx": [],
+            "t_end": 60,
+            "t_start": 0
+          }
+        ],
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "curiosidade",
+        "thumbnail": {
+          "image_prompt": "historic cinematic thumbnail, powerful focal subject, dramatic rim light, vertical 9:16, no text, highly detailed, 8K resolution",
+          "text": "A Técnica que Mudou Minha Produtividade (Você Precisa Tentar)"
+        },
+        "timestamp": "2025-08-14T00:05:48.508419",
+        "title": "A Técnica que Mudou Minha Produtividade (Você Precisa Tentar)",
+        "titulo": "A Técnica que Mudou Minha Produtividade (Você Precisa Tentar)",
+        "viral_analysis": {
+          "category_match": "curiosidade",
+          "cta_score": 0.5,
+          "hook_score": 0.7999999999999999,
+          "optimization_tips": [
+            "❓ Adicione pontuação impactante no hook (?, !, ...)"
+          ],
+          "recommendations": [
+            "⚠️ Potencial médio. Revise hook e hashtags.",
+            "Adicione mais elementos virais e um CTA mais forte."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 42.5
+        },
+        "viral_score": 87,
+        "visual_pack": "HistoryDark",
+        "visual_prompts": [
+          {
+            "image_prompt": "cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          }
+        ],
+        "visual_prompts_text": "0 a 60s - cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+        "voice_style": "documentary_grave"
+      },
+      "score": 42.5,
+      "analysis": {
+        "category_match": "curiosidade",
+        "cta_score": 0.5,
+        "hook_score": 0.7999999999999999,
+        "optimization_tips": [
+          "❓ Adicione pontuação impactante no hook (?, !, ...)"
+        ],
+        "recommendations": [
+          "⚠️ Potencial médio. Revise hook e hashtags.",
+          "Adicione mais elementos virais e um CTA mais forte."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 42.5
+      }
+    },
+    {
+      "name": "Gemini",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "gemini",
+        "audience": "history",
+        "duration_target_sec": 90,
+        "hashtags": [
+          "#historia",
+          "#shorts",
+          "#curiosidades"
+        ],
+        "hook": "Por trás de conte a historia de Santos Dumont um roteiro para video de 1 minuto, existe uma reviravolta que muda tudo.",
+        "ia_used": "gemini",
+        "leonardo_prompts": [
+          "0 a 8s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "8 a 18s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+          "18 a 28s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "28 a 38s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+          "38 a 50s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "50 a 62s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+          "62 a 74s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "74 a 90s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+        ],
+        "leonardo_prompts_text": "0 a 8s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n8 a 18s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical\n18 a 28s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n28 a 38s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical\n38 a 50s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n50 a 62s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical\n62 a 74s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n74 a 90s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+        "music_style": "tensa_cinematica",
+        "roteiro_completo": "Nascido em Minas Gerais, em 1873,  Alberto Santos Dumont desde cedo demonstrou fascínio por máquinas e pelo céu.  Seu pai, um rico cafeicultor, incentivou sua paixão pela mecânica.\nMudando-se para Paris, Santos Dumont dedicou-se a construir dirigíveis.  Seu primeiro projeto bem-sucedido, o número 1, voou em 1898, causando espanto na capital francesa.\nEm 1901, contornou a Torre Eiffel com o dirigível número 6, ganhando o Prêmio Deutsch de la Meurthe e se tornando uma celebridade internacional.\nInsatisfeito com os dirigíveis, Santos Dumont voltou sua atenção para máquinas mais pesadas que o ar. Ele acreditava no potencial do voo com asas fixas.\nEm 1906, Santos Dumont realizou o primeiro voo homologado com o 14-Bis, um biplano movido a um motor a combustão. O voo histórico percorreu 60 metros a uma altura de 2 a 3 metros.\nO 14-Bis foi um marco na história da aviação, inspirando outros pioneiros e abrindo caminho para o desenvolvimento dos aviões modernos.\nSantos Dumont compartilhou suas invenções livremente, sem patenteá-las, acreditando que o progresso científico deveria beneficiar a todos.\nAlberto Santos Dumont, um visionário brasileiro que conquistou o céu e deixou um legado duradouro para a humanidade.",
+        "scenes": [
+          {
+            "image_prompt": "Painterly realistic portrait of a young Alberto Santos Dumont gazing at the sky, surrounded by coffee plantations. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "intro_suave",
+            "narration": "Nascido em Minas Gerais, em 1873,  Alberto Santos Dumont desde cedo demonstrou fascínio por máquinas e pelo céu.  Seu pai, um rico cafeicultor, incentivou sua paixão pela mecânica.",
+            "on_screen_text": "Minas Gerais, 1873",
+            "sfx": [
+              "vento suave"
+            ],
+            "t_end": 8,
+            "t_start": 0
+          },
+          {
+            "image_prompt": "Ultra realistic painting of Santos Dumont's Dirigible No. 1 soaring over Paris, with the Eiffel Tower in the background. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "transicao",
+            "narration": "Mudando-se para Paris, Santos Dumont dedicou-se a construir dirigíveis.  Seu primeiro projeto bem-sucedido, o número 1, voou em 1898, causando espanto na capital francesa.",
+            "on_screen_text": "Paris, 1898",
+            "sfx": [
+              "som de motor a vapor"
+            ],
+            "t_end": 18,
+            "t_start": 8
+          },
+          {
+            "image_prompt": "Ultra realistic painting of Santos Dumont's Dirigible No. 6 circling the Eiffel Tower, with a cheering crowd below. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "climax",
+            "narration": "Em 1901, contornou a Torre Eiffel com o dirigível número 6, ganhando o Prêmio Deutsch de la Meurthe e se tornando uma celebridade internacional.",
+            "on_screen_text": "Prêmio Deutsch",
+            "sfx": [
+              "aplausos",
+              "fogos de artifício"
+            ],
+            "t_end": 28,
+            "t_start": 18
+          },
+          {
+            "image_prompt": "Painterly realistic depiction of Santos Dumont sketching designs for a heavier-than-air flying machine. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "transicao",
+            "narration": "Insatisfeito com os dirigíveis, Santos Dumont voltou sua atenção para máquinas mais pesadas que o ar. Ele acreditava no potencial do voo com asas fixas.",
+            "on_screen_text": "Asas Fixas",
+            "sfx": [
+              "rascunho de lápis"
+            ],
+            "t_end": 38,
+            "t_start": 28
+          },
+          {
+            "image_prompt": "Ultra realistic painting of the 14-Bis taking off for its first official flight, with a crowd watching in amazement. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "climax",
+            "narration": "Em 1906, Santos Dumont realizou o primeiro voo homologado com o 14-Bis, um biplano movido a um motor a combustão. O voo histórico percorreu 60 metros a uma altura de 2 a 3 metros.",
+            "on_screen_text": "14-Bis, 1906",
+            "sfx": [
+              "som de motor a combustão",
+              "aplausos"
+            ],
+            "t_end": 50,
+            "t_start": 38
+          },
+          {
+            "image_prompt": "Painterly realistic portrait of Santos Dumont standing proudly next to the 14-Bis. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "transicao",
+            "narration": "O 14-Bis foi um marco na história da aviação, inspirando outros pioneiros e abrindo caminho para o desenvolvimento dos aviões modernos.",
+            "on_screen_text": "Marco Histórico",
+            "sfx": [],
+            "t_end": 62,
+            "t_start": 50
+          },
+          {
+            "image_prompt": "Ultra realistic depiction of Santos Dumont's blueprints for the 14-Bis, open and accessible to all. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "final",
+            "narration": "Santos Dumont compartilhou suas invenções livremente, sem patenteá-las, acreditando que o progresso científico deveria beneficiar a todos.",
+            "on_screen_text": "Patente Livre",
+            "sfx": [],
+            "t_end": 74,
+            "t_start": 62
+          },
+          {
+            "image_prompt": "Painterly realistic portrait of an older Santos Dumont, looking thoughtfully towards the sky. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "final",
+            "narration": "Alberto Santos Dumont, um visionário brasileiro que conquistou o céu e deixou um legado duradouro para a humanidade.",
+            "on_screen_text": "Legado",
+            "sfx": [
+              "vento suave"
+            ],
+            "t_end": 90,
+            "t_start": 74
+          }
+        ],
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "curiosidade",
+        "thumbnail": {
+          "image_prompt": "Ultra realistic painting of Santos Dumont in his pilot's outfit, standing next to the 14-Bis. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution",
+          "text": "Santos Dumont"
+        },
+        "title": "Santos Dumont: O Pai da Aviação",
+        "viral_analysis": {
+          "category_match": "curiosidade",
+          "cta_score": 0,
+          "hook_score": 0,
+          "optimization_tips": [
+            "📝 Hook muito curto - expanda para 10-50 caracteres",
+            "❓ Adicione pontuação impactante no hook (?, !, ...)",
+            "📢 CTA muito fraco - adicione call-to-action mais forte"
+          ],
+          "recommendations": [
+            "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+            "O hook precisa ser mais impactante e o roteiro mais envolvente."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 15
+        },
+        "visual_pack": "HistoryDark",
+        "visual_prompts": [
+          {
+            "image_prompt": "Painterly realistic portrait of a young Alberto Santos Dumont gazing at the sky, surrounded by coffee plantations. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Ultra realistic painting of Santos Dumont's Dirigible No. 1 soaring over Paris, with the Eiffel Tower in the background. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Ultra realistic painting of Santos Dumont's Dirigible No. 6 circling the Eiffel Tower, with a cheering crowd below. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Painterly realistic depiction of Santos Dumont sketching designs for a heavier-than-air flying machine. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Ultra realistic painting of the 14-Bis taking off for its first official flight, with a crowd watching in amazement. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Painterly realistic portrait of Santos Dumont standing proudly next to the 14-Bis. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Ultra realistic depiction of Santos Dumont's blueprints for the 14-Bis, open and accessible to all. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Painterly realistic portrait of an older Santos Dumont, looking thoughtfully towards the sky. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          }
+        ],
+        "visual_prompts_text": "0 a 8s - Painterly realistic portrait of a young Alberto Santos Dumont gazing at the sky, surrounded by coffee plantations. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution\n8 a 18s - Ultra realistic painting of Santos Dumont's Dirigible No. 1 soaring over Paris, with the Eiffel Tower in the background. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution\n18 a 28s - Ultra realistic painting of Santos Dumont's Dirigible No. 6 circling the Eiffel Tower, with a cheering crowd below. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution\n28 a 38s - Painterly realistic depiction of Santos Dumont sketching designs for a heavier-than-air flying machine. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution\n38 a 50s - Ultra realistic painting of the 14-Bis taking off for its first official flight, with a crowd watching in amazement. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution\n50 a 62s - Painterly realistic portrait of Santos Dumont standing proudly next to the 14-Bis. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution\n62 a 74s - Ultra realistic depiction of Santos Dumont's blueprints for the 14-Bis, open and accessible to all. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution\n74 a 90s - Painterly realistic portrait of an older Santos Dumont, looking thoughtfully towards the sky. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, highly detailed, 8K resolution",
+        "voice_style": "documentary_grave"
+      },
+      "score": 15,
+      "analysis": {
+        "category_match": "curiosidade",
+        "cta_score": 0,
+        "hook_score": 0,
+        "optimization_tips": [
+          "📝 Hook muito curto - expanda para 10-50 caracteres",
+          "❓ Adicione pontuação impactante no hook (?, !, ...)",
+          "📢 CTA muito fraco - adicione call-to-action mais forte"
+        ],
+        "recommendations": [
+          "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+          "O hook precisa ser mais impactante e o roteiro mais envolvente."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 15
+      }
+    },
+    {
+      "name": "Gpt",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "gpt",
+        "audience": "history",
+        "duration_target_sec": 60,
+        "hashtags": [
+          "#historia",
+          "#shorts",
+          "#curiosidades"
+        ],
+        "hook": "Por trás de conte a historia de Santos Dumont um roteiro para video de 1 minuto, existe uma reviravolta que muda tudo.",
+        "ia_used": "gpt",
+        "leonardo_prompts": [
+          "0 a 9s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "9 a 18s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "18 a 30s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "30 a 42s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "42 a 54s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+          "54 a 66s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+          "66 a 78s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+          "78 a 90s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+        ],
+        "leonardo_prompts_text": "0 a 9s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n9 a 18s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n18 a 30s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n30 a 42s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n42 a 54s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical\n54 a 66s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical\n66 a 78s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical\n78 a 90s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+        "music_style": "tensa_cinematica",
+        "roteiro_completo": "Em 1873, nascia em Minas Gerais, Brasil, Alberto Santos Dumont, um gênio da aviação.\nEm Paris, ele construiu seu primeiro balão em 1898, desafiando os céus.\nEm 1901, ele fez história ao contornar a Torre Eiffel com o dirigível 6.\nEm 1906, o 14-bis decolou, tornando-se o primeiro voo público de um avião.\nSantos Dumont não parou por aí. Criou o Demoiselle, precursor dos aviões modernos.\nEle inspirou gerações de aviadores, deixando um legado imortal na aviação.\nApesar dos desafios, sua paixão pelo voo nunca cessou.\nSantos Dumont, o homem que fez o Brasil voar.",
+        "scenes": [
+          {
+            "image_prompt": "Retrato de Santos Dumont jovem, com paisagem de fazenda ao fundo. Inclua: ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "intro_suave",
+            "narration": "Em 1873, nascia em Minas Gerais, Brasil, Alberto Santos Dumont, um gênio da aviação.",
+            "on_screen_text": "Santos Dumont: O Pai da Aviação",
+            "sfx": [
+              "som de vento suave"
+            ],
+            "t_end": 9,
+            "t_start": 0
+          },
+          {
+            "image_prompt": "Santos Dumont com seu balão Brasil em Paris, cercado por curiosos. Inclua: ultra realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "transicao",
+            "narration": "Em Paris, ele construiu seu primeiro balão em 1898, desafiando os céus.",
+            "on_screen_text": "",
+            "sfx": [
+              "som de multidão admirada"
+            ],
+            "t_end": 18,
+            "t_start": 9
+          },
+          {
+            "image_prompt": "Dirigível 6 de Santos Dumont voando ao lado da Torre Eiffel. Inclua: ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "climax",
+            "narration": "Em 1901, ele fez história ao contornar a Torre Eiffel com o dirigível 6.",
+            "on_screen_text": "",
+            "sfx": [
+              "som de motor de dirigível"
+            ],
+            "t_end": 30,
+            "t_start": 18
+          },
+          {
+            "image_prompt": "14-bis voando em Bagatelle, com espectadores ao fundo. Inclua: ultra realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "climax",
+            "narration": "Em 1906, o 14-bis decolou, tornando-se o primeiro voo público de um avião.",
+            "on_screen_text": "",
+            "sfx": [
+              "aplausos entusiasmados"
+            ],
+            "t_end": 42,
+            "t_start": 30
+          },
+          {
+            "image_prompt": "Demoiselle voando sobre campos verdes. Inclua: ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "transicao",
+            "narration": "Santos Dumont não parou por aí. Criou o Demoiselle, precursor dos aviões modernos.",
+            "on_screen_text": "",
+            "sfx": [
+              "som de motor leve"
+            ],
+            "t_end": 54,
+            "t_start": 42
+          },
+          {
+            "image_prompt": "Santos Dumont contemplativo, olhando para o céu. Inclua: ultra realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "final",
+            "narration": "Ele inspirou gerações de aviadores, deixando um legado imortal na aviação.",
+            "on_screen_text": "",
+            "sfx": [
+              "som de pássaros"
+            ],
+            "t_end": 66,
+            "t_start": 54
+          },
+          {
+            "image_prompt": "Santos Dumont em um hangar, trabalhando em um projeto. Inclua: ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "final",
+            "narration": "Apesar dos desafios, sua paixão pelo voo nunca cessou.",
+            "on_screen_text": "",
+            "sfx": [
+              "som de ferramentas"
+            ],
+            "t_end": 78,
+            "t_start": 66
+          },
+          {
+            "image_prompt": "Retrato final de Santos Dumont com o 14-bis ao fundo. Inclua: ultra realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "final",
+            "narration": "Santos Dumont, o homem que fez o Brasil voar.",
+            "on_screen_text": "",
+            "sfx": [
+              "som de vento suave"
+            ],
+            "t_end": 90,
+            "t_start": 78
+          }
+        ],
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "curiosidade",
+        "thumbnail": {
+          "image_prompt": "Santos Dumont com o 14-bis ao fundo, vibrante e inspirador. Inclua: ultra realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution",
+          "text": "Santos Dumont: O Pai da Aviação"
+        },
+        "title": "A Fascinante História de Santos Dumont",
+        "viral_analysis": {
+          "category_match": "curiosidade",
+          "cta_score": 0,
+          "hook_score": 0,
+          "optimization_tips": [
+            "📝 Hook muito curto - expanda para 10-50 caracteres",
+            "❓ Adicione pontuação impactante no hook (?, !, ...)",
+            "📢 CTA muito fraco - adicione call-to-action mais forte"
+          ],
+          "recommendations": [
+            "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+            "O hook precisa ser mais impactante e o roteiro mais envolvente."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 15
+        },
+        "visual_pack": "HistoryDark",
+        "visual_prompts": [
+          {
+            "image_prompt": "Retrato de Santos Dumont jovem, com paisagem de fazenda ao fundo. Inclua: ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Santos Dumont com seu balão Brasil em Paris, cercado por curiosos. Inclua: ultra realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Dirigível 6 de Santos Dumont voando ao lado da Torre Eiffel. Inclua: ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "14-bis voando em Bagatelle, com espectadores ao fundo. Inclua: ultra realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Demoiselle voando sobre campos verdes. Inclua: ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Santos Dumont contemplativo, olhando para o céu. Inclua: ultra realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Santos Dumont em um hangar, trabalhando em um projeto. Inclua: ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Retrato final de Santos Dumont com o 14-bis ao fundo. Inclua: ultra realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          }
+        ],
+        "visual_prompts_text": "0 a 9s - Retrato de Santos Dumont jovem, com paisagem de fazenda ao fundo. Inclua: ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n9 a 18s - Santos Dumont com seu balão Brasil em Paris, cercado por curiosos. Inclua: ultra realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n18 a 30s - Dirigível 6 de Santos Dumont voando ao lado da Torre Eiffel. Inclua: ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n30 a 42s - 14-bis voando em Bagatelle, com espectadores ao fundo. Inclua: ultra realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n42 a 54s - Demoiselle voando sobre campos verdes. Inclua: ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n54 a 66s - Santos Dumont contemplativo, olhando para o céu. Inclua: ultra realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n66 a 78s - Santos Dumont em um hangar, trabalhando em um projeto. Inclua: ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n78 a 90s - Retrato final de Santos Dumont com o 14-bis ao fundo. Inclua: ultra realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+        "voice_style": "documentary_grave"
+      },
+      "score": 15,
+      "analysis": {
+        "category_match": "curiosidade",
+        "cta_score": 0,
+        "hook_score": 0,
+        "optimization_tips": [
+          "📝 Hook muito curto - expanda para 10-50 caracteres",
+          "❓ Adicione pontuação impactante no hook (?, !, ...)",
+          "📢 CTA muito fraco - adicione call-to-action mais forte"
+        ],
+        "recommendations": [
+          "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+          "O hook precisa ser mais impactante e o roteiro mais envolvente."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 15
+      }
+    }
+  ],
+  "timestamp": "2025-08-14T00:07:00.118057",
+  "saved_at": "2025-08-14 00:07:00"
+}

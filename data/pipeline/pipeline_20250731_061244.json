@@ -1,0 +1,73 @@
+{
+  "timestamp": "2025-07-31T06:12:44.589335",
+  "roteiro": {
+    "hook": "Já viu um arco-íris DUPLO?! 🌈🌈",
+    "roteiro_completo": "**[Cena: Vídeo começa com um close em um arco-íris duplo. Zoom out lento para mostrar a pessoa filmando, com expressão de surpresa.]**\n\n**Voz (animada):** Geeente, olha isso! Arco-íris DUPLO! Mas como isso acontece? 🤔\n\n**[Transição com efeito de glitter para uma animação simples mostrando raios de luz entrando em uma gota d'água e refletindo duas vezes.]**\n\n**Voz (explicativa):** É pura física, galera! A luz do sol entra na gotinha de chuva, se reflete lá dentro, e *PUM*, arco-íris! 🌈 Mas às vezes, rola uma segunda reflexão dentro da mesma gota, criando um segundo arco-íris, mais fraquinho e com as cores invertidas! 🤯\n\n**[Volta para a pessoa filmando, apontando para o arco-íris duplo.]**\n\n**Voz (entusiasmada):** Incrível, né?  A natureza é demais! Compartilha esse vídeo com seus amigos pra eles ficarem chocados também! 😉\n\n**[Texto na tela: Arco-íris duplo! #ciencia #natureza]**\n\n**[Música animada e trendy de fundo durante todo o vídeo.]**",
+    "hashtags": [
+      "#arcoirisduplo",
+      "#ciencia",
+      "#fisica",
+      "#natureza",
+      "#chocado",
+      "#viral",
+      "#fyp",
+      "#foryou",
+      "#fy"
+    ],
+    "titulo": "O Mistério do Arco-Íris Duplo Revelado! 🌈🌈",
+    "categoria": "ciencia",
+    "timestamp": "2025-07-31T06:11:57.974872"
+  },
+  "audio_file": "../media/audio/audio_20250731_061206.mp3",
+  "images": [
+    {
+      "file": "../media/images/picsum_laboratory_0_061213_20250731_061214.jpg",
+      "description": "Imagem 1 para laboratory",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_laboratory_2_061216_20250731_061217.jpg",
+      "description": "Imagem 3 para laboratory",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_technology_0_061217_20250731_061218.jpg",
+      "description": "Imagem 1 para technology",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_technology_1_061218_20250731_061221.jpg",
+      "description": "Imagem 2 para technology",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_technology_2_061221_20250731_061222.jpg",
+      "description": "Imagem 3 para technology",
+      "source": "picsum"
+    }
+  ],
+  "video": {
+    "success": true,
+    "video_file": "../media/videos/tiktok_O_Mistério_do_Arco_Íris_Duplo__20250731_061222.mp4",
+    "size_mb": 2.3461484909057617,
+    "duration": 41.856,
+    "images_count": 5,
+    "roteiro": {
+      "titulo": "O Mistério do Arco-Íris Duplo Revelado! 🌈🌈",
+      "categoria": "ciencia",
+      "hook": "Já viu um arco-íris DUPLO?! 🌈🌈",
+      "hashtags": [
+        "#arcoirisduplo",
+        "#ciencia",
+        "#fisica",
+        "#natureza",
+        "#chocado",
+        "#viral",
+        "#fyp",
+        "#foryou",
+        "#fy"
+      ]
+    }
+  },
+  "status": "completed"
+}

@@ -1,0 +1,83 @@
+{
+  "success": true,
+  "video_file": "/var/www/tiktok-automation/media/videos/tiktok__Domine_Sua_Mente_mindset_fallback_20250802_085527.mp4",
+  "size_mb": 2.183457374572754,
+  "duration": 39.456,
+  "images_count": 1,
+  "type": "fallback",
+  "created_at": "2025-08-02T08:55:55.544831",
+  "settings_used": {
+    "content_ai_model": "gemini",
+    "content_type": "custom_message",
+    "custom_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "message_categories": [
+      "Motivação",
+      "Conhecimento",
+      "Reflexão"
+    ],
+    "tone": "motivational",
+    "image_style": "realistic",
+    "color_palette": "vibrant",
+    "animation_type": "parallax",
+    "voice_emotion": "enthusiastic",
+    "speaking_speed": 1.05,
+    "use_topmedia_ai": false,
+    "background_music": true,
+    "background_music_volume": 0.1,
+    "video_duration": 60,
+    "transitions": "smooth",
+    "text_overlay": true,
+    "custom_prompt_roteiro": "Crie um roteiro viral e impactante para TikTok com foco em {tema} e tom {tom}.",
+    "custom_prompt_imagem": "Cena visualmente impressionante para vídeo vertical, no estilo {estilo_imagem} com paleta {paleta_cores}, sem texto ou pessoas."
+  },
+  "generation_type": "custom_message",
+  "estimated_metrics": {
+    "engagement_score": 8.8,
+    "viral_potential": 6.5,
+    "audience_match": 8.877645888016582
+  },
+  "roteiro": {
+    "titulo": "🚀 Domine Sua Mente! ✨ #mindset",
+    "hook": "Pare de esperar pela vida perfeita e comece a criar ela!",
+    "roteiro_completo": "Pare de esperar pela vida perfeita e comece a criar ela! (Pausa curta)  Quantas vezes você já se pegou postergando aquele sonho, esperando o momento “certo”?  (Pausa curta)  A verdade, meu amigo, é que o momento certo é AGORA!  (Ênfase)  Você tem o poder dentro de si para transformar seus pensamentos em realidade.  (Pausa curta)  Imagine-se daqui a 5 anos...  (Pausa curta)  Onde você quer estar?  (Ênfase)  O que você quer ter conquistado? Visualize!  (Pausa curta)  E agora, pergunte-se: o que eu preciso fazer HOJE para chegar lá?  (Pausa curta)  Pequenas ações diárias, foco e uma mentalidade imparável!  (Ênfase) Acredite em si mesmo! Você é capaz de coisas INCRÍVEIS! (Pausa curta) Não deixe o medo te paralisar.  (Pausa curta)  Liberte o seu potencial! (Ênfase) ",
+    "message_core": "Você tem o poder de criar a vida que deseja com a mentalidade certa.",
+    "call_to_action": "Comenta aqui embaixo qual é o seu maior sonho! 👇 Vamos nos inspirar juntos! ✨",
+    "hashtags": [
+      "#mindset",
+      "#motivacao",
+      "#inspiracao",
+      "#desenvolvimentopessoal",
+      "#sucesso"
+    ],
+    "categoria": "inspirational",
+    "estimated_duration": 55,
+    "key_moments": [
+      "Hook impactante",
+      "Reflexão sobre postergação",
+      "Visualização do futuro",
+      "Chamada para ação diária"
+    ],
+    "music_style": "Música épica e inspiradora com batida forte",
+    "timestamp": "2025-08-02T08:54:39.074225",
+    "is_personalized": true,
+    "selected_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "main_category": "Reflexão",
+    "tone_applied": "motivational",
+    "voice_emotion": "enthusiastic",
+    "generation_type": "custom_message",
+    "ia_used": "gemini"
+  },
+  "prompts_usados": [
+    "Sprouting seed pushing through cracked earth, realistic, dramatic golden hour sunlight, close-up vertical shot emphasizing upward movement, hopeful and vibrant, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professiona...",
+    "Vibrant hot air balloon rising above a colorful landscape, realistic, dawn light with lens flare, vertical composition with the balloon centered, adventurous and inspiring, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio,...",
+    "A winding path leading to a distant, sunlit mountain peak, realistic, vibrant midday sun with long shadows, vertical panoramic view, challenging yet rewarding, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional...",
+    "A single key unlocking a complex, intricate clockwork mechanism, realistic, focused light highlighting the key and gears, detailed vertical close-up, empowering and transformative, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspec...",
+    "A colorful hummingbird hovering near a blossoming exotic flower, realistic, soft diffused light emphasizing the delicate details, vertical close-up with dynamic blurred motion, graceful and energetic, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette,..."
+  ]
+}

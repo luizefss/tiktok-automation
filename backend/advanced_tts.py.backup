@@ -1,0 +1,341 @@
+#//var/www/tiktok-automation/backend/advanced_tts.py
+"""
+advanced_tts.py - Sistema de TTS com Google Cloud e voz humanizada
+"""
+import os
+import logging
+from typing import Dict, Optional
+from google.cloud import texttospeech
+import soundfile as sf
+import numpy as np
+from scipy import signal
+import librosa
+import re
+from dotenv import load_dotenv
+
+# Configurar logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
+class AdvancedTTS:
+    def __init__(self):
+        load_dotenv()
+        
+        # Configurar credenciais do Google Cloud
+        credentials_path = os.getenv('GOOGLE_APPLICATION_CREDENTIALS', './service-account-key.json')
+        if os.path.exists(credentials_path):
+            os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credentials_path
+            logger.info(f"📁 Usando credenciais: {credentials_path}")
+        
+        try:
+            self.client = texttospeech.TextToSpeechClient()
+            logger.info("✅ Cliente do Google Cloud TTS inicializado.")
+        except Exception as e:
+            logger.error(f"❌ Falha ao inicializar cliente do TTS: {e}")
+            raise RuntimeError(
+                "Verifique se o arquivo service-account-key.json está configurado e as APIs estão habilitadas.")
+        
+        # AJUSTES PARA VOZ MAIS HUMANIZADA E NATURAL
+        self.voice_profiles = {
+            'mysterious': {
+                'speaking_rate': 1.05,  # Aumentado de 0.88 para ficar mais natural
+                'pitch': -2.5,          # Menos grave (era -2.5)
+                'volume_gain_db': 0.5,   # Volume normal
+                'voice_id': 'pt-BR-Neural2-B',  # Voz masculina mais natural
+                'gender': texttospeech.SsmlVoiceGender.MALE,
+                'effects': ['subtle_reverb']  # Reverb mais sutil
+            },
+            'dramatic': {
+                'speaking_rate': 1.02,   # Velocidade quase normal (era 0.94)
+                'pitch': -0.5,           # Ligeiramente mais grave
+                'volume_gain_db': 1.0,   # Um pouco mais alto
+                'voice_id': 'pt-BR-Neural2-A',  # Voz Neural2 mais natural
+                'gender': texttospeech.SsmlVoiceGender.MALE,
+                'effects': ['light_compression']
+            },
+            'serious': {
+                'speaking_rate': 1.0,    # Velocidade normal
+                'pitch': 0.0,            # Tom neutro
+                'volume_gain_db': 0.0,
+                'voice_id': 'pt-BR-Wavenet-C',
+                'gender': texttospeech.SsmlVoiceGender.MALE,
+                'effects': []
+            },
+            'inspiring': {
+                'speaking_rate': 1.08,   # Ligeiramente mais rápido (era 1.05)
+                'pitch': 1.0,            # Tom mais alto mas não exagerado (era 2.0)
+                'volume_gain_db': 1.0,
+                'voice_id': 'pt-BR-Neural2-B',  # Voz Neural2 feminina natural
+                'gender': texttospeech.SsmlVoiceGender.FEMALE,
+                'effects': ['warmth']     # Adiciona calor à voz
+            },
+            'conversational': {
+                'speaking_rate': 1.05,   # Velocidade de conversa natural
+                'pitch': 0.5,
+                'volume_gain_db': 0.0,
+                'voice_id': 'pt-BR-Wavenet-A',
+                'gender': texttospeech.SsmlVoiceGender.MALE,
+                'effects': []
+            }
+        }
+        
+        # Vozes alternativas para variedade
+        self.alternative_voices = {
+            'male': [
+                'pt-BR-Wavenet-B',    # Principal masculina
+                'pt-BR-Neural2-A',    # Neural masculina
+                'pt-BR-Wavenet-C',    # Alternativa masculina
+            ],
+            'female': [
+                'pt-BR-Neural2-B',    # Principal feminina
+                'pt-BR-Wavenet-A',    # Wavenet feminina (sim, A pode ser feminina)
+                'pt-BR-Wavenet-F',    # Alternativa feminina
+            ]
+        }
+
+    def generate_speech(self, text: str, output_path: str,
+                        emotion: str = "mysterious",
+                        voice_variation: bool = True) -> Optional[str]:
+        """
+        Gera áudio humanizado com variações naturais
+        
+        Args:
+            text: Texto para narração
+            output_path: Caminho do arquivo de saída
+            emotion: Tipo de emoção (mysterious, dramatic, serious, inspiring, conversational)
+            voice_variation: Se True, adiciona variações sutis para parecer mais humano
+        """
+        
+        profile = self.voice_profiles.get(emotion, self.voice_profiles['mysterious'])
+        
+        # Criar SSML com marcações humanizadas
+        ssml_text = self._create_humanized_ssml(text, emotion, voice_variation)
+        
+        synthesis_input = texttospeech.SynthesisInput(ssml=ssml_text)
+        
+        voice_config = texttospeech.VoiceSelectionParams(
+            language_code='pt-BR',
+            name=profile['voice_id'],
+            ssml_gender=profile['gender']
+        )
+        
+        # Configuração de áudio com ajustes para soar mais natural
+        audio_config = texttospeech.AudioConfig(
+            audio_encoding=texttospeech.AudioEncoding.MP3,
+            speaking_rate=profile['speaking_rate'],
+            pitch=profile['pitch'],
+            volume_gain_db=profile['volume_gain_db'],
+            # Adicionar efeitos de áudio do Google Cloud se disponíveis
+            effects_profile_id=['headphone-class-device']  # Otimizado para fones
+        )
+        
+        try:
+            logger.info(f"🎙️ Gerando áudio com emoção '{emotion}'...")
+            logger.info(f"   Velocidade: {profile['speaking_rate']}x")
+            logger.info(f"   Tom: {profile['pitch']} semitons")
+            logger.info(f"   Voz: {profile['voice_id']}")
+            
+            response = self.client.synthesize_speech(
+                input=synthesis_input,
+                voice=voice_config,
+                audio_config=audio_config
+            )
+            
+            # Garantir que o diretório existe
+            os.makedirs(os.path.dirname(output_path) if os.path.dirname(output_path) else '.', exist_ok=True)
+            
+            with open(output_path, 'wb') as audio_file:
+                audio_file.write(response.audio_content)
+            
+            # Aplicar efeitos sutis se necessário
+            if profile['effects'] and voice_variation:
+                self._apply_humanized_effects(output_path, profile['effects'])
+            
+            logger.info(f"✅ Áudio gerado com sucesso: {output_path}")
+            return output_path
+            
+        except Exception as e:
+            logger.error(f"❌ Erro ao gerar áudio: {e}")
+            return None
+
+    def _create_humanized_ssml(self, text: str, emotion: str, add_variations: bool = True) -> str:
+        """
+        Cria SSML humanizado com pausas naturais e variações sutis
+        """
+        ssml = '<speak>'
+        
+        # Dividir em parágrafos
+        paragraphs = text.split('\n\n')
+        
+        for i, para in enumerate(paragraphs):
+            para = para.strip()
+            if not para:
+                continue
+            
+            # Dividir em sentenças para aplicar variações
+            sentences = re.split(r'(?<=[.!?])\s+', para)
+            
+            for j, sentence in enumerate(sentences):
+                if not sentence:
+                    continue
+                
+                # Pausas mais naturais e curtas
+                sentence = sentence.replace('...', '<break time="600ms"/>')  # Era 1200ms
+                
+                # Detectar perguntas para ajustar entonação
+                is_question = '?' in sentence
+                
+                # Detectar exclamações para adicionar ênfase
+                is_exclamation = '!' in sentence
+                
+                # Ênfase natural para palavras em MAIÚSCULAS
+                emphasized = re.findall(r'\b[A-Z]{2,}\b', sentence)
+                for word in emphasized:
+                    # Usar ênfase moderada ao invés de forte
+                    sentence = sentence.replace(
+                        word, f'<emphasis level="moderate">{word.capitalize()}</emphasis>')
+                
+                # Adicionar vírgulas naturais (pausas muito curtas)
+                sentence = sentence.replace(',', ',<break time="200ms"/>')
+                
+                # Variações sutis de velocidade e tom para cada sentença
+                if add_variations:
+                    # Pequenas variações aleatórias para parecer mais humano
+                    import random
+                    rate_variation = random.uniform(-0.05, 0.05)  # ±5% de variação
+                    pitch_variation = random.uniform(-0.5, 0.5)   # ±0.5 semitons
+                else:
+                    rate_variation = 0
+                    pitch_variation = 0
+                
+                # Ajustar prosódia baseado na emoção e tipo de sentença
+                if emotion == "mysterious":
+                    if is_question:
+                        # Perguntas misteriosas sobem no final
+                        ssml += f'<prosody rate="{98 + rate_variation}%" pitch="+{1 + pitch_variation}st">{sentence}</prosody>'
+                    else:
+                        ssml += f'<prosody rate="{98 + rate_variation}%" pitch="-{1 - pitch_variation}st">{sentence}</prosody>'
+                        
+                elif emotion == "dramatic":
+                    if is_exclamation:
+                        # Exclamações dramáticas com mais intensidade
+                        ssml += f'<prosody rate="{105 + rate_variation}%" pitch="+{1 + pitch_variation}st" volume="+2dB">{sentence}</prosody>'
+                    else:
+                        ssml += f'<prosody rate="{102 + rate_variation}%" pitch="-{0.5 - pitch_variation}st">{sentence}</prosody>'
+                        
+                elif emotion == "inspiring":
+                    # Tom inspirador crescente
+                    if j == len(sentences) - 1:  # Última sentença do parágrafo
+                        ssml += f'<prosody rate="{110 + rate_variation}%" pitch="+{2 + pitch_variation}st" volume="+1dB">{sentence}</prosody>'
+                    else:
+                        ssml += f'<prosody rate="{108 + rate_variation}%" pitch="+{1 + pitch_variation}st">{sentence}</prosody>'
+                        
+                elif emotion == "conversational":
+                    # Tom conversacional natural
+                    ssml += f'<prosody rate="{105 + rate_variation}%" pitch="+{0.5 + pitch_variation}st">{sentence}</prosody>'
+                    
+                else:  # serious ou default
+                    ssml += f'<prosody rate="{100 + rate_variation}%" pitch="{pitch_variation}st">{sentence}</prosody>'
+                
+                # Pausa natural entre sentenças (mais curta que antes)
+                if j < len(sentences) - 1:
+                    ssml += '<break time="300ms"/>'  # Era 500ms
+            
+            # Pausa entre parágrafos (mais curta)
+            if i < len(paragraphs) - 1:
+                ssml += '<break time="500ms"/>'  # Era 600ms
+        
+        ssml += '</speak>'
+        return ssml
+
+    def _apply_humanized_effects(self, audio_path: str, effects: list):
+        """
+        Aplica efeitos sutis para humanizar o áudio
+        """
+        try:
+            # Carregar áudio
+            audio, sr = librosa.load(audio_path, sr=None)
+            
+            for effect in effects:
+                if effect == 'subtle_reverb':
+                    # Reverb muito sutil para adicionar espaço
+                    impulse = np.zeros(int(0.05 * sr))  # Reverb mais curto
+                    impulse[0] = 1
+                    for i in range(1, 3):  # Menos reflexões
+                        impulse[int(i * 0.01 * sr)] = 0.3 ** i
+                    audio = signal.convolve(audio, impulse, mode='same')
+                    
+                elif effect == 'light_compression':
+                    # Compressão suave para uniformizar volume
+                    threshold = 0.7
+                    ratio = 2  # Ratio mais suave
+                    audio = np.where(
+                        np.abs(audio) > threshold,
+                        threshold + (audio - threshold) / ratio,
+                        audio
+                    )
+                    
+                elif effect == 'warmth':
+                    # Adiciona calor com boost suave nos médios
+                    sos = signal.butter(2, [200, 2000], 'band', fs=sr, output='sos')
+                    mid_freq = signal.sosfilt(sos, audio)
+                    audio = audio + (mid_freq * 0.1)  # Boost muito sutil
+                    
+                elif effect == 'low_pass':
+                    # Filtro passa-baixa suave
+                    sos = signal.butter(4, 4000, 'low', fs=sr, output='sos')  # Frequência mais alta
+                    audio = signal.sosfilt(sos, audio)
+                    
+                elif effect == 'brightness':
+                    # Adiciona brilho sutil
+                    sos = signal.butter(2, 6000, 'high', fs=sr, output='sos')
+                    high_freq = signal.sosfilt(sos, audio)
+                    audio = audio + (high_freq * 0.1)  # Boost muito sutil
+            
+            # Normalizar mantendo dinâmica
+            max_val = np.max(np.abs(audio))
+            if max_val > 0:
+                audio = audio * (0.95 / max_val)  # Deixar um pouco de headroom
+            
+            # Salvar áudio processado
+            sf.write(audio_path, audio, sr)
+            logger.info("✅ Efeitos humanizados aplicados ao áudio")
+            
+        except Exception as e:
+            logger.warning(f"⚠️ Não foi possível aplicar efeitos: {e}")
+
+
+def test_tts():
+    """Função de teste do TTS humanizado"""
+    print("\n" + "="*60)
+    print("🎙️ TESTE DO TTS HUMANIZADO")
+    print("="*60 + "\n")
+    
+    tts = AdvancedTTS()
+    
+    # Texto de teste com diferentes emoções
+    test_text = """
+    Você já se perguntou sobre os mistérios do universo?
+    
+    Hoje vamos explorar algo INCRÍVEL... Prepare-se para uma jornada fascinante!
+    
+    A verdade pode ser mais surpreendente do que você imagina.
+    """
+    
+    # Testar diferentes emoções
+    emotions = ['mysterious', 'dramatic', 'conversational']
+    
+    for emotion in emotions:
+        output = f"test_audio_{emotion}.mp3"
+        print(f"Gerando áudio com emoção: {emotion}")
+        result = tts.generate_speech(test_text, output, emotion=emotion)
+        if result:
+            print(f"✅ Áudio salvo: {output}")
+        else:
+            print(f"❌ Falha ao gerar áudio {emotion}")
+        print("-"*40)
+
+
+if __name__ == "__main__":
+    test_tts()

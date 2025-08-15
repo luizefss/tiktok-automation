@@ -1,0 +1,331 @@
+# /var/www/tiktok-automation/backend/services/tts_service.py
+
+import os
+import sys
+import logging
+import re
+from datetime import datetime
+from typing import Dict, Any, List, Optional
+from dotenv import load_dotenv
+from google.cloud import texttospeech
+from google.oauth2 import service_account
+import google.generativeai as genai
+from pydub import AudioSegment
+from pydub.effects import normalize
+
+# Adiciona o diretório raiz ao path para importar o TTS enhanced
+current_dir = os.path.dirname(os.path.abspath(__file__))
+backend_dir = os.path.dirname(current_dir)
+sys.path.insert(0, backend_dir)
+
+from google_ai_studio_tts_enhanced import GoogleAIStudioTTSEnhanced
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+class TTSService:
+    def __init__(self):
+        load_dotenv()
+        self.setup_credentials()
+        
+        # Diretórios
+        self.audio_dir = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)),
+            "..", "..", "media", "audio"
+        )
+        os.makedirs(self.audio_dir, exist_ok=True)
+
+        # Configurações de vozes
+        self.voice_mapping = self._setup_voice_mapping()
+        self.emotion_configs = self._setup_emotion_configs()
+        
+        logger.info("✅ TTS Service inicializado")
+
+    def setup_credentials(self):
+        """Configura credenciais do Google Cloud"""
+        try:
+            service_account_path = os.path.join(
+                os.path.dirname(os.path.dirname(__file__)), 
+                'service-account-key.json'
+            )
+            
+            if os.path.exists(service_account_path):
+                self.credentials = service_account.Credentials.from_service_account_file(
+                    service_account_path
+                )
+                self.tts_client = texttospeech.TextToSpeechClient(credentials=self.credentials)
+                
+                # Configurar Gemini para análise de emoções
+                genai.configure(credentials=self.credentials)
+                self.gemini_model = genai.GenerativeModel('gemini-1.5-flash')
+                
+                logger.info("✅ Credenciais Google Cloud configuradas")
+            else:
+                logger.error("❌ Arquivo service-account-key.json não encontrado")
+                self.tts_client = None
+                self.gemini_model = None
+                
+        except Exception as e:
+            logger.error(f"❌ Erro ao configurar credenciais: {e}")
+            self.tts_client = None
+            self.gemini_model = None
+
+    def _setup_voice_mapping(self) -> Dict[str, Dict[str, Any]]:
+        """Configuração completa de vozes brasileiras"""
+        return {
+            "mulher_nova_carioca": {
+                "name": "pt-BR-FranciscaNeural",
+                "language_code": "pt-BR",
+                "ssml_gender": texttospeech.SsmlVoiceGender.FEMALE,
+                "description": "Mulher jovem, sotaque carioca suave",
+                "speaking_rate": 1.1,
+                "pitch": 2.0
+            },
+            "homem_maduro_paulista": {
+                "name": "pt-BR-AntonioNeural", 
+                "language_code": "pt-BR",
+                "ssml_gender": texttospeech.SsmlVoiceGender.MALE,
+                "description": "Homem maduro, sotaque paulista",
+                "speaking_rate": 1.0,
+                "pitch": -1.0
+            },
+            "mulher_madura_mineira": {
+                "name": "pt-BR-BrendaNeural",
+                "language_code": "pt-BR", 
+                "ssml_gender": texttospeech.SsmlVoiceGender.FEMALE,
+                "description": "Mulher madura, sotaque mineiro",
+                "speaking_rate": 0.95,
+                "pitch": 0.5
+            },
+            "homem_jovem_nordestino": {
+                "name": "pt-BR-DonatoNeural",
+                "language_code": "pt-BR",
+                "ssml_gender": texttospeech.SsmlVoiceGender.MALE, 
+                "description": "Homem jovem, sotaque nordestino",
+                "speaking_rate": 1.05,
+                "pitch": 1.0
+            }
+        }
+
+    def _setup_emotion_configs(self) -> Dict[str, Dict[str, Any]]:
+        """Configurações de emoções para SSML"""
+        return {
+            "neutro": {"rate": "1.0", "pitch": "0.0", "volume": "0.0"},
+            "empolgado": {"rate": "1.2", "pitch": "+3.0", "volume": "+2.0"},
+            "calmo": {"rate": "0.9", "pitch": "-1.0", "volume": "-1.0"},
+            "misterioso": {"rate": "0.8", "pitch": "-2.0", "volume": "-2.0"},
+            "animado": {"rate": "1.15", "pitch": "+2.0", "volume": "+1.0"},
+            "reflexivo": {"rate": "0.85", "pitch": "-0.5", "volume": "-0.5"}
+        }
+
+    def generate_audio_sync(self, script: str, voice_style: str = "mulher_nova_carioca") -> Optional[str]:
+        """
+        Versão síncrona da geração de áudio para usar em Flask
+        
+        Args:
+            script: Roteiro com marcações de emoção
+            voice_style: Estilo de voz a ser usado
+            
+        Returns:
+            Caminho para o arquivo de áudio gerado
+        """
+        if not self.tts_client:
+            logger.error("❌ Cliente TTS não inicializado")
+            return None
+
+        try:
+            # Converter para SSML básico (sem análise de emoção assíncrona)
+            ssml_text = self._convert_to_ssml_simple(script, voice_style)
+            
+            # Configurar voz
+            voice_config = self.voice_mapping.get(voice_style, self.voice_mapping["mulher_nova_carioca"])
+            
+            voice = texttospeech.VoiceSelectionParams(
+                language_code=voice_config["language_code"],
+                name=voice_config["name"],
+                ssml_gender=voice_config["ssml_gender"]
+            )
+
+            # Configurações de áudio
+            audio_config = texttospeech.AudioConfig(
+                audio_encoding=texttospeech.AudioEncoding.MP3,
+                speaking_rate=voice_config["speaking_rate"],
+                pitch=voice_config["pitch"]
+            )
+
+            # Gerar áudio
+            synthesis_input = texttospeech.SynthesisInput(ssml=ssml_text)
+            
+            response = self.tts_client.synthesize_speech(
+                input=synthesis_input,
+                voice=voice, 
+                audio_config=audio_config
+            )
+
+            # Salvar arquivo
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            filename = f"audio_{voice_style}_{timestamp}.mp3"
+            filepath = os.path.join(self.audio_dir, filename)
+            
+            with open(filepath, "wb") as out:
+                out.write(response.audio_content)
+            
+            # Pós-processamento com pydub
+            audio = AudioSegment.from_mp3(filepath)
+            audio = normalize(audio)
+            audio.export(filepath, format="mp3")
+            
+            logger.info(f"✅ Áudio gerado: {filepath}")
+            return filepath
+            
+        except Exception as e:
+            logger.error(f"❌ Erro ao gerar áudio: {e}")
+            return None
+
+    def _convert_to_ssml_simple(self, script: str, voice_style: str) -> str:
+        """Converte script para SSML de forma simples (síncrona)"""
+        # Limpar marcações existentes
+        clean_script = re.sub(r'\[.*?\]', '', script)
+        
+        # Configuração emocional baseada no voice_style
+        emotion_config = self.emotion_configs.get("neutro", {"rate": "1.0", "pitch": "0.0", "volume": "0.0"})
+        
+        # Criar SSML
+        ssml = f"""
+        <speak>
+            <prosody rate="{emotion_config['rate']}" pitch="{emotion_config['pitch']}" volume="{emotion_config['volume']}">
+                {clean_script}
+            </prosody>
+        </speak>
+        """
+        
+        return ssml.strip()
+
+    async def generate_audio(self, script: str, voice_style: str = "mulher_nova_carioca") -> Optional[str]:
+        """
+        Gera áudio a partir do roteiro usando TTS avançado
+        
+        Args:
+            script: Roteiro com marcações de emoção
+            voice_style: Estilo de voz a ser usado
+            
+        Returns:
+            Caminho para o arquivo de áudio gerado
+        """
+        if not self.tts_client:
+            logger.error("❌ Cliente TTS não inicializado")
+            return None
+
+        try:
+            # Analisar emoções no script
+            analyzed_script = await self._analyze_emotions(script)
+            
+            # Converter para SSML
+            ssml_text = self._convert_to_ssml(analyzed_script, voice_style)
+            
+            # Configurar voz
+            voice_config = self.voice_mapping.get(voice_style, self.voice_mapping["mulher_nova_carioca"])
+            
+            voice = texttospeech.VoiceSelectionParams(
+                language_code=voice_config["language_code"],
+                name=voice_config["name"],
+                ssml_gender=voice_config["ssml_gender"]
+            )
+
+            # Configurações de áudio
+            audio_config = texttospeech.AudioConfig(
+                audio_encoding=texttospeech.AudioEncoding.MP3,
+                speaking_rate=voice_config["speaking_rate"],
+                pitch=voice_config["pitch"]
+            )
+
+            # Gerar áudio
+            synthesis_input = texttospeech.SynthesisInput(ssml=ssml_text)
+            
+            response = self.tts_client.synthesize_speech(
+                input=synthesis_input,
+                voice=voice, 
+                audio_config=audio_config
+            )
+
+            # Salvar arquivo
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            filename = f"audio_{voice_style}_{timestamp}.mp3"
+            filepath = os.path.join(self.audio_dir, filename)
+            
+            with open(filepath, "wb") as out:
+                out.write(response.audio_content)
+            
+            # Pós-processamento com pydub
+            audio = AudioSegment.from_mp3(filepath)
+            audio = normalize(audio)
+            audio.export(filepath, format="mp3")
+            
+            logger.info(f"✅ Áudio gerado: {filepath}")
+            return filepath
+            
+        except Exception as e:
+            logger.error(f"❌ Erro ao gerar áudio: {e}")
+            return None
+
+    async def _analyze_emotions(self, script: str) -> str:
+        """Analisa emoções no script usando Gemini"""
+        if not self.gemini_model:
+            return script
+            
+        try:
+            prompt = f"""
+            Analise o seguinte roteiro e adicione marcações de emoção em pontos estratégicos:
+            
+            {script}
+            
+            Adicione marcações como [empolgado], [calmo], [misterioso], [animado], [reflexivo] nos pontos apropriados.
+            Mantenha o texto original e apenas adicione as marcações de emoção.
+            """
+            
+            response = self.gemini_model.generate_content(prompt)
+            if response and response.text:
+                return response.text
+                
+        except Exception as e:
+            logger.error(f"❌ Erro na análise de emoções: {e}")
+            
+        return script
+
+    def _convert_to_ssml(self, text: str, voice_style: str) -> str:
+        """Converte texto com marcações para SSML"""
+        # Substituir marcações de emoção por SSML
+        ssml = text
+        
+        # Processar marcações de emoção
+        for emotion, config in self.emotion_configs.items():
+            pattern = f"\\[{emotion}\\]"
+            replacement = f'<prosody rate="{config["rate"]}" pitch="{config["pitch"]}" volume="{config["volume"]}">'
+            ssml = re.sub(pattern, replacement, ssml)
+        
+        # Fechar tags prosody
+        ssml = re.sub(r'\[/\w+\]', '</prosody>', ssml)
+        
+        # Adicionar quebras e pausas
+        ssml = re.sub(r'\[pausa (\d+)s\]', r'<break time="\1s"/>', ssml)
+        ssml = re.sub(r'\[pausa\]', '<break time="1s"/>', ssml)
+        
+        # Envolver em SSML
+        ssml = f'<speak>{ssml}</speak>'
+        
+        return ssml
+
+    def get_available_voices(self) -> List[Dict[str, Any]]:
+        """Retorna lista de vozes disponíveis"""
+        voices = []
+        for voice_id, config in self.voice_mapping.items():
+            voices.append({
+                "id": voice_id,
+                "name": config["description"],
+                "language": "pt-BR",
+                "gender": "feminino" if config["ssml_gender"] == texttospeech.SsmlVoiceGender.FEMALE else "masculino"
+            })
+        return voices
+
+# Instância global do serviço
+tts_service = TTSService()

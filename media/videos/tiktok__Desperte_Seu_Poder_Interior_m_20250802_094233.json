@@ -1,0 +1,83 @@
+{
+  "success": true,
+  "video_file": "/var/www/tiktok-automation/media/videos/tiktok__Desperte_Seu_Poder_Interior_m_20250802_094233.mp4",
+  "size_mb": 4.565760612487793,
+  "duration": 48.024,
+  "images_count": 5,
+  "type": "normal",
+  "created_at": "2025-08-02T09:43:34.544081",
+  "settings_used": {
+    "content_ai_model": "gemini",
+    "content_type": "custom_message",
+    "custom_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "message_categories": [
+      "Motivação",
+      "Conhecimento",
+      "Reflexão"
+    ],
+    "tone": "motivational",
+    "image_style": "realistic",
+    "color_palette": "vibrant",
+    "animation_type": "parallax",
+    "voice_emotion": "enthusiastic",
+    "speaking_speed": 1.05,
+    "use_topmedia_ai": false,
+    "background_music": true,
+    "background_music_volume": 0.1,
+    "video_duration": 60,
+    "transitions": "smooth",
+    "text_overlay": true,
+    "custom_prompt_roteiro": "Crie um roteiro viral e impactante para TikTok com foco em {tema} e tom {tom}.",
+    "custom_prompt_imagem": "Cena visualmente impressionante para vídeo vertical, no estilo {estilo_imagem} com paleta {paleta_cores}, sem texto ou pessoas."
+  },
+  "generation_type": "custom_message",
+  "estimated_metrics": {
+    "engagement_score": 8.8,
+    "viral_potential": 6.5,
+    "audience_match": 8.506616824307141
+  },
+  "roteiro": {
+    "titulo": "🚀 Desperte Seu Poder Interior! 💪 #mindset",
+    "hook": "Pare de esperar pelo futuro perfeito e comece a CRIAR ele AGORA!",
+    "roteiro_completo": "Pare de esperar pelo futuro perfeito e comece a CRIAR ele AGORA! (pausa) Quantas vezes você já se pegou adiando seus sonhos, esperando o momento \"certo\"?  (pausa)  A verdade é: o momento certo é *AGORA*!  (ênfase) Você tem dentro de si um poder *INCRÍVEL*, uma força capaz de transformar seus sonhos em realidade! (pausa)  Não deixe que o medo ou a insegurança te paralisem. (pausa) Comece pequeno, um passo de cada vez.  (pausa)  Celebre cada conquista, por menor que seja!  (pausa)  Lembre-se: a jornada para o sucesso não é linear, haverá desafios, mas é superando esses desafios que você se tornará mais forte, mais resiliente, mais *PODEROSO*! (ênfase)  Acredite em si mesmo, no seu potencial, na sua capacidade de realizar coisas *EXTRAORDINÁRIAS*! (ênfase) Qual o primeiro passo que você vai dar *HOJE* para criar o futuro que você merece? Compartilha nos comentários!",
+    "message_core": "Desperte seu poder interior e comece a construir o futuro que você deseja, hoje!",
+    "call_to_action": "Compartilhe nos comentários o primeiro passo que você dará HOJE para alcançar seus sonhos! E marque um amigo que precisa ouvir essa mensagem!",
+    "hashtags": [
+      "#motivacao",
+      "#mindset",
+      "#inspiracao",
+      "#sucesso",
+      "#desenvolvimentopessoal"
+    ],
+    "categoria": "inspirational",
+    "estimated_duration": 55,
+    "key_moments": [
+      "Hook impactante",
+      "Reflexão sobre adiar sonhos",
+      "Chamada para ação e empoderamento",
+      "Incentivo à ação e compartilhamento"
+    ],
+    "music_style": "Música épica e inspiradora com batida forte",
+    "timestamp": "2025-08-02T09:41:42.053610",
+    "is_personalized": true,
+    "selected_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "main_category": "Reflexão",
+    "tone_applied": "motivational",
+    "voice_emotion": "enthusiastic",
+    "generation_type": "custom_message",
+    "ia_used": "gemini"
+  },
+  "prompts_usados": [
+    "Sprouting seed pushing through cracked earth, realistic, dramatic golden hour sunlight, close-up vertical shot emphasizing upward growth, hopeful and vibrant, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional ...",
+    "Vibrant hummingbird wings mid-air frozen in motion, realistic, colorful backlighting with bokeh, dynamic asymmetrical composition, energetic and inspiring, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional com...",
+    "Colorful hot air balloon rising above a vibrant landscape, realistic, dawn light casting long shadows, vertical panoramic view with depth of field, adventurous and uplifting, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect rati...",
+    "A single vibrant flower blooming in the middle of a harsh desert, realistic, intense midday sunlight with strong contrast, centered composition with negative space, resilient and determined, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vert...",
+    "Waterfall cascading down a cliff face into a crystal clear pool, realistic, soft diffused light filtering through lush foliage, vertical composition emphasizing height and movement, powerful and invigorating, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic ..."
+  ]
+}

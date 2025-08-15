@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "video_file": "/var/www/tiktok-automation/media/videos/tiktok_A_ÁRVORE_QUE_PODE_TE_MATAR_SÓ__fallback_20250805_075702.mp4",
+  "size_mb": 5.108969688415527,
+  "duration": 75.504,
+  "images_count": 1,
+  "type": "fallback",
+  "created_at": "2025-08-05T07:58:06.483484",
+  "settings_used": {
+    "custom_topics": [
+      "A história secreta da Estátua da Liberdade"
+    ],
+    "voice_emotion": "dramatic",
+    "image_style": "cinematic"
+  },
+  "generation_type": "personalized",
+  "estimated_metrics": {
+    "engagement_score": 7.3,
+    "viral_potential": 6.0,
+    "audience_match": 9.088953893118994
+  },
+  "roteiro": {
+    "titulo": "A ÁRVORE QUE PODE TE MATAR SÓ DE FICAR EMBAIXO DELA! 😱🌳",
+    "hook": "Essa árvore é tão venenosa que até a CHUVA que cai dela pode te matar!",
+    "roteiro_completo": "CENA 1 (0-3s): [Close no rosto com expressão chocada] 'Essa árvore é tão venenosa que até a CHUVA que cai dela pode te matar!' [Transição rápida com zoom]\n\nCENA 2 (3-15s): [Mostra imagens da Manchineel Tree] 'Gente, essa é a Manchineel, conhecida como a ÁRVORE MAIS PERIGOSA DO MUNDO! Ela fica no Caribe e...' [Pausa dramática] 'É literalmente um veneno ambulante!'\n\nCENA 3 (15-35s): [Gestos expressivos] 'Escuta só que LOUCURA: Se você encostar na casca, sua pele QUEIMA! Se pingar uma gota da seiva no seu olho, você pode ficar CEGO! E se você for esperto de comer a frutinha...' [Faz gesto de 'morreu'] 'Era uma vez você!'\n\nCENA 4 (35-50s): [Tom mais sério mas ainda entusiástico] 'Os nativos do Caribe usavam essa parada pra envenenar FLECHAS! E olha que doido: ela tem placas de AVISO porque turista não sabe né?'\n\nCENA 5 (50-60s): [Volta pro close] 'Moral da história: se você ver uma dessas, CORRE! E me segue pra mais curiosidades INSANAS! Comenta aí: você teria coragem de chegar perto?' [Aponta pra tela]",
+    "hashtags": [
+      "#viral",
+      "#curiosidades",
+      "#fyp",
+      "#arvoreperigosa",
+      "#facts",
+      "#brasil",
+      "#natureza",
+      "#scary",
+      "#conhecimento",
+      "#trending"
+    ],
+    "categoria": "curiosidades",
+    "ia_used": "Claude 4 Sonnet",
+    "timestamp": "2025-08-05T07:56:16.790457"
+  },
+  "prompts_usados": [
+    "Gota de seiva caindo e queimando uma folha, cinematic, iluminação dramática com foco na gota, close-up com profundidade de campo rasa, atmosfera tóxica e perigosa, dramatic shadows, golden hour, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional...",
+    "Raízes de árvore brilhantes e pulsantes se espalhando pelo solo, cinematic, iluminação neon vibrante, visão de cima com ângulo holandês, atmosfera surreal e ameaçadora, dramatic shadows, golden hour, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, profess...",
+    "Fruto da Manchineel brilhando intensamente em um galho, cinematic, iluminação crepuscular com contraluz, composição diagonal com foco no fruto, atmosfera misteriosa e sinistra, dramatic shadows, golden hour, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio,...",
+    "Tempestade com chuva ácida caindo sobre uma floresta escura, cinematic, iluminação com raios e relâmpagos, grande angular com perspectiva forçada, atmosfera apocalíptica e opressiva, dramatic shadows, golden hour, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ...",
+    "Silhueta de uma árvore contra um céu vibrante e tóxico, cinematic, iluminação de pôr do sol com cores saturadas, composição minimalista com espaço negativo, atmosfera solitária e venenosa, dramatic shadows, golden hour, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical a..."
+  ]
+}

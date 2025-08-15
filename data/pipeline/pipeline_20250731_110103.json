@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-07-31T11:01:03.077935",
+  "roteiro": {
+    "titulo": "🚀 Invenções Espaciais INACREDITÁVEIS! 🤯",
+    "hook": "Já imaginou viver SEM GPS?!",
+    "roteiro_completo": "[Cena: Tela dividida com um mapa antigo de papel e um smartphone mostrando um GPS moderno] (Voz animada e rápida): Já imaginou viver SEM GPS?!  Impossível, né? Mas foi a corrida espacial que tornou isso realidade! [Cena: Foguete decolando] (Voz informativa):  Nos anos 60, pra navegar no espaço, a NASA precisava de precisão EXTREMA.  Isso levou à criação do sistema de satélites que hoje usamos pra TUDO, do Waze à previsão do tempo. [Cena: Satélite orbitando a Terra, com zoom em um painel solar] (Voz impressionada): Mas o mais incrível? Os primeiros painéis solares, usados pra alimentar esses satélites, foram a base da energia solar que a gente usa HOJE em casa!  De viagens espaciais a energia limpa, a exploração do espaço mudou nossas vidas pra SEMPRE! [Cena: Astronauta acenando da Estação Espacial Internacional] (Voz entusiasmada): Qual dessas invenções você acha mais impactante? Conta aqui nos comentários! 👇 E não esquece de seguir pra mais curiosidades espaciais!",
+    "hashtags": [
+      "#viral",
+      "#espaço",
+      "#curiosidades",
+      "#aprendanotiktok",
+      "#nasa",
+      "#tecnologia"
+    ],
+    "categoria": "espaço",
+    "topico_original": "invenções que mudaram tudo",
+    "timestamp": "2025-07-31T10:53:26.108753"
+  },
+  "audio_file": "../media/audio/audio_google_20250731_105329.mp3",
+  "images": [
+    "../media/images/picsum_abstract_0_105329_20250731_105333.jpg",
+    "../media/images/picsum_abstract_1_105333_20250731_105334.jpg",
+    "../media/images/picsum_abstract_2_105334_20250731_105339.jpg",
+    "../media/images/picsum_colorful_0_105339_20250731_105341.jpg",
+    "../media/images/picsum_colorful_2_105344_20250731_105348.jpg"
+  ],
+  "video": {
+    "success": true,
+    "video_file": "../media/videos/tiktok__Invenções_Espaciais_INACREDIT_20250731_105348.mp4",
+    "size_mb": 2.5669946670532227,
+    "duration": 45.216,
+    "images_count": 5,
+    "roteiro": {
+      "titulo": "🚀 Invenções Espaciais INACREDITÁVEIS! 🤯",
+      "hook": "Já imaginou viver SEM GPS?!",
+      "roteiro_completo": "[Cena: Tela dividida com um mapa antigo de papel e um smartphone mostrando um GPS moderno] (Voz animada e rápida): Já imaginou viver SEM GPS?!  Impossível, né? Mas foi a corrida espacial que tornou isso realidade! [Cena: Foguete decolando] (Voz informativa):  Nos anos 60, pra navegar no espaço, a NASA precisava de precisão EXTREMA.  Isso levou à criação do sistema de satélites que hoje usamos pra TUDO, do Waze à previsão do tempo. [Cena: Satélite orbitando a Terra, com zoom em um painel solar] (Voz impressionada): Mas o mais incrível? Os primeiros painéis solares, usados pra alimentar esses satélites, foram a base da energia solar que a gente usa HOJE em casa!  De viagens espaciais a energia limpa, a exploração do espaço mudou nossas vidas pra SEMPRE! [Cena: Astronauta acenando da Estação Espacial Internacional] (Voz entusiasmada): Qual dessas invenções você acha mais impactante? Conta aqui nos comentários! 👇 E não esquece de seguir pra mais curiosidades espaciais!",
+      "hashtags": [
+        "#viral",
+        "#espaço",
+        "#curiosidades",
+        "#aprendanotiktok",
+        "#nasa",
+        "#tecnologia"
+      ],
+      "categoria": "espaço",
+      "topico_original": "invenções que mudaram tudo",
+      "timestamp": "2025-07-31T10:53:26.108753"
+    },
+    "status": "Aguardando Revisão"
+  },
+  "status": "completed"
+}

@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-07-31T11:01:52.642236",
+  "roteiro": {
+    "titulo": "🔮 Tecnologias Mágicas? 🤯 #misterios",
+    "hook": "Já pensou em teletransportar objetos? 🤔",
+    "roteiro_completo": "[Cena: Close em um smartphone transmitindo dados] (Voz em tom de mistério): Já pensou em teletransportar objetos? Parece mágica, né? Mas é ciência!  [Cena: Animação de um objeto se desmaterializando e reaparecendo em outro lugar] (Voz animada): O teletransporte quântico, ainda em estágio inicial, permite transferir informações de uma partícula para outra INSTANTANEAMENTE, a quilômetros de distância! [Cena: Zoom em uma partícula brilhando] (Voz impressionada):  Imagine as possibilidades! Teletransportar remédios para áreas remotas, criar redes de comunicação ultra-rápidas... é o futuro batendo na nossa porta.  [Cena: Fundo com a pergunta: \"Qual tecnologia te impressiona mais?\"] (Voz entusiasmada):  Comenta aqui embaixo qual tecnologia te impressiona mais!  E me segue para mais mistérios da ciência!",
+    "hashtags": [
+      "#viral",
+      "#misterios",
+      "#tecnologia",
+      "#ciencia",
+      "#quantico",
+      "#aprendanotiktok",
+      "#magica"
+    ],
+    "categoria": "misterios",
+    "topico_original": "tecnologias que parecem mágica",
+    "timestamp": "2025-07-31T10:53:43.019003"
+  },
+  "audio_file": "../media/audio/audio_google_20250731_105345.mp3",
+  "images": [
+    "../media/images/picsum_mystery_0_105345_20250731_105349.jpg",
+    "../media/images/picsum_mystery_1_105349_20250731_105350.jpg",
+    "../media/images/picsum_mystery_2_105350_20250731_105351.jpg",
+    "../media/images/picsum_dark_0_105351_20250731_105355.jpg",
+    "../media/images/picsum_dark_1_105355_20250731_105401.jpg"
+  ],
+  "video": {
+    "success": true,
+    "video_file": "../media/videos/tiktok__Tecnologias_Mágicas_misterios_20250731_105404.mp4",
+    "size_mb": 1.7524137496948242,
+    "duration": 32.928,
+    "images_count": 5,
+    "roteiro": {
+      "titulo": "🔮 Tecnologias Mágicas? 🤯 #misterios",
+      "hook": "Já pensou em teletransportar objetos? 🤔",
+      "roteiro_completo": "[Cena: Close em um smartphone transmitindo dados] (Voz em tom de mistério): Já pensou em teletransportar objetos? Parece mágica, né? Mas é ciência!  [Cena: Animação de um objeto se desmaterializando e reaparecendo em outro lugar] (Voz animada): O teletransporte quântico, ainda em estágio inicial, permite transferir informações de uma partícula para outra INSTANTANEAMENTE, a quilômetros de distância! [Cena: Zoom em uma partícula brilhando] (Voz impressionada):  Imagine as possibilidades! Teletransportar remédios para áreas remotas, criar redes de comunicação ultra-rápidas... é o futuro batendo na nossa porta.  [Cena: Fundo com a pergunta: \"Qual tecnologia te impressiona mais?\"] (Voz entusiasmada):  Comenta aqui embaixo qual tecnologia te impressiona mais!  E me segue para mais mistérios da ciência!",
+      "hashtags": [
+        "#viral",
+        "#misterios",
+        "#tecnologia",
+        "#ciencia",
+        "#quantico",
+        "#aprendanotiktok",
+        "#magica"
+      ],
+      "categoria": "misterios",
+      "topico_original": "tecnologias que parecem mágica",
+      "timestamp": "2025-07-31T10:53:43.019003"
+    },
+    "status": "Aguardando Revisão"
+  },
+  "status": "completed"
+}

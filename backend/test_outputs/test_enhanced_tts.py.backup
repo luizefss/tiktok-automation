@@ -1,0 +1,203 @@
+#!/usr/bin/env python3
+# /var/www/tiktok-automation/backend/test_enhanced_tts.py
+
+"""
+Script de teste para o Google Cloud TTS Enhanced
+Demonstra todas as funcionalidades baseadas na documentação oficial
+"""
+
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+from google_ai_studio_tts_enhanced import GoogleAIStudioTTSEnhanced
+import json
+
+def test_voice_listing():
+    """Testa listagem de vozes disponíveis"""
+    print("🔍 Testando listagem de vozes...")
+    
+    tts = GoogleAIStudioTTSEnhanced()
+    voices = tts.list_available_voices()
+    
+    print(f"✅ Encontradas {len(voices)} vozes para pt-BR:")
+    for voice in voices[:5]:  # Mostra apenas as primeiras 5
+        print(f"   - {voice['name']} ({voice['ssml_gender']})")
+    
+    return len(voices) > 0
+
+def test_emotion_analysis():
+    """Testa análise avançada de emoções"""
+    print("\n🧠 Testando análise de emoções...")
+    
+    tts = GoogleAIStudioTTSEnhanced()
+    
+    test_texts = [
+        "Que história incrível e emocionante!",
+        "Algo estranho aconteceu naquela noite escura...",
+        "Estou muito feliz com este resultado!",
+        "Vamos descobrir juntos este mistério fascinante."
+    ]
+    
+    for text in test_texts:
+        emotions = tts.analyze_text_emotions_advanced(text)
+        print(f"   Texto: '{text[:30]}...'")
+        for segment, emotion, intensity in emotions:
+            print(f"     → Emoção: {emotion} (intensidade: {intensity:.1f})")
+    
+    return True
+
+def test_voice_recommendation():
+    """Testa recomendação de voz"""
+    print("\n🎯 Testando recomendação de voz...")
+    
+    tts = GoogleAIStudioTTSEnhanced()
+    
+    test_cases = [
+        ("Bem-vindos ao nosso canal educativo sobre ciência!", "estudantes"),
+        ("Descubra os segredos mais profundos deste mistério...", "adultos"),
+        ("Olá crianças! Vamos aprender brincando!", "crianças"),
+        ("Apresento os resultados do nosso relatório trimestral.", "profissionais")
+    ]
+    
+    for text, audience in test_cases:
+        voice = tts.get_voice_recommendation(text, audience)
+        voice_name = tts.voice_mapping.get(voice, 'N/A')
+        print(f"   Audiência: {audience}")
+        print(f"   Voz recomendada: {voice} ({voice_name})")
+    
+    return True
+
+def test_basic_synthesis():
+    """Testa síntese básica com diferentes emoções"""
+    print("\n🎵 Testando síntese básica...")
+    
+    tts = GoogleAIStudioTTSEnhanced()
+    
+    test_cases = [
+        ("Olá! Este é um teste da nossa nova tecnologia de voz.", "neutral", "neural-female-natural"),
+        ("Que descoberta extraordinária e emocionante!", "enthusiastic", "premium-female-energetic"),
+        ("Nas sombras da noite, algo misterioso se aproxima...", "mysterious", "premium-male-narrator"),
+        ("Esta é uma apresentação profissional importante.", "calm", "premium-male-professional")
+    ]
+    
+    results = []
+    
+    for text, emotion, voice in test_cases:
+        print(f"   Testando: {emotion} com {voice}")
+        audio_path = tts.synthesize_speech_official(text, emotion, voice)
+        
+        if audio_path and os.path.exists(audio_path):
+            file_size = os.path.getsize(audio_path) / 1024  # KB
+            print(f"     ✅ Sucesso! Arquivo: {os.path.basename(audio_path)} ({file_size:.1f} KB)")
+            results.append(True)
+        else:
+            print(f"     ❌ Falhou!")
+            results.append(False)
+    
+    return all(results)
+
+def test_emotion_synthesis():
+    """Testa síntese com análise automática de emoções"""
+    print("\n🎭 Testando síntese com análise automática...")
+    
+    tts = GoogleAIStudioTTSEnhanced()
+    
+    long_text = """
+    Era uma vez, numa terra muito distante, um reino mágico cheio de maravilhas! 
+    Mas um dia, algo terrível aconteceu... Uma sombra misteriosa cobriu toda a terra.
+    Os habitantes ficaram muito tristes e assustados. 
+    Porém, um jovem corajoso decidiu enfrentar o perigo!
+    Com determinação e esperança, ele partiu em sua jornada épica.
+    E no final, conseguiu salvar o reino! Todos ficaram felizes novamente!
+    """
+    
+    print("   Texto longo com múltiplas emoções...")
+    audio_path = tts.synthesize_with_emotion_analysis(long_text, "premium-female-narrator")
+    
+    if audio_path and os.path.exists(audio_path):
+        file_size = os.path.getsize(audio_path) / 1024
+        print(f"     ✅ Sucesso! Arquivo combinado: {os.path.basename(audio_path)} ({file_size:.1f} KB)")
+        return True
+    else:
+        print(f"     ❌ Falhou!")
+        return False
+
+def test_markup_features():
+    """Testa recursos de markup oficial"""
+    print("\n📝 Testando recursos de markup...")
+    
+    tts = GoogleAIStudioTTSEnhanced()
+    
+    test_text = """
+    Atenção! Este é um teste importante. 
+    Vamos fazer uma pausa... e continuar.
+    Primeiro, segundo, terceiro ponto.
+    Perfeito! Teste concluído com sucesso.
+    """
+    
+    # Testa diferentes emoções com markup
+    emotions = ['neutral', 'dramatic', 'enthusiastic', 'mysterious']
+    results = []
+    
+    for emotion in emotions:
+        markup = tts.create_official_markup(test_text, emotion)
+        print(f"   Markup {emotion}:")
+        print(f"     '{markup[:60]}...'" if len(markup) > 60 else f"     '{markup}'")
+        
+        # Verifica se contém tags de pausa
+        has_pauses = '[pause' in markup
+        results.append(has_pauses)
+        print(f"     Pausas detectadas: {'✅' if has_pauses else '❌'}")
+    
+    return any(results)
+
+def run_comprehensive_test():
+    """Executa todos os testes"""
+    print("🚀 INICIANDO TESTES ABRANGENTES DO GOOGLE CLOUD TTS ENHANCED")
+    print("=" * 70)
+    
+    tests = [
+        ("Listagem de Vozes", test_voice_listing),
+        ("Análise de Emoções", test_emotion_analysis),
+        ("Recomendação de Voz", test_voice_recommendation),
+        ("Recursos de Markup", test_markup_features),
+        ("Síntese Básica", test_basic_synthesis),
+        ("Síntese com Emoções", test_emotion_synthesis)
+    ]
+    
+    results = {}
+    
+    for test_name, test_func in tests:
+        try:
+            print(f"\n📋 {test_name}:")
+            results[test_name] = test_func()
+        except Exception as e:
+            print(f"❌ Erro em {test_name}: {e}")
+            results[test_name] = False
+    
+    # Sumário final
+    print("\n" + "=" * 70)
+    print("📊 RELATÓRIO FINAL DOS TESTES")
+    print("=" * 70)
+    
+    passed = sum(results.values())
+    total = len(results)
+    
+    for test_name, passed_test in results.items():
+        status = "✅ PASSOU" if passed_test else "❌ FALHOU"
+        print(f"{test_name:.<40} {status}")
+    
+    print(f"\n🎯 RESUMO: {passed}/{total} testes passaram ({passed/total*100:.1f}%)")
+    
+    if passed == total:
+        print("🎉 TODOS OS TESTES PASSARAM! Sistema está funcionando perfeitamente!")
+    elif passed > total * 0.7:
+        print("✅ Maioria dos testes passou. Sistema está funcional.")
+    else:
+        print("⚠️ Muitos testes falharam. Verifique a configuração.")
+    
+    return passed, total
+
+if __name__ == "__main__":
+    run_comprehensive_test()

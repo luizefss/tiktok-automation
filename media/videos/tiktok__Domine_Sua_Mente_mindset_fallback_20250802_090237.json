@@ -1,0 +1,82 @@
+{
+  "success": true,
+  "video_file": "/var/www/tiktok-automation/media/videos/tiktok__Domine_Sua_Mente_mindset_fallback_20250802_090237.mp4",
+  "size_mb": 3.6045970916748047,
+  "duration": 36.912,
+  "images_count": 1,
+  "type": "fallback",
+  "created_at": "2025-08-02T09:03:06.531011",
+  "settings_used": {
+    "content_ai_model": "gemini",
+    "content_type": "custom_message",
+    "custom_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "message_categories": [
+      "Motivação",
+      "Conhecimento",
+      "Reflexão"
+    ],
+    "tone": "motivational",
+    "image_style": "realistic",
+    "color_palette": "vibrant",
+    "animation_type": "parallax",
+    "voice_emotion": "enthusiastic",
+    "speaking_speed": 1.05,
+    "use_topmedia_ai": false,
+    "background_music": true,
+    "background_music_volume": 0.1,
+    "video_duration": 60,
+    "transitions": "smooth",
+    "text_overlay": true,
+    "custom_prompt_roteiro": "Crie um roteiro viral e impactante para TikTok com foco em {tema} e tom {tom}.",
+    "custom_prompt_imagem": "Cena visualmente impressionante para vídeo vertical, no estilo {estilo_imagem} com paleta {paleta_cores}, sem texto ou pessoas."
+  },
+  "generation_type": "custom_message",
+  "estimated_metrics": {
+    "engagement_score": 8.8,
+    "viral_potential": 6.5,
+    "audience_match": 8.564029148157491
+  },
+  "roteiro": {
+    "titulo": "🚀 Domine Sua Mente! 💪 #mindset",
+    "hook": "Pare de esperar pela vida perfeita e comece a CRIAR ela!",
+    "roteiro_completo": "Pare de esperar pela vida perfeita e comece a CRIAR ela!  (Pausa) Quantos sonhos você deixou na gaveta por medo?  (Pausa)  Por achar que não era bom o bastante? Chega! Você é capaz de conquistar TUDO o que deseja! (Ênfase)  Mas, primeiro, precisa dominar a sua mente. (Pausa)  Acredite em si mesmo!  Visualize seus objetivos! (Pausa)  E, o mais importante: aja!  Um pequeno passo todos os dias te leva mais perto dos seus sonhos.  Não deixe o medo te paralisar! Você é FORTE! Você é PODEROSO! (Ênfase)  Liberte seu potencial! (Pausa)  Comente aqui qual o seu maior sonho! Vamos nos inspirar juntos! ✨",
+    "message_core": "Domine sua mente e crie a vida que você deseja!",
+    "call_to_action": "Comente qual o seu maior sonho e marque um amigo que precisa ouvir isso!",
+    "hashtags": [
+      "#mindset",
+      "#motivacao",
+      "#inspiracao",
+      "#desenvolvimentopessoal",
+      "#sucesso"
+    ],
+    "categoria": "inspirational",
+    "estimated_duration": 55,
+    "key_moments": [
+      "Comece a criar a vida perfeita",
+      "Domine sua mente",
+      "Aja e conquiste seus sonhos"
+    ],
+    "music_style": "Música épica e inspiradora com batida forte",
+    "timestamp": "2025-08-02T09:01:46.919229",
+    "is_personalized": true,
+    "selected_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "main_category": "Reflexão",
+    "tone_applied": "motivational",
+    "voice_emotion": "enthusiastic",
+    "generation_type": "custom_message",
+    "ia_used": "gemini"
+  },
+  "prompts_usados": [
+    "Semente brotando e rompendo o asfalto, realistic, dramatic lighting, vertical 9:16, powerful and hopeful, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "Foguete decolando em direção a uma nebulosa vibrante, realistic, cinematic lighting, vertical 9:16, dynamic and inspiring, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "Cadeado enferrujado se abrindo com uma chave de luz, realistic, volumetric lighting, vertical 9:16, liberating and empowering, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "Onda gigante prestes a quebrar em cores vibrantes, realistic, golden hour lighting, vertical 9:16, energetic and overwhelming, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "Montanha imponente com um caminho iluminado em espiral até o topo, realistic, sunrise lighting, vertical 9:16, challenging and motivating, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition"
+  ]
+}

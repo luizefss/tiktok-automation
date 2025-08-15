@@ -1,0 +1,82 @@
+{
+  "success": true,
+  "video_file": "/var/www/tiktok-automation/media/videos/tiktok__Domine_Sua_Mente_Domine_Sua_V_20250802_093247.mp4",
+  "size_mb": 4.5767974853515625,
+  "duration": 45.288,
+  "images_count": 5,
+  "type": "normal",
+  "created_at": "2025-08-02T09:33:51.990026",
+  "settings_used": {
+    "content_ai_model": "gemini",
+    "content_type": "custom_message",
+    "custom_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "message_categories": [
+      "Motivação",
+      "Conhecimento",
+      "Reflexão"
+    ],
+    "tone": "motivational",
+    "image_style": "realistic",
+    "color_palette": "vibrant",
+    "animation_type": "parallax",
+    "voice_emotion": "enthusiastic",
+    "speaking_speed": 1.05,
+    "use_topmedia_ai": false,
+    "background_music": true,
+    "background_music_volume": 0.1,
+    "video_duration": 60,
+    "transitions": "smooth",
+    "text_overlay": true,
+    "custom_prompt_roteiro": "Crie um roteiro viral e impactante para TikTok com foco em {tema} e tom {tom}.",
+    "custom_prompt_imagem": "Cena visualmente impressionante para vídeo vertical, no estilo {estilo_imagem} com paleta {paleta_cores}, sem texto ou pessoas."
+  },
+  "generation_type": "custom_message",
+  "estimated_metrics": {
+    "engagement_score": 8.8,
+    "viral_potential": 7.3,
+    "audience_match": 9.48205555426262
+  },
+  "roteiro": {
+    "titulo": "🚀 Domine Sua Mente, Domine Sua Vida! ✨",
+    "hook": "Pare tudo que você está fazendo e me escuta!",
+    "roteiro_completo": "Pare tudo que você está fazendo e me escuta! Você tem um poder INCRÍVEL dentro de você!  Um poder que pode transformar seus sonhos em REALIDADE! ✨ Eu sei, às vezes a vida te joga para baixo, te faz duvidar... Mas eu te digo: VOCÊ É CAPAZ! Pense no seu eu de 5 anos atrás.  O que você diria para aquela criança cheia de sonhos?  Eu diria: ACREDITE EM VOCÊ!  Não deixe ninguém te dizer que você não consegue. A vida não acontece *para* você, ela acontece *através* de você!  Assuma as rédeas!  Comece AGORA!  Um pequeno passo por dia te leva mais longe do que você imagina.  Visualize o que você quer, sinta a emoção da conquista, e trabalhe por isso!  [Pausa]  Qual é o SEU primeiro passo?  Escreve nos comentários! 👇",
+    "message_core": "Você tem o poder de transformar seus sonhos em realidade, comece agora!",
+    "call_to_action": "Compartilhe esse vídeo com alguém que precisa ouvir essa mensagem! E me conta nos comentários qual é o seu primeiro passo para dominar a sua vida! 👇",
+    "hashtags": [
+      "#motivacao",
+      "#mindset",
+      "#inspiracao",
+      "#desenvolvimentopessoal",
+      "#sucesso"
+    ],
+    "categoria": "inspirational",
+    "estimated_duration": 55,
+    "key_moments": [
+      "Poder interior",
+      "Reflexão sobre o eu do passado",
+      "Chamada à ação"
+    ],
+    "music_style": "Música épica e inspiradora com batida forte",
+    "timestamp": "2025-08-02T09:31:55.930005",
+    "is_personalized": true,
+    "selected_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "main_category": "Reflexão",
+    "tone_applied": "motivational",
+    "voice_emotion": "enthusiastic",
+    "generation_type": "custom_message",
+    "ia_used": "gemini"
+  },
+  "prompts_usados": [
+    "A single seed sprouting and breaking through cracked earth, realistic, dramatic golden hour sunlight, vertical 9:16 close-up shot, hopeful and vibrant, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composi...",
+    "A vibrant hummingbird hovering in front of a large, colorful flower about to bloom, realistic, bright midday sunlight, vertical 9:16 dynamic motion blur, energetic and inspiring, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ...",
+    "A wave crashing against a cliff face at sunset, realistic, warm sunset light with vibrant orange and purple hues, vertical 9:16 with water droplets in the air, powerful and awe-inspiring, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertica...",
+    "A hot air balloon rising above a vibrant landscape of rolling hills and valleys, realistic, soft morning light with colorful balloons, vertical 9:16 with upward motion, freeing and adventurous, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 v...",
+    "A keyhole shaped opening in a wall revealing a vibrant, dreamlike landscape, realistic, glowing light emanating from the keyhole, vertical 9:16 with depth of field, mysterious and full of potential, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9..."
+  ]
+}

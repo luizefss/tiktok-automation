@@ -1,0 +1,65 @@
+# Flask e Web Framework
+flask>=3.0.0
+flask-cors>=6.0.0
+flask-socketio>=5.5.0
+werkzeug>=3.0.0
+
+# APIs de IA
+google-generativeai>=0.8.0
+anthropic>=0.62.0
+openai>=1.99.0
+
+# Google Cloud
+google-cloud-aiplatform>=1.108.0
+google-cloud-texttospeech>=2.27.0
+google-cloud-storage>=2.19.0
+google-auth>=2.40.0
+
+# Processamento de Vídeo
+moviepy>=2.2.1
+opencv-python>=4.12.0
+imageio>=2.37.0
+imageio-ffmpeg>=0.6.0
+ffmpeg-python>=0.2.0
+
+# Processamento de Áudio
+librosa>=0.11.0
+soundfile>=0.13.0
+scipy>=1.15.0
+pydub>=0.25.1
+audioread>=3.0.1
+
+# Processamento de Imagem
+Pillow>=11.3.0
+numpy>=2.2.0
+
+# Text Processing
+unidecode>=1.4.0
+beautifulsoup4>=4.12.0
+lxml>=5.3.0
+
+# Web Scraping e Automação
+selenium>=4.35.0
+webdriver-manager>=4.0.2
+
+# Legendas
+pysrt>=1.1.2
+
+# Utilidades
+python-dotenv>=1.1.0
+requests>=2.32.0
+pathlib2>=2.3.7
+dataclasses-json>=0.6.0
+typing-extensions>=4.14.0
+
+# YouTube e Downloads
+google-api-python-client>=2.178.0
+yt-dlp>=2024.8.1
+
+# Async Support
+aiohttp>=3.10.0
+
+# Desenvolvimento
+pytest>=8.3.0
+black>=24.8.0
+isort>=5.13.0

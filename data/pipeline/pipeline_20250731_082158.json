@@ -1,0 +1,74 @@
+{
+  "timestamp": "2025-07-31T08:21:58.150810",
+  "roteiro": {
+    "hook": "MANO DO CÉU, VOCÊ NÃO VAI ACREDITAR NISSO!",
+    "roteiro_completo": "**(0-3s) Close no rosto com expressão de choque:** MANO DO CÉU, VOCÊ NÃO VAI ACREDITAR NISSO!\n\n**(3-7s) Transição rápida para imagens de uma pessoa comendo um alimento futurista:** Já pensou em comer um bife sem matar nenhum animal? E se eu te disser que isso já é REALIDADE?\n\n**(7-15s) Mostrar imagens de carne cultivada em laboratório e cientistas trabalhando:** Essa é a carne cultivada, feita em laboratório a partir de células animais, sem precisar criar e abater bichos! Zero sofrimento animal e muito mais sustentável pro planeta. 🤯\n\n**(15-25s) Mostrar exemplos de pratos com carne cultivada:** Dá pra fazer hambúrguer, almôndega, bife... tudo igualzinho à carne tradicional, só que MUITO melhor!\n\n**(25-35s) Destacar os benefícios da carne cultivada com texto na tela:** *SUSTENTÁVEL* *ÉTICO* *DELICIOSO* *FUTURO DA ALIMENTAÇÃO*\n\n**(35-45s) Mostrar reações positivas de pessoas experimentando a carne cultivada:** Olha só a reação de quem já provou! 😋\n\n**(45-55s) Chamada para ação:** Pesquisa aí na internet \"carne cultivada\" pra saber mais! O futuro chegou, galera!\n\n**(55-60s) Dancinha rápida e divertida com a música da moda de fundo.**",
+    "hashtags": [
+      "#carnecultivada",
+      "#tecnologiadealimentos",
+      "#futuro",
+      "#sustentabilidade",
+      "#viral",
+      "#fyp",
+      "#foryou",
+      "#inovacaotecnologica"
+    ],
+    "titulo": "O Futuro da Comida Chegou! 🤯🥩",
+    "categoria": "tecnologia",
+    "timestamp": "2025-07-31T08:21:00.245802"
+  },
+  "audio_file": "../media/audio/audio_google_20250731_082113.mp3",
+  "images": [
+    {
+      "file": "../media/images/picsum_technology_1_082116_20250731_082118.jpg",
+      "description": "Imagem 2 para technology",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_computer_0_082123_20250731_082124.jpg",
+      "description": "Imagem 1 para computer",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_computer_1_082124_20250731_082127.jpg",
+      "description": "Imagem 2 para computer",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_abstract_0_082129_20250731_082131.jpg",
+      "description": "Imagem 1 para abstract",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_abstract_1_082131_20250731_082134.jpg",
+      "description": "Imagem 2 para abstract",
+      "source": "picsum"
+    }
+  ],
+  "video": {
+    "success": true,
+    "video_file": "../media/videos/tiktok_O_Futuro_da_Comida_Chegou__20250731_082134.mp4",
+    "size_mb": 1.5206594467163086,
+    "duration": 41.088,
+    "images_count": 5,
+    "roteiro": {
+      "hook": "MANO DO CÉU, VOCÊ NÃO VAI ACREDITAR NISSO!",
+      "roteiro_completo": "**(0-3s) Close no rosto com expressão de choque:** MANO DO CÉU, VOCÊ NÃO VAI ACREDITAR NISSO!\n\n**(3-7s) Transição rápida para imagens de uma pessoa comendo um alimento futurista:** Já pensou em comer um bife sem matar nenhum animal? E se eu te disser que isso já é REALIDADE?\n\n**(7-15s) Mostrar imagens de carne cultivada em laboratório e cientistas trabalhando:** Essa é a carne cultivada, feita em laboratório a partir de células animais, sem precisar criar e abater bichos! Zero sofrimento animal e muito mais sustentável pro planeta. 🤯\n\n**(15-25s) Mostrar exemplos de pratos com carne cultivada:** Dá pra fazer hambúrguer, almôndega, bife... tudo igualzinho à carne tradicional, só que MUITO melhor!\n\n**(25-35s) Destacar os benefícios da carne cultivada com texto na tela:** *SUSTENTÁVEL* *ÉTICO* *DELICIOSO* *FUTURO DA ALIMENTAÇÃO*\n\n**(35-45s) Mostrar reações positivas de pessoas experimentando a carne cultivada:** Olha só a reação de quem já provou! 😋\n\n**(45-55s) Chamada para ação:** Pesquisa aí na internet \"carne cultivada\" pra saber mais! O futuro chegou, galera!\n\n**(55-60s) Dancinha rápida e divertida com a música da moda de fundo.**",
+      "hashtags": [
+        "#carnecultivada",
+        "#tecnologiadealimentos",
+        "#futuro",
+        "#sustentabilidade",
+        "#viral",
+        "#fyp",
+        "#foryou",
+        "#inovacaotecnologica"
+      ],
+      "titulo": "O Futuro da Comida Chegou! 🤯🥩",
+      "categoria": "tecnologia",
+      "timestamp": "2025-07-31T08:21:00.245802"
+    },
+    "status": "Aguardando Revisão"
+  },
+  "status": "completed"
+}

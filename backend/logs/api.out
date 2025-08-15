@@ -1,0 +1,98 @@
+INFO:services.claude_service:🔍 Tentando inicializar Claude com key: sk-ant-api...
+INFO:services.claude_service:✅ Conectado ao Claude API
+INFO:services.gpt_service:✅ Conectado ao OpenAI API
+WARNING:services.video_builder:Não foi possível configurar ImageMagick: module 'moviepy.config' has no attribute 'change_settings'
+INFO:services.video_builder:✅ Video Builder Service inicializado
+INFO:visual_effects_system:✅ MoviePy importado com sucesso
+INFO:multi_platform_publisher:🚀 Inicializando Multi-Platform Publisher...
+INFO:multi_platform_publisher:✅ Multi-Platform Publisher inicializado
+/usr/local/lib/python3.10/dist-packages/flask_limiter/extension.py:333: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+INFO:content_pipeline_optimized:🚀 Inicializando Content Pipeline Optimized...
+INFO:gemini_client:✅ Conectado ao Gemini API com API Key para o modelo 'gemini-1.5-pro'.
+INFO:services.claude_service:🔍 Tentando inicializar Claude com key: sk-ant-api...
+INFO:services.claude_service:✅ Conectado ao Claude API
+INFO:services.gpt_service:✅ Conectado ao OpenAI API
+INFO:trending_content_system:Sistema de Trending Content inicializado
+INFO:services.image_generator:✅ Vertex AI configurado para Imagen 4
+INFO:services.image_generator:✅ Google AI Studio API Key disponível
+INFO:services.advanced_image_service:🎨 Inicializando Advanced Image Service...
+INFO:services.advanced_image_service:✅ OpenAI DALL-E 3 configurado
+INFO:services.advanced_image_service:✅ Leonardo AI configurado
+INFO:services.advanced_image_service:✅ Advanced Image Service inicializado
+INFO:services.image_generator:✅ Image Generator Service inicializado
+INFO:visual_effects_system:🎨 Inicializando Sistema de Efeitos Visuais...
+WARNING:services.transcription_service:⚠️ ASSEMBLYAI_KEY não configurada; TranscriptionService ficará inativo
+INFO:visual_effects_system:✅ Visual Effects System inicializado
+INFO:multi_platform_publisher:🚀 Inicializando Multi-Platform Publisher...
+INFO:multi_platform_publisher:✅ Multi-Platform Publisher inicializado
+INFO:content_pipeline_optimized:✅ Content Pipeline inicializado
+INFO:trending_content_system:Sistema de Trending Content inicializado
+INFO:gemini_client:✅ Conectado ao Gemini API com API Key para o modelo 'gemini-1.5-pro'.
+INFO:services.claude_service:🔍 Tentando inicializar Claude com key: sk-ant-api...
+INFO:services.claude_service:✅ Conectado ao Claude API
+INFO:services.gpt_service:✅ Conectado ao OpenAI API
+INFO:services.image_generator:✅ Vertex AI configurado para Imagen 4
+INFO:services.image_generator:✅ Google AI Studio API Key disponível
+INFO:services.advanced_image_service:🎨 Inicializando Advanced Image Service...
+INFO:services.advanced_image_service:✅ OpenAI DALL-E 3 configurado
+INFO:services.advanced_image_service:✅ Leonardo AI configurado
+INFO:services.advanced_image_service:✅ Advanced Image Service inicializado
+INFO:services.image_generator:✅ Image Generator Service inicializado
+INFO:services.advanced_image_service:🎨 Inicializando Advanced Image Service...
+INFO:services.advanced_image_service:✅ OpenAI DALL-E 3 configurado
+INFO:services.advanced_image_service:✅ Leonardo AI configurado
+INFO:services.advanced_image_service:✅ Advanced Image Service inicializado
+INFO:services.elevenlabs_tts:🎤 Inicializando ElevenLabs TTS Service...
+INFO:services.elevenlabs_tts:✅ ElevenLabs TTS configurado
+INFO:services.elevenlabs_tts:✅ ElevenLabs TTS Service inicializado
+INFO:services.prompt_optimizer:🎯 Inicializando Prompt Optimizer...
+INFO:services.prompt_optimizer:✅ Prompt Optimizer inicializado
+INFO:visual_effects_system:🎨 Inicializando Sistema de Efeitos Visuais...
+WARNING:services.transcription_service:⚠️ ASSEMBLYAI_KEY não configurada; TranscriptionService ficará inativo
+INFO:visual_effects_system:✅ Visual Effects System inicializado
+WARNING:werkzeug:Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+⚠️ Selenium não está instalado. Instale com: pip install selenium webdriver-manager
+🚀 Iniciando TikTok Automation API v2.0 - Dashboard Suprema
+ * Serving Flask app 'api_v2'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6000
+ * Running on http://195.200.0.211:6000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:36:28] "GET /api/health HTTP/1.1" 200 -
+INFO:__main__:🎥 Veo 2: image->video | image=/media/images/smoketest_imagen4_20250814_060200.png dur=3s ar=9:16
+WARNING:services.veo_video_service:⚠️ VERTEX_AI_PROJECT_ID ausente; Veo 2 via SDK desativado
+INFO:services.veo_video_service:Veo 2 ▶️ image_to_video(img=/var/www/tiktok-automation/media/images/smoketest_imagen4_20250814_060200.png, dur=3, ar=9:16)
+WARNING:services.veo_video_service:⚠️ Falha na geração Veo 2 via google.genai: 'Models' object has no attribute 'generate_video'
+WARNING:services.veo_video_service:Veo REST falhou 404: 
+ERROR:services.veo_video_service:❌ Veo 2: não foi possível gerar vídeo
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:36:30] "[35m[1mPOST /api/production/veo-image-to-video HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:37:09] "GET /api/status HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:37:09] "GET /api/videos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:39:09] "GET /api/status HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:39:09] "GET /api/videos HTTP/1.1" 200 -
+INFO:trending_content_system:Usando cache com 20 trending topics
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:39:09] "GET /api/trending/topics HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:39:10] "GET /api/status HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:39:10] "GET /api/videos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:41:10] "GET /api/status HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:41:10] "GET /api/videos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:43:10] "GET /api/status HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:43:10] "GET /api/videos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:45:10] "GET /api/status HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:45:10] "GET /api/videos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:47:10] "GET /api/status HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:47:10] "GET /api/videos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:49:10] "GET /api/status HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:49:10] "GET /api/videos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:49:10] "GET /api/trending/topics HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:49:11] "GET /api/status HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:49:11] "GET /api/videos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:51:11] "GET /api/status HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:51:11] "GET /api/videos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:53:11] "GET /api/status HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:53:11] "GET /api/videos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:55:12] "GET /api/status HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2025 06:55:12] "GET /api/videos HTTP/1.1" 200 -

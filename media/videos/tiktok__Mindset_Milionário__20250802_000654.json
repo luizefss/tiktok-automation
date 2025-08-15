@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "video_file": "/var/www/tiktok-automation/media/videos/tiktok__Mindset_Milionário__20250802_000654.mp4",
+  "size_mb": 4.508728981018066,
+  "duration": 44.544,
+  "images_count": 5,
+  "type": "normal",
+  "created_at": "2025-08-02T00:07:48.772611",
+  "roteiro": {
+    "titulo": "🧠 Mindset Milionário! 🚀✨",
+    "categoria": "educational",
+    "hook": "Pare tudo o que você está fazendo! Esta informação pode mudar COMPLETAMENTE sua relação com o sucesso!",
+    "hashtags": [
+      "#mindset",
+      "#motivacao",
+      "#sucesso",
+      "#crescimentopessoal",
+      "#desenvolvimentopessoal"
+    ]
+  }
+}

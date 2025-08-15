@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-07-31T11:15:47.361514",
+  "roteiro": {
+    "titulo": "🐶 Gato Espacial? 👽 Mistérios do Universo! #animais",
+    "hook": "Já ouviram falar do gato espacial? Preparem-se!",
+    "roteiro_completo": "[Cena: Vídeo acelerado de estrelas brilhando] (Voz animada e curiosa): Já ouviram falar do gato espacial? Parece loucura, né? Mas esse é um dos grandes mistérios não resolvidos do espaço! [Cena: Imagem de um gato com capacete de astronauta - desenho animado] (Voz explicativa): Em 1963, a França lançou um foguete com um gato chamado Félicette a bordo. Ela sobreviveu! [Cena: Foto granulada de Félicette] (Voz dramática): Mas o que aconteceu depois? Ninguém sabe ao certo! Alguns dizem que ela voltou à Terra, outros que se perdeu no espaço... E se ela encontrou vida alienígena? [Cena: Montagem rápida de imagens engraçadas de gatos com alienígenas] (Voz entusiasmada): Deixem suas teorias nos comentários!  E se gostaram, sigam para mais mistérios do espaço!",
+    "hashtags": [
+      "#viral",
+      "#animais",
+      "#curiosidades",
+      "#aprendanotiktok",
+      "#espaço",
+      "#gatos"
+    ],
+    "categoria": "animais",
+    "topico_original": "mistérios do espaço não resolvidos",
+    "timestamp": "2025-07-31T11:14:48.164202"
+  },
+  "audio_file": "../media/audio/audio_google_20250731_111450.mp3",
+  "images": [
+    "../media/images/picsum_abstract_0_111450_20250731_111453.jpg",
+    "../media/images/picsum_abstract_2_111455_20250731_111457.jpg",
+    "../media/images/picsum_colorful_0_111457_20250731_111459.jpg",
+    "../media/images/picsum_colorful_1_111459_20250731_111504.jpg",
+    "../media/images/picsum_colorful_2_111504_20250731_111506.jpg"
+  ],
+  "video": {
+    "success": true,
+    "video_file": "../media/videos/tiktok__Gato_Espacial_Mistérios_do_Un_20250731_111506.mp4",
+    "size_mb": 1.8944835662841797,
+    "duration": 33.96,
+    "images_count": 5,
+    "roteiro": {
+      "titulo": "🐶 Gato Espacial? 👽 Mistérios do Universo! #animais",
+      "hook": "Já ouviram falar do gato espacial? Preparem-se!",
+      "roteiro_completo": "[Cena: Vídeo acelerado de estrelas brilhando] (Voz animada e curiosa): Já ouviram falar do gato espacial? Parece loucura, né? Mas esse é um dos grandes mistérios não resolvidos do espaço! [Cena: Imagem de um gato com capacete de astronauta - desenho animado] (Voz explicativa): Em 1963, a França lançou um foguete com um gato chamado Félicette a bordo. Ela sobreviveu! [Cena: Foto granulada de Félicette] (Voz dramática): Mas o que aconteceu depois? Ninguém sabe ao certo! Alguns dizem que ela voltou à Terra, outros que se perdeu no espaço... E se ela encontrou vida alienígena? [Cena: Montagem rápida de imagens engraçadas de gatos com alienígenas] (Voz entusiasmada): Deixem suas teorias nos comentários!  E se gostaram, sigam para mais mistérios do espaço!",
+      "hashtags": [
+        "#viral",
+        "#animais",
+        "#curiosidades",
+        "#aprendanotiktok",
+        "#espaço",
+        "#gatos"
+      ],
+      "categoria": "animais",
+      "topico_original": "mistérios do espaço não resolvidos",
+      "timestamp": "2025-07-31T11:14:48.164202"
+    },
+    "status": "Aguardando Revisão"
+  },
+  "status": "completed"
+}

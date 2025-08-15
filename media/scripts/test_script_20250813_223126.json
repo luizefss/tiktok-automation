@@ -1,0 +1,27 @@
+{
+  "fileName": "2025-08-13_19-31-28_claude_60s_a-historia-de-georg-wilhelm-ri",
+  "timestamp": "2025-08-13T22:31:28.362Z",
+  "script": "No século XVIII, um cientista ousado desafiou os céus em busca de conhecimento.\nGeorg Wilhelm Richmann, físico alemão-báltico, dedicou-se ao estudo da eletricidade atmosférica.\nInspirado por Benjamin Franklin, Richmann construiu seu próprio 'coletor de raios' para experimentos.\nEm 6 de agosto de 1753, durante uma tempestade, Richmann preparou-se para seu experimento final.\nTragicamente, um raio atingiu seu aparato, matando-o instantaneamente diante de testemunhas horrorizadas.\nRichmann tornou-se o primeiro mártir registrado da ciência elétrica, sua morte impactando a comunidade científica.\nSeu sacrifício não foi em vão. O trabalho de Richmann impulsionou avanços na compreensão e proteção contra raios, salvando inúmeras vidas futuras.",
+  "topic": "a historia de Georg Wilhelm Richmann",
+  "ai_model": "claude",
+  "video_duration": 60,
+  "script_length": 743,
+  "estimated_audio_duration": 75,
+  "word_count": 95,
+  "generation_settings": {
+    "provider": "claude",
+    "format": "tiktok",
+    "duration": 60,
+    "theme": "a historia de Georg Wilhelm Richmann"
+  },
+  "category": "technology",
+  "tags": [
+    "historia",
+    "georg",
+    "wilhelm",
+    "richmann",
+    "medium"
+  ],
+  "status": "generated",
+  "version": "1.0"
+}

@@ -1,0 +1,495 @@
+{
+  "winner_provider": "Gemini",
+  "battle_theme": "narre a historia da invenção do paraquedas do leonardo da vince para video de 1 minuto",
+  "script_data": {
+    "fileName": "2025-08-14_00-45-09_WINNER-gemini_60s_narre-a-historia-da-inven",
+    "timestamp": "2025-08-14T03:45:09.293Z",
+    "type": "battle_winner",
+    "winner_ai": "Gemini",
+    "topic": "narre a historia da invenção do paraquedas do leonardo da vince para video de 1 minuto",
+    "script": "No século XV, Leonardo da Vinci já imaginava o homem voando.  Em seus cadernos, um esboço peculiar surge: a pirâmide voadora, ancestral do paraquedas.\nCom estrutura de madeira e tecido de linho, a invenção de Da Vinci media sete metros de cada lado.  Ele acreditava que com ela, uma pessoa poderia saltar de qualquer altura em segurança.\nDa Vinci nunca construiu seu paraquedas.  Séculos depois, em 2000, o britânico Adrian Nicholas saltou com uma réplica, provando seu funcionamento.\nA pirâmide voadora, apesar de funcional, era volumosa e difícil de manobrar.  Mas sua concepção demonstra a genialidade de Da Vinci.\nDa Vinci não apenas desenhou máquinas voadoras, mas também estudou o voo dos pássaros, buscando inspiração na natureza.\nSeu estudo da aerodinâmica, embora rudimentar para os padrões atuais, foi pioneiro para a época.\nO paraquedas de Da Vinci, embora nunca testado por ele, representa um passo crucial na busca humana pelo voo.\nSua visão, séculos à frente de seu tempo, continua a inspirar inovações até hoje.",
+    "winning_settings": {
+      "ai_model": "gemini",
+      "video_duration": 60,
+      "theme": "narre a historia da invenção do paraquedas do leonardo da vince para video de 1 minuto",
+      "provider": "gemini"
+    },
+    "battle_context": {
+      "participants": [
+        "Claude",
+        "Gpt",
+        "Gemini"
+      ],
+      "total_participants": 3,
+      "winner_score": 15,
+      "battle_timestamp": "2025-08-14T03:45:09.293Z"
+    },
+    "success_factors": {
+      "script_length": 1026,
+      "estimated_engagement": "high",
+      "category": "technology",
+      "tags": [
+        "narre",
+        "historia",
+        "invenção",
+        "paraquedas",
+        "leonardo",
+        "vince",
+        "para",
+        "video",
+        "minuto",
+        "medium"
+      ]
+    },
+    "status": "battle_winner",
+    "confidence": "user_selected",
+    "replication_ready": true
+  },
+  "battle_results": [
+    {
+      "name": "Claude",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "claude",
+        "audience": "history",
+        "call_to_action": "Experimenta hoje mesmo e depois me conta nos comentários como foi!",
+        "duration_target_sec": 60,
+        "estimated_duration": 55,
+        "hashtags": [
+          "#produtividade",
+          "#foco",
+          "#dicas",
+          "#viral",
+          "#motivacao"
+        ],
+        "hook": "Olha só pessoal, vocês não vão acreditar no que eu descobri sobre produtividade",
+        "ia_used": "claude",
+        "leonardo_prompts": [
+          "0 a 60s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+        ],
+        "leonardo_prompts_text": "0 a 60s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+        "music_style": "tensa_cinematica",
+        "provider_signature": {
+          "angle": "analitico-causal-com-nuancas",
+          "differentiation": "enfoque em causalidade/contexto",
+          "provider": "claude",
+          "topic_match": 0.125
+        },
+        "roteiro_completo": "Olha só pessoal, vocês não vão acreditar no que eu descobri sobre produtividade. Cara, isso aqui mudou completamente minha vida e tenho certeza que vai mudar a de vocês também. Então assim, a maioria das pessoas fica pulando de tarefa em tarefa o dia todo, sabe como é né. Mas escuta só isso, estudos mostram que quando você foca numa coisa só por vez, sua eficiência aumenta em até oitenta por cento. É muita coisa gente! A técnica é simples, escolhe uma tarefa importante, desliga todas as notificações, e se dedica por vinte e cinco minutos sem parar. Parece pouco mas faz uma diferença absurda. Experimenta hoje mesmo e depois me conta nos comentários como foi, combinado?",
+        "scenes": [
+          {
+            "image_prompt": "cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "intro_suave",
+            "narration": "Olha só pessoal, vocês não vão acreditar no que eu descobri sobre produtividade. Cara, isso aqui mudou completamente minha vida e tenho certeza que vai mudar a de vocês também. Então assim, a maioria das pessoas fica pulando de tarefa em tarefa o dia todo, sabe como é né. Mas esc",
+            "on_screen_text": "",
+            "sfx": [],
+            "t_end": 60,
+            "t_start": 0
+          }
+        ],
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "curiosidade",
+        "thumbnail": {
+          "image_prompt": "historic cinematic thumbnail, powerful focal subject, dramatic rim light, vertical 9:16, no text, highly detailed, 8K resolution",
+          "text": "A Técnica que Mudou Minha Produtividade (Você Precisa Tentar)"
+        },
+        "timestamp": "2025-08-14T03:43:02.568976",
+        "title": "A Técnica que Mudou Minha Produtividade (Você Precisa Tentar)",
+        "titulo": "A Técnica que Mudou Minha Produtividade (Você Precisa Tentar)",
+        "viral_analysis": {
+          "category_match": "curiosidade",
+          "cta_score": 0.5,
+          "hook_score": 0.7999999999999999,
+          "optimization_tips": [
+            "❓ Adicione pontuação impactante no hook (?, !, ...)"
+          ],
+          "recommendations": [
+            "⚠️ Potencial médio. Revise hook e hashtags.",
+            "Adicione mais elementos virais e um CTA mais forte."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 42.5
+        },
+        "viral_score": 87,
+        "visual_pack": "HistoryDark",
+        "visual_prompts": [
+          {
+            "image_prompt": "cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          }
+        ],
+        "visual_prompts_text": "0 a 60s - cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+        "voice_style": "documentary_grave"
+      },
+      "score": 42.5,
+      "analysis": {
+        "category_match": "curiosidade",
+        "cta_score": 0.5,
+        "hook_score": 0.7999999999999999,
+        "optimization_tips": [
+          "❓ Adicione pontuação impactante no hook (?, !, ...)"
+        ],
+        "recommendations": [
+          "⚠️ Potencial médio. Revise hook e hashtags.",
+          "Adicione mais elementos virais e um CTA mais forte."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 42.5
+      }
+    },
+    {
+      "name": "Gpt",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "claude",
+        "audience": "history",
+        "call_to_action": "Experimenta hoje mesmo e depois me conta nos comentários como foi!",
+        "duration_target_sec": 60,
+        "estimated_duration": 55,
+        "hashtags": [
+          "#produtividade",
+          "#foco",
+          "#dicas",
+          "#viral",
+          "#motivacao"
+        ],
+        "hook": "Olha só pessoal, vocês não vão acreditar no que eu descobri sobre produtividade",
+        "ia_used": "claude",
+        "leonardo_prompts": [
+          "0 a 60s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+        ],
+        "leonardo_prompts_text": "0 a 60s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+        "music_style": "tensa_cinematica",
+        "provider_signature": {
+          "angle": "analitico-causal-com-nuancas",
+          "differentiation": "enfoque em causalidade/contexto",
+          "provider": "claude",
+          "topic_match": 0.125
+        },
+        "roteiro_completo": "Olha só pessoal, vocês não vão acreditar no que eu descobri sobre produtividade. Cara, isso aqui mudou completamente minha vida e tenho certeza que vai mudar a de vocês também. Então assim, a maioria das pessoas fica pulando de tarefa em tarefa o dia todo, sabe como é né. Mas escuta só isso, estudos mostram que quando você foca numa coisa só por vez, sua eficiência aumenta em até oitenta por cento. É muita coisa gente! A técnica é simples, escolhe uma tarefa importante, desliga todas as notificações, e se dedica por vinte e cinco minutos sem parar. Parece pouco mas faz uma diferença absurda. Experimenta hoje mesmo e depois me conta nos comentários como foi, combinado?",
+        "scenes": [
+          {
+            "image_prompt": "cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "intro_suave",
+            "narration": "Olha só pessoal, vocês não vão acreditar no que eu descobri sobre produtividade. Cara, isso aqui mudou completamente minha vida e tenho certeza que vai mudar a de vocês também. Então assim, a maioria das pessoas fica pulando de tarefa em tarefa o dia todo, sabe como é né. Mas esc",
+            "on_screen_text": "",
+            "sfx": [],
+            "t_end": 60,
+            "t_start": 0
+          }
+        ],
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "curiosidade",
+        "thumbnail": {
+          "image_prompt": "historic cinematic thumbnail, powerful focal subject, dramatic rim light, vertical 9:16, no text, highly detailed, 8K resolution",
+          "text": "A Técnica que Mudou Minha Produtividade (Você Precisa Tentar)"
+        },
+        "timestamp": "2025-08-14T03:43:10.007177",
+        "title": "A Técnica que Mudou Minha Produtividade (Você Precisa Tentar)",
+        "titulo": "A Técnica que Mudou Minha Produtividade (Você Precisa Tentar)",
+        "viral_analysis": {
+          "category_match": "curiosidade",
+          "cta_score": 0.5,
+          "hook_score": 0.7999999999999999,
+          "optimization_tips": [
+            "❓ Adicione pontuação impactante no hook (?, !, ...)"
+          ],
+          "recommendations": [
+            "⚠️ Potencial médio. Revise hook e hashtags.",
+            "Adicione mais elementos virais e um CTA mais forte."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 42.5
+        },
+        "viral_score": 87,
+        "visual_pack": "HistoryDark",
+        "visual_prompts": [
+          {
+            "image_prompt": "cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          }
+        ],
+        "visual_prompts_text": "0 a 60s - cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+        "voice_style": "documentary_grave"
+      },
+      "score": 42.5,
+      "analysis": {
+        "category_match": "curiosidade",
+        "cta_score": 0.5,
+        "hook_score": 0.7999999999999999,
+        "optimization_tips": [
+          "❓ Adicione pontuação impactante no hook (?, !, ...)"
+        ],
+        "recommendations": [
+          "⚠️ Potencial médio. Revise hook e hashtags.",
+          "Adicione mais elementos virais e um CTA mais forte."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 42.5
+      }
+    },
+    {
+      "name": "Gemini",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "gemini",
+        "audience": "history",
+        "duration_target_sec": 90,
+        "hashtags": [
+          "#historia",
+          "#shorts",
+          "#curiosidades"
+        ],
+        "hook": "Você já ouviu falar de narre a historia da invencao do paraquedas do leonardo da vince para video de 1 minuto? Hoje, a versão que quase foi esquecida.",
+        "ia_used": "gemini",
+        "leonardo_prompts": [
+          "0 a 8s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "8 a 18s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+          "18 a 28s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "28 a 38s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+          "38 a 49s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "49 a 60s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+          "60 a 72s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "72 a 90s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+        ],
+        "leonardo_prompts_text": "0 a 8s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n8 a 18s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical\n18 a 28s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n28 a 38s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical\n38 a 49s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n49 a 60s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical\n60 a 72s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n72 a 90s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+        "music_style": "tensa_cinematica",
+        "provider_signature": {
+          "angle": "generico",
+          "differentiation": "",
+          "provider": "gemini",
+          "topic_match": 0.25
+        },
+        "roteiro_completo": "No século XV, Leonardo da Vinci já imaginava o homem voando.  Em seus cadernos, um esboço peculiar surge: a pirâmide voadora, ancestral do paraquedas.\nCom estrutura de madeira e tecido de linho, a invenção de Da Vinci media sete metros de cada lado.  Ele acreditava que com ela, uma pessoa poderia saltar de qualquer altura em segurança.\nDa Vinci nunca construiu seu paraquedas.  Séculos depois, em 2000, o britânico Adrian Nicholas saltou com uma réplica, provando seu funcionamento.\nA pirâmide voadora, apesar de funcional, era volumosa e difícil de manobrar.  Mas sua concepção demonstra a genialidade de Da Vinci.\nDa Vinci não apenas desenhou máquinas voadoras, mas também estudou o voo dos pássaros, buscando inspiração na natureza.\nSeu estudo da aerodinâmica, embora rudimentar para os padrões atuais, foi pioneiro para a época.\nO paraquedas de Da Vinci, embora nunca testado por ele, representa um passo crucial na busca humana pelo voo.\nSua visão, séculos à frente de seu tempo, continua a inspirar inovações até hoje.",
+        "scenes": [
+          {
+            "image_prompt": "A highly detailed, ultra realistic painting of Leonardo da Vinci's pyramid-shaped parachute design sketch in his notebook, surrounded by other sketches and notes. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "intro_suave",
+            "narration": "No século XV, Leonardo da Vinci já imaginava o homem voando.  Em seus cadernos, um esboço peculiar surge: a pirâmide voadora, ancestral do paraquedas.",
+            "on_screen_text": "Pirâmide Voadora",
+            "sfx": [
+              "folha de papel"
+            ],
+            "t_end": 8,
+            "t_start": 0
+          },
+          {
+            "image_prompt": "Ultra realistic painting of a wooden frame being constructed for da Vinci's parachute, linen fabric draped over it.  Renaissance workshop setting, tools scattered around, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "transicao",
+            "narration": "Com estrutura de madeira e tecido de linho, a invenção de Da Vinci media sete metros de cada lado.  Ele acreditava que com ela, uma pessoa poderia saltar de qualquer altura em segurança.",
+            "on_screen_text": "1485 d.C.",
+            "sfx": [
+              "martelar"
+            ],
+            "t_end": 18,
+            "t_start": 8
+          },
+          {
+            "image_prompt": "Painterly realistic image of Adrian Nicholas jumping from a height with a replica of da Vinci's parachute, billowing in the wind against a dramatic sky.  Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "climax",
+            "narration": "Da Vinci nunca construiu seu paraquedas.  Séculos depois, em 2000, o britânico Adrian Nicholas saltou com uma réplica, provando seu funcionamento.",
+            "on_screen_text": "Séculos Depois...",
+            "sfx": [
+              "vento"
+            ],
+            "t_end": 28,
+            "t_start": 18
+          },
+          {
+            "image_prompt": "Ultra realistic close-up of the linen fabric of the parachute billowing in the wind, intricate details of the stitching and texture visible. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "transicao",
+            "narration": "A pirâmide voadora, apesar de funcional, era volumosa e difícil de manobrar.  Mas sua concepção demonstra a genialidade de Da Vinci.",
+            "on_screen_text": "Genialidade Visionária",
+            "sfx": [
+              "vento"
+            ],
+            "t_end": 38,
+            "t_start": 28
+          },
+          {
+            "image_prompt": "Painterly realistic depiction of birds soaring in the sky, viewed from below, with Da Vinci observing them from a hillside, sketching in his notebook. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "climax",
+            "narration": "Da Vinci não apenas desenhou máquinas voadoras, mas também estudou o voo dos pássaros, buscando inspiração na natureza.",
+            "on_screen_text": "Inspiração Natural",
+            "sfx": [
+              "pássaros"
+            ],
+            "t_end": 49,
+            "t_start": 38
+          },
+          {
+            "image_prompt": "Ultra realistic depiction of Da Vinci's sketches and notes on aerodynamics and bird flight, overlaid on a close-up of a bird's wing in flight. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "transicao",
+            "narration": "Seu estudo da aerodinâmica, embora rudimentar para os padrões atuais, foi pioneiro para a época.",
+            "on_screen_text": "Aerodinâmica Primitiva",
+            "sfx": [
+              "vento"
+            ],
+            "t_end": 60,
+            "t_start": 49
+          },
+          {
+            "image_prompt": "Painterly realistic image of a modern parachutist silhouetted against a bright sky, with a faint ghostly image of da Vinci's pyramid parachute overlaid. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "climax",
+            "narration": "O paraquedas de Da Vinci, embora nunca testado por ele, representa um passo crucial na busca humana pelo voo.",
+            "on_screen_text": "Um Salto Para o Futuro",
+            "sfx": [
+              "vento"
+            ],
+            "t_end": 72,
+            "t_start": 60
+          },
+          {
+            "image_prompt": "Ultra realistic portrait of Leonardo da Vinci, gazing thoughtfully into the distance, with a faint overlay of his parachute design. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "final",
+            "narration": "Sua visão, séculos à frente de seu tempo, continua a inspirar inovações até hoje.",
+            "on_screen_text": "Legado Duradouro",
+            "sfx": [
+              "música clássica"
+            ],
+            "t_end": 90,
+            "t_start": 72
+          }
+        ],
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "curiosidade",
+        "thumbnail": {
+          "image_prompt": "Ultra realistic painting of Leonardo da Vinci holding a sketch of his pyramid parachute, with a background of a dramatic sky and rolling hills. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution",
+          "text": "Da Vinci e o Paraquedas"
+        },
+        "title": "Da Vinci e o Paraquedas: Uma Ideia à Frente do Seu Tempo",
+        "viral_analysis": {
+          "category_match": "curiosidade",
+          "cta_score": 0,
+          "hook_score": 0,
+          "optimization_tips": [
+            "📝 Hook muito curto - expanda para 10-50 caracteres",
+            "❓ Adicione pontuação impactante no hook (?, !, ...)",
+            "📢 CTA muito fraco - adicione call-to-action mais forte"
+          ],
+          "recommendations": [
+            "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+            "O hook precisa ser mais impactante e o roteiro mais envolvente."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 15
+        },
+        "visual_pack": "HistoryDark",
+        "visual_prompts": [
+          {
+            "image_prompt": "A highly detailed, ultra realistic painting of Leonardo da Vinci's pyramid-shaped parachute design sketch in his notebook, surrounded by other sketches and notes. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Ultra realistic painting of a wooden frame being constructed for da Vinci's parachute, linen fabric draped over it.  Renaissance workshop setting, tools scattered around, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Painterly realistic image of Adrian Nicholas jumping from a height with a replica of da Vinci's parachute, billowing in the wind against a dramatic sky.  Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Ultra realistic close-up of the linen fabric of the parachute billowing in the wind, intricate details of the stitching and texture visible. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Painterly realistic depiction of birds soaring in the sky, viewed from below, with Da Vinci observing them from a hillside, sketching in his notebook. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Ultra realistic depiction of Da Vinci's sketches and notes on aerodynamics and bird flight, overlaid on a close-up of a bird's wing in flight. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Painterly realistic image of a modern parachutist silhouetted against a bright sky, with a faint ghostly image of da Vinci's pyramid parachute overlaid. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Ultra realistic portrait of Leonardo da Vinci, gazing thoughtfully into the distance, with a faint overlay of his parachute design. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          }
+        ],
+        "visual_prompts_text": "0 a 8s - A highly detailed, ultra realistic painting of Leonardo da Vinci's pyramid-shaped parachute design sketch in his notebook, surrounded by other sketches and notes. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution\n8 a 18s - Ultra realistic painting of a wooden frame being constructed for da Vinci's parachute, linen fabric draped over it.  Renaissance workshop setting, tools scattered around, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution\n18 a 28s - Painterly realistic image of Adrian Nicholas jumping from a height with a replica of da Vinci's parachute, billowing in the wind against a dramatic sky.  Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution\n28 a 38s - Ultra realistic close-up of the linen fabric of the parachute billowing in the wind, intricate details of the stitching and texture visible. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution\n38 a 49s - Painterly realistic depiction of birds soaring in the sky, viewed from below, with Da Vinci observing them from a hillside, sketching in his notebook. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution\n49 a 60s - Ultra realistic depiction of Da Vinci's sketches and notes on aerodynamics and bird flight, overlaid on a close-up of a bird's wing in flight. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution\n60 a 72s - Painterly realistic image of a modern parachutist silhouetted against a bright sky, with a faint ghostly image of da Vinci's pyramid parachute overlaid. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution\n72 a 90s - Ultra realistic portrait of Leonardo da Vinci, gazing thoughtfully into the distance, with a faint overlay of his parachute design. Renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, vertical 9:16, no text, highly detailed, 8K resolution",
+        "voice_style": "documentary_grave"
+      },
+      "score": 15,
+      "analysis": {
+        "category_match": "curiosidade",
+        "cta_score": 0,
+        "hook_score": 0,
+        "optimization_tips": [
+          "📝 Hook muito curto - expanda para 10-50 caracteres",
+          "❓ Adicione pontuação impactante no hook (?, !, ...)",
+          "📢 CTA muito fraco - adicione call-to-action mais forte"
+        ],
+        "recommendations": [
+          "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+          "O hook precisa ser mais impactante e o roteiro mais envolvente."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 15
+      }
+    }
+  ],
+  "timestamp": "2025-08-14T03:45:09.182114",
+  "saved_at": "2025-08-14 03:45:09"
+}

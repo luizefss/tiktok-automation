@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-07-31T13:54:24.478003",
+  "roteiro": {
+    "titulo": "🤯 Invenções INSANAS que MUDARAM TUDO! 🤯",
+    "hook": "Imagine um mundo sem INTERNET... ou PIOR, sem PIZZA?! 😱",
+    "roteiro_completo": "[Cena 1: Close em um smartphone mostrando uma tela de erro de conexão. Narração rápida:] Sem internet? Impensável! Mas existiu um tempo... [Transição rápida para cena 2: Uma foto antiga em preto e branco de pessoas se comunicando por carta. Narração:]  A internet revolucionou a comunicação, conectando o mundo como nunca antes. [Transição rápida para cena 3: Animação de uma roda sendo inventada. Narração:]  Mas antes disso, a roda!  Transporte, agricultura, tudo mudou! [Transição rápida para cena 4: Uma pizza girando. Narração:] E falando em mudar... a pizza, né? Brincadeira! 😂 Mas a IMPRENSA... [Transição rápida para cena 5: Imagem da prensa de Gutenberg. Narração:] ... democratizou o conhecimento, permitindo a disseminação de ideias e o surgimento da ciência moderna. [Transição rápida para cena 6: Montagem rápida de outras invenções como lâmpada, antibióticos, eletricidade. Narração:] Lâmpada, antibióticos, eletricidade...  Invenções que transformaram nossas vidas!  Qual a sua favorita? Conta aí nos comentários! 👇",
+    "hashtags": [
+      "#viral",
+      "#curiosidades",
+      "#aprendanotiktok",
+      "#interessante",
+      "#invencoes",
+      "#historia",
+      "#tecnologia"
+    ],
+    "categoria": "curiosidades",
+    "topico_original": "invenções que mudaram tudo",
+    "music_style": "upbeat electronic",
+    "timestamp": "2025-07-31T13:52:51.749880",
+    "trending_score": 60,
+    "trending_source": "fallback"
+  },
+  "audio_file": "../media/audio/audio_google_20250731_135258.mp3",
+  "images": [
+    "../media/images/ia_image_20250731_135311.png",
+    "../media/images/ia_image_20250731_135318.png",
+    "../media/images/ia_image_20250731_135327.png",
+    "../media/images/ia_image_20250731_135335.png",
+    "../media/images/ia_image_20250731_135342.png"
+  ],
+  "video": {
+    "success": true,
+    "video_file": "../media/videos/tiktok__Invenções_INSANAS_que_MUDARAM_20250731_135343.mp4",
+    "size_mb": 2.463809013366699,
+    "duration": 34.08,
+    "images_count": 5,
+    "roteiro": {
+      "titulo": "🤯 Invenções INSANAS que MUDARAM TUDO! 🤯",
+      "categoria": "curiosidades",
+      "hook": "Imagine um mundo sem INTERNET... ou PIOR, sem PIZZA?! 😱",
+      "hashtags": [
+        "#viral",
+        "#curiosidades",
+        "#aprendanotiktok",
+        "#interessante",
+        "#invencoes",
+        "#historia",
+        "#tecnologia"
+      ]
+    }
+  },
+  "status": "completed"
+}

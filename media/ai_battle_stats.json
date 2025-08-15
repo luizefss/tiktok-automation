@@ -1,0 +1,47 @@
+{
+  "total_battles": 3,
+  "wins_by_provider": {
+    "gpt": 3,
+    "claude": 0,
+    "gemini": 0
+  },
+  "avg_generation_time": {
+    "gpt": 0,
+    "claude": 0,
+    "gemini": 0
+  },
+  "quality_scores": {
+    "gpt": 88.7,
+    "claude": 0,
+    "gemini": 0
+  },
+  "last_battle": {
+    "winner": "gpt",
+    "theme": "rfafadfadfdfad",
+    "timestamp": "2025-08-10T01:22:55.578421",
+    "score": 90.0
+  },
+  "battles_history": [
+    {
+      "winner": "gpt",
+      "theme": "adasds",
+      "timestamp": "2025-08-10T01:12:17.626435",
+      "score": 85.5,
+      "generation_time": null
+    },
+    {
+      "winner": "gpt",
+      "theme": "asdasd",
+      "timestamp": "2025-08-10T01:21:04.981086",
+      "score": 90.5,
+      "generation_time": null
+    },
+    {
+      "winner": "gpt",
+      "theme": "rfafadfadfdfad",
+      "timestamp": "2025-08-10T01:22:55.578431",
+      "score": 90.0,
+      "generation_time": null
+    }
+  ]
+}

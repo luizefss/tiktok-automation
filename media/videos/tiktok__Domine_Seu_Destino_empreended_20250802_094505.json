@@ -1,0 +1,83 @@
+{
+  "success": true,
+  "video_file": "/var/www/tiktok-automation/media/videos/tiktok__Domine_Seu_Destino_empreended_20250802_094505.mp4",
+  "size_mb": 4.171804428100586,
+  "duration": 48.024,
+  "images_count": 5,
+  "type": "normal",
+  "created_at": "2025-08-02T09:46:14.783332",
+  "settings_used": {
+    "content_ai_model": "gemini",
+    "content_type": "custom_message",
+    "custom_topics": [
+      "Empreendedorismo",
+      "Motivação Pessoal"
+    ],
+    "message_categories": [
+      "Motivação",
+      "Conhecimento",
+      "Reflexão"
+    ],
+    "tone": "inspirational",
+    "image_style": "realistic",
+    "color_palette": "vibrant",
+    "animation_type": "parallax",
+    "voice_emotion": "enthusiastic",
+    "speaking_speed": 1.05,
+    "use_topmedia_ai": false,
+    "background_music": true,
+    "background_music_volume": 0.1,
+    "video_duration": 60,
+    "transitions": "smooth",
+    "text_overlay": true,
+    "custom_prompt_roteiro": "Crie um roteiro viral e impactante para TikTok com foco em {tema} e tom {tom}.",
+    "custom_prompt_imagem": "Cena visualmente impressionante para vídeo vertical, no estilo {estilo_imagem} com paleta {paleta_cores}, sem texto ou pessoas.",
+    "custom_prompt_audio": ""
+  },
+  "generation_type": "custom_message",
+  "estimated_metrics": {
+    "engagement_score": 8.8,
+    "viral_potential": 6.5,
+    "audience_match": 9.396786853425233
+  },
+  "roteiro": {
+    "titulo": "🚀 Domine Seu Destino! 💪 #empreendedorismo",
+    "hook": "A diferença entre o impossível e o possível está na SUA MENTE!",
+    "roteiro_completo": "A diferença entre o impossível e o possível está na SUA MENTE! (Pausa) Já parou pra pensar nisso? 🤔 Quantas vezes você deixou o medo te paralisar?  Quantas vezes você se contentou com menos do que merece? (Pausa) Eu te digo: CHEGA! 🔥  Você é capaz de MUITO mais!  O sucesso não cai do céu, ele é CONSTRUÍDO!  Tijolo por tijolo, dia após dia!  (Pausa) Comece pequeno, mas comece AGORA!  Um passo de cada vez, com consistência e FOCO!  Visualize seu objetivo, sinta a energia da vitória, e não deixe NADA te parar! (Pausa, tom mais suave)  Acredite em mim, a jornada pode ser difícil, mas a recompensa... ah, a recompensa vale cada gota de suor! ✨ (Ênfase)  Você é o dono do seu destino!  Assuma as rédeas da sua vida e faça acontecer! 💪",
+    "message_core": "Você é capaz de alcançar o que quiser se tiver a mentalidade certa e agir com consistência.",
+    "call_to_action": "Comenta aqui embaixo qual é o SEU maior sonho! 👇 E marca aquele amigo que precisa dessa dose de motivação! 🚀",
+    "hashtags": [
+      "#empreendedorismo",
+      "#motivacao",
+      "#motivacaopessoal",
+      "#sucesso",
+      "#mindset"
+    ],
+    "categoria": "motivational",
+    "estimated_duration": 55,
+    "key_moments": [
+      "Hook impactante",
+      "Reflexão sobre o poder da mente",
+      "Chamada para ação com foco em sonhos"
+    ],
+    "music_style": "Música épica e inspiradora com batida forte",
+    "timestamp": "2025-08-02T09:44:15.191586",
+    "is_personalized": true,
+    "selected_topics": [
+      "Empreendedorismo",
+      "Motivação Pessoal"
+    ],
+    "main_category": "Motivação",
+    "tone_applied": "inspirational",
+    "voice_emotion": "enthusiastic",
+    "generation_type": "custom_message",
+    "ia_used": "gemini"
+  },
+  "prompts_usados": [
+    "Sprouting plant breaking through cracked concrete, realistic, dramatic backlighting, vertical 9:16, vibrant and hopeful, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "Vibrant colored hummingbird wings mid-flight against a blurred colorful floral background, realistic, dynamic motion blur, vertical 9:16, energetic and determined, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professi...",
+    "A single, brightly colored die tumbling through the air against a vibrant, abstract background, realistic, dynamic motion blur, vertical 9:16, exciting and risky, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professio...",
+    "Time-lapse of a vibrant flower blooming in sped-up motion, realistic, natural lighting, vertical 9:16, growth and progress, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "A colorful hot air balloon rising above a vibrant landscape of mountains, realistic, dawn light, vertical 9:16, uplifting and inspiring, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition"
+  ]
+}

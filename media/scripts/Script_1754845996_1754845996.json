@@ -1,0 +1,8 @@
+{
+  "title": "Script_1754845996",
+  "content": "pkill -f \"python.*api_v2\" && sleep 2 && echo \"Backend parado\"",
+  "ai_provider": "unknown",
+  "timestamp": "2025-08-10 17:13:16",
+  "word_count": 10,
+  "duration_estimate": "5.0s"
+}

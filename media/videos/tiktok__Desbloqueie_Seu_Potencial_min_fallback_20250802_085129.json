@@ -1,0 +1,82 @@
+{
+  "success": true,
+  "video_file": "/var/www/tiktok-automation/media/videos/tiktok__Desbloqueie_Seu_Potencial_min_fallback_20250802_085129.mp4",
+  "size_mb": 2.22940731048584,
+  "duration": 39.528,
+  "images_count": 1,
+  "type": "fallback",
+  "created_at": "2025-08-02T08:51:56.576325",
+  "settings_used": {
+    "content_ai_model": "gemini",
+    "content_type": "custom_message",
+    "custom_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "message_categories": [
+      "Motivação",
+      "Conhecimento",
+      "Reflexão"
+    ],
+    "tone": "motivational",
+    "image_style": "realistic",
+    "color_palette": "vibrant",
+    "animation_type": "parallax",
+    "voice_emotion": "enthusiastic",
+    "speaking_speed": 1.05,
+    "use_topmedia_ai": false,
+    "background_music": true,
+    "background_music_volume": 0.1,
+    "video_duration": 60,
+    "transitions": "smooth",
+    "text_overlay": true,
+    "custom_prompt_roteiro": "Crie um roteiro viral e impactante para TikTok com foco em {tema} e tom {tom}.",
+    "custom_prompt_imagem": "Cena visualmente impressionante para vídeo vertical, no estilo {estilo_imagem} com paleta {paleta_cores}, sem texto ou pessoas."
+  },
+  "generation_type": "custom_message",
+  "estimated_metrics": {
+    "engagement_score": 8.8,
+    "viral_potential": 7.3,
+    "audience_match": 8.328315216940121
+  },
+  "roteiro": {
+    "titulo": "🚀 Desbloqueie Seu Potencial! 💪 #mindset",
+    "hook": "Você está a UM passo da sua melhor versão! Não desista agora!",
+    "roteiro_completo": "Você está a UM passo da sua melhor versão! Não desista agora! (Pausa)  Quantas vezes você se sentiu desmotivado, pronto para jogar a toalha?  Eu sei, a jornada é difícil! Mas pense comigo: e se tudo que você sempre sonhou estivesse a apenas alguns passos de distância? (Pausa) A diferença entre o extraordinário e o comum é a PERSISTÊNCIA!  Pare de se comparar, pare de duvidar!  Você é CAPAZ!  Comece HOJE a construir a vida que você merece. Pequenos passos, todos os dias, geram GRANDES resultados! Acredite no seu potencial, invista em você!  (Ênfase) VOCÊ É INCRÍVEL! (Pausa)  Desbloqueie a sua força interior, o seu poder! O mundo está esperando por você!  ",
+    "message_core": "A persistência é a chave para desbloquear o seu potencial e conquistar seus sonhos.",
+    "call_to_action": "Marque alguém que precisa ouvir essa mensagem! 🚀 E me conta nos comentários qual o seu maior sonho! 👇",
+    "hashtags": [
+      "#motivacao",
+      "#mindset",
+      "#sucesso",
+      "#inspiracao",
+      "#persistencia"
+    ],
+    "categoria": "motivational",
+    "estimated_duration": 55,
+    "key_moments": [
+      "Hook impactante",
+      "Reflexão sobre persistência",
+      "Chamada para ação"
+    ],
+    "music_style": "Música épica e inspiradora",
+    "timestamp": "2025-08-02T08:50:42.342289",
+    "is_personalized": true,
+    "selected_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "main_category": "Motivação",
+    "tone_applied": "motivational",
+    "voice_emotion": "enthusiastic",
+    "generation_type": "custom_message",
+    "ia_used": "gemini"
+  },
+  "prompts_usados": [
+    "Sprouting plant breaking through cracked asphalt, realistic, dramatic sunlight, vertical 9:16, hopeful and vibrant, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "Winding mountain road leading to a vibrant sunrise, realistic, golden hour lighting, vertical 9:16, determined and inspiring, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "A single vibrant flower blooming in a harsh desert landscape, realistic, intense midday sun, vertical 9:16, resilient and powerful, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "Timelapse of a vibrant cityscape emerging from morning fog, realistic, soft diffused light, vertical 9:16, growth and progress, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "Close-up of a vibrant butterfly emerging from its chrysalis, realistic, macro photography lighting, vertical 9:16, transformation and rebirth, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition"
+  ]
+}

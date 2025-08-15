@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "video_file": "/var/www/tiktok-automation/media/videos/tiktok__Dobre_Sua_Produtividade_no_Tr_20250801_100802.mp4",
+  "size_mb": 3.0905704498291016,
+  "duration": 48.96,
+  "images_count": 5,
+  "type": "normal",
+  "created_at": "2025-08-01T10:08:37.074434",
+  "roteiro": {
+    "titulo": "🚀 Dobre Sua Produtividade no Trabalho! 🤯",
+    "categoria": "educational",
+    "hook": "Pare tudo que você está fazendo!  Esta dica vai TURBINAR sua produtividade no trabalho!",
+    "hashtags": [
+      "#produtividade",
+      "#timeblocking",
+      "#trabalho",
+      "#eficiencia",
+      "#dicadeouro"
+    ]
+  }
+}

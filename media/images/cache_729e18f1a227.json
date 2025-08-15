@@ -1,0 +1,45 @@
+{
+  "script_hash": "729e18f1a227",
+  "script_elements": {
+    "title": "historia sobre a criação do gps para video de 1minuto",
+    "description": "",
+    "visual_cues": [
+      "Imagine um mundo sem GPS",
+      "Antes dessa tecnologia, a navegação era complexa, baseada em mapas, estrelas e muita intuição",
+      "Mas a história da criação do GPS começa muito antes do seu smartphone",
+      "Durante a Guerra Fria, a necessidade de precisão impulsionou a corrida espacial",
+      "O lançamento do Sputnik, em 1957, acendeu a chama para o desenvolvimento de um sistema de posicionamento global",
+      "Os primeiros satélites Transit, precursores do GPS, permitiam calcular a localização com uma precisão ainda rudimentar"
+    ],
+    "hook": "",
+    "content": "Imagine um mundo sem GPS.  Antes dessa tecnologia, a navegação era complexa, baseada em mapas, estrelas e muita intuição. Mas a história da criação do GPS começa muito antes do seu smartphone.\nDurante a Guerra Fria, a necessidade de precisão impulsionou a corrida espacial.  O lançamento do Sputnik, em 1957, acendeu a chama para o desenvolvimento de um sistema de posicionamento global.\nOs primeiros satélites Transit, precursores do GPS, permitiam calcular a localização com uma precisão ainda rudimentar. A história do GPS estava sendo escrita, satélites, órbita por órbita.\nNa década de 70, o Departamento de Defesa dos EUA consolidou o projeto NAVSTAR GPS, visando precisão militar sem precedentes. O sistema usaria uma constelação de satélites para determinar a posição de qualquer receptor na Terra.\nImagine a complexidade: relógios atômicos a bordo dos satélites, corrigindo a distorção do tempo causada pela relatividade.  Uma dança precisa entre espaço e tempo, fundamental para a precisão do GPS.\nEm 1995, o GPS atingiu plena capacidade operacional, inicialmente para uso militar.  Mas a história do GPS não pararia por aí.  Seu impacto na vida civil estava prestes a começar.\nA partir dos anos 2000, o GPS se popularizou, revolucionando a navegação, o transporte, a logística e até mesmo o lazer.  O mundo se tornou menor e mais conectado.\nEm um minuto, viajamos pela história da criação do GPS, uma tecnologia que transformou nossa relação com o espaço e o tempo.  De satélites distantes à palma da sua mão, o GPS continua a nos guiar.\nDo espaço sideral ao seu bolso, o GPS mudou o mundo.  E a história continua...",
+    "visual_style": "misterio",
+    "image_provider": "hybrid"
+  },
+  "images": [
+    "/var/www/tiktok-automation/media/images/scene_1_20250814_104811.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_105122.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_3_20250814_104950.png",
+    "/var/www/tiktok-automation/media/images/scene_4_20250814_104824.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_105124.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_6_20250814_105005.png",
+    "/var/www/tiktok-automation/media/images/scene_7_20250814_104839.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_105121.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_9_20250814_105020.png",
+    "/var/www/tiktok-automation/media/images/scene_10_20250814_104853.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_105124.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_12_20250814_105035.png",
+    "/var/www/tiktok-automation/media/images/scene_13_20250814_104909.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_105122.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_15_20250814_105049.png",
+    "/var/www/tiktok-automation/media/images/scene_16_20250814_104923.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_105124.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_18_20250814_105104.png",
+    "/var/www/tiktok-automation/media/images/scene_19_20250814_104937.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_105121.png"
+  ],
+  "generated_at": "2025-08-14T10:51:24.459820",
+  "last_used": "2025-08-14T10:52:58.932605",
+  "image_count": 20,
+  "visual_style": "misterio"
+}

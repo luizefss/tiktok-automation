@@ -1,0 +1,26 @@
+{
+  "fileName": "2025-08-13_18-59-39_claude_60s_a-historia-nicolas-tesla",
+  "timestamp": "2025-08-13T21:59:39.065Z",
+  "script": "[TIMING: 0-8s] Em 1856, nasce na Croácia um homem destinado a revolucionar o mundo da eletricidade.\n[TIMING: 8-16s] Tesla, um visionário incompreendido, desenvolveu a corrente alternada, desafiando as ideias de Thomas Edison.\n[TIMING: 16-24s] Suas invenções revolucionárias incluíram o motor de indução e o sistema de distribuição de energia elétrica.\n[TIMING: 24-32s] Tesla demonstrou o controle remoto e imaginou um mundo conectado por comunicação sem fio, antecipando a era digital.\n[TIMING: 32-40s] Apesar de seu brilhantismo, Tesla morreu em 1943, sozinho e em dívida, com muitas de suas ideias incompreendidas.\n[TIMING: 40-48s] Hoje, seu legado é reconhecido, com seu nome eternizado na unidade de medida do campo magnético.\n[TIMING: 48-60s] Nikola Tesla, o homem que sonhou com o futuro e nos deu as ferramentas para construí-lo, continua a inspirar cientistas e inventores até hoje.",
+  "topic": "a historia nicolas tesla",
+  "ai_model": "claude",
+  "video_duration": 60,
+  "script_length": 890,
+  "estimated_audio_duration": 89,
+  "word_count": 128,
+  "generation_settings": {
+    "provider": "claude",
+    "format": "tiktok",
+    "duration": 60,
+    "theme": "a historia nicolas tesla"
+  },
+  "category": "technology",
+  "tags": [
+    "historia",
+    "nicolas",
+    "tesla",
+    "medium"
+  ],
+  "status": "generated",
+  "version": "1.0"
+}

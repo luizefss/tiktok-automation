@@ -1,0 +1,13 @@
+INFO:services.claude_service:🔍 Tentando inicializar Claude com key: sk-ant-api...
+INFO:services.claude_service:✅ Conectado ao Claude API
+INFO:services.gpt_service:✅ Conectado ao OpenAI API
+WARNING:services.video_builder:Não foi possível configurar ImageMagick: module 'moviepy.config' has no attribute 'change_settings'
+INFO:services.video_builder:✅ Video Builder Service inicializado
+WARNING:visual_effects_system:Não foi possível configurar ImageMagick: module 'moviepy.config' has no attribute 'change_settings'
+INFO:multi_platform_publisher:🚀 Inicializando Multi-Platform Publisher...
+INFO:multi_platform_publisher:✅ Multi-Platform Publisher inicializado
+⚠️ Selenium não está instalado. Instale com: pip install selenium webdriver-manager
+Traceback (most recent call last):
+  File "/var/www/tiktok-automation/backend/api_v2.py", line 24, in <module>
+    from flask_limiter import Limiter
+ModuleNotFoundError: No module named 'flask_limiter'

@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-07-31T14:19:02.303740",
+  "roteiro": {
+    "titulo": "🤯 Cidade Perdida Encontrada! Arqueologia Épica! 🗺️ #descobertas",
+    "hook": "IMAGINA uma cidade perdida por séculos, AGORA encontrada! 😱",
+    "roteiro_completo": "[Cena 1: 0-5 segundos] (Vídeo acelerado de uma escavação arqueológica. Música suspense.)\nNarração: \"Esqueça Atlântida! Uma descoberta ainda MAIS incrível acaba de ser feita!\" \n\n[Cena 2: 5-15 segundos] (Imagens de artefatos antigos, como cerâmicas e ferramentas. Música curiosa.)\nNarração: \"Arqueólogos desenterraram uma cidade perdida no [local da descoberta].  E o que eles encontraram lá é de PIRAR...\" \n\n[Cena 3: 15-30 segundos] (Recriação visual da cidade perdida, animação ou desenho. Música épica.)\nNarração: \"Estruturas complexas, artefatos misteriosos e pistas de uma civilização avançada que desapareceu sem deixar rastros!\" \n\n[Cena 4: 30-45 segundos] (Close em um artefato particularmente interessante. Música suspense.)\nNarração: \"Este objeto, por exemplo, intriga os cientistas. O que será que ele significa?\" \n\n[Cena 5: 45-55 segundos] (Montagem rápida de outras descobertas arqueológicas recentes. Música upbeat.)\nNarração: \"E essa não é a única descoberta incrível dos últimos tempos! O mundo da arqueologia está BOMBANDO!\" \n\n[Cena 6: 55-60 segundos] (Tela final com texto chamativo e setas apontando para o botão de seguir.)\nNarração: \"Quer saber mais sobre esses mistérios? Siga para não perder as próximas descobertas!\"",
+    "hashtags": [
+      "#viral",
+      "#arqueologia",
+      "#historia",
+      "#descobertasarqueologicas",
+      "#misterios",
+      "#curiosidades",
+      "#aprendanotiktok",
+      "#interessante",
+      "#cidadeperdida"
+    ],
+    "categoria": "educacao",
+    "topico_original": "descobertas arqueológicas recentes",
+    "music_style": "epic orchestral",
+    "timestamp": "2025-07-31T14:17:30.699796",
+    "trending_score": 60,
+    "trending_source": "fallback"
+  },
+  "audio_file": "../media/audio/audio_google_20250731_141737.mp3",
+  "images": [
+    "../media/images/ia_image_20250731_141748.png",
+    "../media/images/ia_image_20250731_141756.png",
+    "../media/images/ia_image_20250731_141803.png",
+    "../media/images/ia_image_20250731_141811.png",
+    "../media/images/ia_image_20250731_141819.png"
+  ],
+  "video": {
+    "success": true,
+    "video_file": "../media/videos/tiktok__Cidade_Perdida_Encontrada_Arq_20250731_141820.mp4",
+    "size_mb": 2.4726572036743164,
+    "duration": 38.448,
+    "images_count": 5,
+    "roteiro": {
+      "titulo": "🤯 Cidade Perdida Encontrada! Arqueologia Épica! 🗺️ #descobertas",
+      "categoria": "educacao",
+      "hook": "IMAGINA uma cidade perdida por séculos, AGORA encontrada! 😱",
+      "hashtags": [
+        "#viral",
+        "#arqueologia",
+        "#historia",
+        "#descobertasarqueologicas",
+        "#misterios",
+        "#curiosidades",
+        "#aprendanotiktok",
+        "#interessante",
+        "#cidadeperdida"
+      ]
+    }
+  },
+  "status": "completed"
+}

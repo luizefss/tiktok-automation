@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "video_file": "/var/www/tiktok-automation/media/videos/tiktok_TURBINE_sua_Produtividade_prod_20250801_102039.mp4",
+  "size_mb": 2.7744874954223633,
+  "duration": 48.624,
+  "images_count": 5,
+  "type": "normal",
+  "created_at": "2025-08-01T10:21:08.840923",
+  "roteiro": {
+    "titulo": "🚀TURBINE sua Produtividade!🤯 #produtividade",
+    "categoria": "educational",
+    "hook": "Pare tudo que você está fazendo!  Esta dica vai TRANSFORMAR sua produtividade no trabalho!",
+    "hashtags": [
+      "#produtividade",
+      "#trabalho",
+      "#pomodoro",
+      "#foco",
+      "#dicadeouro"
+    ]
+  }
+}

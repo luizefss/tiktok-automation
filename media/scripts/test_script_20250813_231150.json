@@ -1,0 +1,35 @@
+{
+  "fileName": "2025-08-13_20-11-52_claude_60s_narre-sobre-a-historia-de-geor",
+  "timestamp": "2025-08-13T23:11:52.232Z",
+  "script": "São Petersburgo, 1753. O cientista Georg Wilhelm Richmann dedicava-se a estudar um fenômeno ainda misterioso: a eletricidade.\nInspirado pelos experimentos de Benjamin Franklin, Richmann construiu uma 'máquina do tempo' para capturar raios durante tempestades.\nEm um dia de tempestade, Richmann convidou um gravador para documentar suas observações.  A atmosfera era tensa.\nEnquanto Richmann se aproximava do aparelho, um raio o atingiu em cheio.\nA descarga elétrica foi fatal. Richmann tornou-se uma das primeiras vítimas da eletricidade.\nO gravador sobreviveu, mas com queimaduras e ficou atordoado com o estrondo. A tragédia chocou a comunidade científica.\nA morte de Richmann serviu de alerta para os perigos da eletricidade, impulsionando novos estudos sobre segurança.\nSeu sacrifício involuntário contribuiu para o avanço da ciência, ainda que a um custo alto.",
+  "topic": "Narre sobre a historia de Georg Wilhelm Richmann para roteiro de video de 1 minuto",
+  "ai_model": "claude",
+  "video_duration": 60,
+  "script_length": 865,
+  "estimated_audio_duration": 87,
+  "word_count": 120,
+  "generation_settings": {
+    "provider": "claude",
+    "format": "tiktok",
+    "duration": 60,
+    "theme": "Narre sobre a historia de Georg Wilhelm Richmann para roteiro de video de 1 minuto"
+  },
+  "category": "mystery-terror",
+  "tags": [
+    "narre",
+    "sobre",
+    "historia",
+    "georg",
+    "wilhelm",
+    "richmann",
+    "para",
+    "roteiro",
+    "video",
+    "minuto",
+    "misterio",
+    "dica",
+    "medium"
+  ],
+  "status": "generated",
+  "version": "1.0"
+}

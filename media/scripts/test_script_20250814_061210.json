@@ -1,0 +1,34 @@
+{
+  "fileName": "2025-08-14_03-12-10_chatgpt_60s_narre-a-historia-da-inveno-da-",
+  "timestamp": "2025-08-14T06:12:10.393Z",
+  "script": "Imagine um mundo sem internet. Difícil, né?  Nos anos 80, a comunicação global era lenta e complexa.\nTim Berners-Lee, um físico britânico no CERN, propôs uma solução: uma rede global de informações interligadas.\nEm 1989, ele escreveu a proposta do que viria a ser a World Wide Web.  Seu objetivo? Compartilhar informações entre pesquisadores do mundo todo.\nA ideia inicial era conectar documentos através de hyperlinks, permitindo acesso rápido e fácil a diferentes informações.\nEm 1990, Berners-Lee criou o primeiro servidor web e o primeiro navegador, dando vida à sua visão.\nEm 1991, a web foi aberta ao público, revolucionando a forma como acessamos e compartilhamos conhecimento.\nBerners-Lee optou por não patentear sua invenção, permitindo que a web se tornasse um recurso aberto e global.\nA internet como conhecemos hoje deve muito a essa decisão visionária.  Obrigado, Tim Berners-Lee!",
+  "topic": "narre a historia da invenção da internet, com o trabalho de Tim Berners-Lee para video de um minuto ",
+  "ai_model": "chatgpt",
+  "video_duration": 60,
+  "script_length": 893,
+  "estimated_audio_duration": 90,
+  "word_count": 135,
+  "generation_settings": {
+    "provider": "chatgpt",
+    "format": "tiktok",
+    "duration": 60,
+    "theme": "narre a historia da invenção da internet, com o trabalho de Tim Berners-Lee para video de um minuto "
+  },
+  "category": "technology",
+  "tags": [
+    "narre",
+    "historia",
+    "invenção",
+    "internet,",
+    "com",
+    "trabalho",
+    "tim",
+    "berners-lee",
+    "para",
+    "video",
+    "minuto",
+    "medium"
+  ],
+  "status": "generated",
+  "version": "1.0"
+}

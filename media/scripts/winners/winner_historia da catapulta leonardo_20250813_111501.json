@@ -1,0 +1,562 @@
+{
+  "winner_provider": "Gpt",
+  "battle_theme": "historia da catapulta leonardo da vince",
+  "script_data": {
+    "fileName": "2025-08-13_08-15-02_WINNER-gpt_60s_historia-da-catapulta-leo",
+    "timestamp": "2025-08-13T11:15:02.714Z",
+    "type": "battle_winner",
+    "winner_ai": "Gpt",
+    "topic": "historia da catapulta leonardo da vince",
+    "script": "Você já imaginou que uma das mentes mais brilhantes da história também se aventurou no mundo das armas de guerra? Leonardo da Vinci, além de pintor e inventor, projetou uma catapulta que desafia a lógica da época. Mas o que há de tão especial nisso? Durante o Renascimento, Leonardo não apenas pintou a Mona Lisa, mas também revolucionou o design militar com um projeto de catapulta que usava molas e engrenagens para aumentar seu alcance e precisão. Imagine o impacto disso em um campo de batalha medieval! A ideia de Leonardo era tão à frente de seu tempo que muitos de seus projetos só puderam ser construídos séculos depois. Na era moderna, a inovação continua a ser impulsionada pela capacidade de pensar fora da caixa, tal como Leonardo fez. O legado de suas invenções nos lembra que a curiosidade e a criatividade não têm limites. Continue assistindo a Parte 2 para descobrir o resto da história!",
+    "winning_settings": {
+      "ai_model": "gpt",
+      "video_duration": 60,
+      "theme": "historia da catapulta leonardo da vince",
+      "provider": "gpt"
+    },
+    "battle_context": {
+      "participants": [
+        "Gpt",
+        "Claude",
+        "Gemini"
+      ],
+      "total_participants": 3,
+      "winner_score": 45.5,
+      "battle_timestamp": "2025-08-13T11:15:02.714Z"
+    },
+    "success_factors": {
+      "script_length": 903,
+      "estimated_engagement": "high",
+      "category": "technology",
+      "tags": [
+        "historia",
+        "catapulta",
+        "leonardo",
+        "vince",
+        "medium"
+      ]
+    },
+    "status": "battle_winner",
+    "confidence": "user_selected",
+    "replication_ready": true
+  },
+  "battle_results": [
+    {
+      "name": "Gpt",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "gpt",
+        "call_to_action": "Curta e compartilhe para espalhar o legado de Leonardo da Vinci!",
+        "duracao_estimada": 75,
+        "estilo_visual": "curiosidade",
+        "estimated_duration": 62,
+        "estimated_parts": 2,
+        "estrutura_usada": [
+          "gancho_curiosidade",
+          "fato_surpreendente",
+          "explicacao_contexto",
+          "conexao_vida_real",
+          "conclusao_impactante",
+          "call_to_action"
+        ],
+        "hashtags": [
+          "#viral",
+          "#tiktok",
+          "#brasil",
+          "#interessante",
+          "#conteudo"
+        ],
+        "hook": "Você já imaginou que uma das mentes mais brilhantes da história também se",
+        "ia_used": "gpt",
+        "leonardo_prompts": [
+          {
+            "animation": "pan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "animation": "zoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 2,
+            "timing": "9-18s"
+          },
+          {
+            "animation": "rotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 3,
+            "timing": "18-27s"
+          },
+          {
+            "animation": "fade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 4,
+            "timing": "27-36s"
+          },
+          {
+            "animation": "slide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 5,
+            "timing": "36-45s"
+          },
+          {
+            "animation": "zoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 6,
+            "timing": "45-53s"
+          },
+          {
+            "animation": "tilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 7,
+            "timing": "53-62s"
+          }
+        ],
+        "leonardo_prompts_text": "⏰ Cena 1: 0-9s\n🎬 PROMPT LEONARDO AI:\npan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 2: 9-18s\n🎬 PROMPT LEONARDO AI:\nzoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 3: 18-27s\n🎬 PROMPT LEONARDO AI:\nrotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 4: 27-36s\n🎬 PROMPT LEONARDO AI:\nfade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 5: 36-45s\n🎬 PROMPT LEONARDO AI:\nslide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 6: 45-53s\n🎬 PROMPT LEONARDO AI:\nzoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 7: 53-62s\n🎬 PROMPT LEONARDO AI:\ntilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n",
+        "needs_parts": true,
+        "parte_atual": 1,
+        "roteiro_completo": "Você já imaginou que uma das mentes mais brilhantes da história também se aventurou no mundo das armas de guerra? Leonardo da Vinci, além de pintor e inventor, projetou uma catapulta que desafia a lógica da época. Mas o que há de tão especial nisso? Durante o Renascimento, Leonardo não apenas pintou a Mona Lisa, mas também revolucionou o design militar com um projeto de catapulta que usava molas e engrenagens para aumentar seu alcance e precisão. Imagine o impacto disso em um campo de batalha medieval! A ideia de Leonardo era tão à frente de seu tempo que muitos de seus projetos só puderam ser construídos séculos depois. Na era moderna, a inovação continua a ser impulsionada pela capacidade de pensar fora da caixa, tal como Leonardo fez. O legado de suas invenções nos lembra que a curiosidade e a criatividade não têm limites. Continue assistindo a Parte 2 para descobrir o resto da história!",
+        "roteiro_original": "Você já imaginou que uma das mentes mais brilhantes da história também se aventurou no mundo das armas de guerra? [PAUSA] Leonardo da Vinci, além de pintor e inventor, projetou uma catapulta que desafia a lógica da época. [ÊNFASE] Mas o que há de tão especial nisso? [PAUSA] Durante o Renascimento, Leonardo não apenas pintou a Mona Lisa, mas também revolucionou o design militar com um projeto de catapulta que usava molas e engrenagens para aumentar seu alcance e precisão. [PAUSA] Imagine o impacto disso em um campo de batalha medieval! [PAUSA] A ideia de Leonardo era tão à frente de seu tempo que muitos de seus projetos só puderam ser construídos séculos depois. [PAUSA] Na era moderna, a inovação continua a ser impulsionada pela capacidade de pensar fora da caixa, tal como Leonardo fez. [PAUSA] O legado de suas invenções nos lembra que a curiosidade e a criatividade não têm limites. [PAUSA] Se você achou isso fascinante, não deixe de curtir e compartilhar para que mais pessoas descubram os incríveis feitos de Leonardo da Vinci!",
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "curiosidade",
+        "tipo_historia": "curiosidade",
+        "titulo": "Leonardo da Vinci e sua Incrível Catapulta",
+        "tom_narrativa": "envolvente e surpreendente",
+        "viral_analysis": {
+          "category_match": "curiosidade",
+          "cta_score": 0.7,
+          "hook_score": 0.7999999999999999,
+          "optimization_tips": [
+            "❓ Adicione pontuação impactante no hook (?, !, ...)",
+            "⏱️ Duração ideal é entre 45s e 60s."
+          ],
+          "recommendations": [
+            "⚠️ Potencial médio. Revise hook e hashtags.",
+            "Adicione mais elementos virais e um CTA mais forte."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 45.5
+        },
+        "viral_score": 87,
+        "visual_prompts": [
+          {
+            "image_prompt": "uma pintura renascentista de Leonardo, você imaginou mentes, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Você já imaginou que uma das mentes mais brilhantes da história também se aventurou no mundo das armas de guerra? Leonardo da",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "image_prompt": "um esboço de catapulta, vinci, além pintor, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Vinci, além de pintor e inventor, projetou uma catapulta que desafia a lógica da época. Mas o que há de tão especial",
+            "scene_number": 2,
+            "timing": "9-18s"
+          },
+          {
+            "image_prompt": "um campo de batalha medieval, nisso? durante renascimento,, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "nisso? Durante o Renascimento, Leonardo não apenas pintou a Mona Lisa, mas também revolucionou o design militar com um projeto de catapulta",
+            "scene_number": 3,
+            "timing": "18-27s"
+          },
+          {
+            "image_prompt": "um laboratório moderno de invenções, usava molas engrenagens, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "que usava molas e engrenagens para aumentar seu alcance e precisão. Imagine o impacto disso em um campo de batalha medieval! A",
+            "scene_number": 4,
+            "timing": "27-36s"
+          },
+          {
+            "image_prompt": "um retrato de Leonardo com suas invenções, ideia leonardo frente, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "ideia de Leonardo era tão à frente de seu tempo que muitos de seus projetos só puderam ser construídos séculos depois. Na",
+            "scene_number": 5,
+            "timing": "36-45s"
+          },
+          {
+            "image_prompt": "uma pintura renascentista de Leonardo, moderna, inovação continua, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "era moderna, a inovação continua a ser impulsionada pela capacidade de pensar fora da caixa, tal como Leonardo fez. O legado de",
+            "scene_number": 6,
+            "timing": "45-53s"
+          },
+          {
+            "image_prompt": "um esboço de catapulta, suas invenções lembra, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "suas invenções nos lembra que a curiosidade e a criatividade não têm limites. Continue assistindo a Parte 2 para descobrir o resto da história!",
+            "scene_number": 7,
+            "timing": "53-62s"
+          }
+        ],
+        "visual_prompts_text": "⏰ Cena 1: 0-9s\n📸 PROMPT IMAGEN 3:\numa pintura renascentista de Leonardo, você imaginou mentes, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 2: 9-18s\n📸 PROMPT IMAGEN 3:\num esboço de catapulta, vinci, além pintor, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 3: 18-27s\n📸 PROMPT IMAGEN 3:\num campo de batalha medieval, nisso? durante renascimento,, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 4: 27-36s\n📸 PROMPT IMAGEN 3:\num laboratório moderno de invenções, usava molas engrenagens, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 5: 36-45s\n📸 PROMPT IMAGEN 3:\num retrato de Leonardo com suas invenções, ideia leonardo frente, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 6: 45-53s\n📸 PROMPT IMAGEN 3:\numa pintura renascentista de Leonardo, moderna, inovação continua, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 7: 53-62s\n📸 PROMPT IMAGEN 3:\num esboço de catapulta, suas invenções lembra, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n"
+      },
+      "score": 45.5,
+      "analysis": {
+        "category_match": "curiosidade",
+        "cta_score": 0.7,
+        "hook_score": 0.7999999999999999,
+        "optimization_tips": [
+          "❓ Adicione pontuação impactante no hook (?, !, ...)",
+          "⏱️ Duração ideal é entre 45s e 60s."
+        ],
+        "recommendations": [
+          "⚠️ Potencial médio. Revise hook e hashtags.",
+          "Adicione mais elementos virais e um CTA mais forte."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 45.5
+      }
+    },
+    {
+      "name": "Claude",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "claude",
+        "call_to_action": "Pesquise sobre outras criações de Leonardo da Vinci e descubra como elas influenciaram o mundo moderno!",
+        "duracao_estimada": 75,
+        "estilo_visual": "curiosidade",
+        "estimated_duration": 58,
+        "estimated_parts": 2,
+        "estrutura_usada": [
+          "gancho_curiosidade",
+          "fato_surpreendente",
+          "explicacao_contexto",
+          "conexao_vida_real",
+          "conclusao_impactante",
+          "call_to_action"
+        ],
+        "hashtags": [
+          "#viral",
+          "#tiktok",
+          "#brasil",
+          "#interessante",
+          "#conteudo"
+        ],
+        "hook": "Você já imaginou uma catapulta que pudesse lançar bombas e pedras gigantes, mas",
+        "ia_used": "claude",
+        "leonardo_prompts": [
+          {
+            "animation": "pan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "8 seconds",
+            "scene_number": 1,
+            "timing": "0-8s"
+          },
+          {
+            "animation": "zoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "8 seconds",
+            "scene_number": 2,
+            "timing": "8-17s"
+          },
+          {
+            "animation": "rotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "8 seconds",
+            "scene_number": 3,
+            "timing": "17-25s"
+          },
+          {
+            "animation": "fade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "8 seconds",
+            "scene_number": 4,
+            "timing": "25-33s"
+          },
+          {
+            "animation": "slide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "8 seconds",
+            "scene_number": 5,
+            "timing": "33-42s"
+          },
+          {
+            "animation": "zoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "8 seconds",
+            "scene_number": 6,
+            "timing": "42-50s"
+          },
+          {
+            "animation": "tilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "8 seconds",
+            "scene_number": 7,
+            "timing": "50-58s"
+          }
+        ],
+        "leonardo_prompts_text": "⏰ Cena 1: 0-8s\n🎬 PROMPT LEONARDO AI:\npan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 2: 8-17s\n🎬 PROMPT LEONARDO AI:\nzoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 3: 17-25s\n🎬 PROMPT LEONARDO AI:\nrotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 4: 25-33s\n🎬 PROMPT LEONARDO AI:\nfade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 5: 33-42s\n🎬 PROMPT LEONARDO AI:\nslide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 6: 42-50s\n🎬 PROMPT LEONARDO AI:\nzoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 7: 50-58s\n🎬 PROMPT LEONARDO AI:\ntilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n",
+        "needs_parts": true,
+        "parte_atual": 1,
+        "roteiro_completo": "Você já imaginou uma catapulta que pudesse lançar bombas e pedras gigantes, mas que também servisse como ponte? Pois é exatamente isso que Leonardo da Vinci projetou há mais de 500 anos! Este gênio do Renascimento criou uma catapulta revolucionária que podia se transformar em uma ponte móvel. O projeto, encontrado em seus famosos cadernos de anotações, mostrava uma máquina de guerra versátil e inovadora para a época. Da Vinci imaginou que, quando não estivesse em batalha, a estrutura da catapulta poderia ser desmontada e usada para que tropas atravessassem rios ou fossos. Embora nunca tenha sido construída em sua época, a ideia de Da Vinci inspirou engenheiros modernos. Em 2002, uma equipe do Museu de História e Ciência de Florença construiu um modelo funcional baseado nos desenhos originais, provando que o conceito realmente funcionava! Continue assistindo a Parte 2 para descobrir o resto da história!",
+        "roteiro_original": "Você já imaginou uma catapulta que pudesse lançar bombas e pedras gigantes, mas que também servisse como ponte? [PAUSA] Pois é exatamente isso que Leonardo da Vinci projetou há mais de 500 anos! [ÊNFASE] Este gênio do Renascimento criou uma catapulta revolucionária que podia se transformar em uma ponte móvel. [PAUSA] O projeto, encontrado em seus famosos cadernos de anotações, mostrava uma máquina de guerra versátil e inovadora para a época. [PAUSA] Da Vinci imaginou que, quando não estivesse em batalha, a estrutura da catapulta poderia ser desmontada e usada para que tropas atravessassem rios ou fossos. [PAUSA] Embora nunca tenha sido construída em sua época, a ideia de Da Vinci inspirou engenheiros modernos. [ÊNFASE] Em 2002, uma equipe do Museu de História e Ciência de Florença construiu um modelo funcional baseado nos desenhos originais, provando que o conceito realmente funcionava! [PAUSA] Este exemplo nos mostra como ideias revolucionárias do passado podem continuar relevantes e inspiradoras até hoje. [PAUSA] Da próxima vez que você ver uma ponte ou uma construção complexa, lembre-se: pode haver séculos de inovação por trás dela! [ÊNFASE] Que tal explorar mais invenções fascinantes da história? Pesquise sobre outras criações de Leonardo da Vinci e descubra como elas influenciaram o mundo moderno!",
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "curiosidade",
+        "tipo_historia": "curiosidade",
+        "titulo": "A Surpreendente Catapulta-Ponte de Leonardo da Vinci",
+        "tom_narrativa": "envolvente e surpreendente",
+        "viral_analysis": {
+          "category_match": "curiosidade",
+          "cta_score": 0.5,
+          "hook_score": 0.7999999999999999,
+          "optimization_tips": [
+            "❓ Adicione pontuação impactante no hook (?, !, ...)"
+          ],
+          "recommendations": [
+            "⚠️ Potencial médio. Revise hook e hashtags.",
+            "Adicione mais elementos virais e um CTA mais forte."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 42.5
+        },
+        "viral_score": 87,
+        "visual_prompts": [
+          {
+            "image_prompt": "Ilustração de uma catapulta se transformando em ponte, você imaginou catapulta, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Você já imaginou uma catapulta que pudesse lançar bombas e pedras gigantes, mas que também servisse como ponte? Pois é",
+            "scene_number": 1,
+            "timing": "0-8s"
+          },
+          {
+            "image_prompt": "Página do caderno de Da Vinci com o desenho da catapulta-ponte, exatamente isso leonardo, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "exatamente isso que Leonardo da Vinci projetou há mais de 500 anos! Este gênio do Renascimento criou uma catapulta revolucionária",
+            "scene_number": 2,
+            "timing": "8-17s"
+          },
+          {
+            "image_prompt": "Cena de batalha medieval com a catapulta em ação, podia transformar ponte, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "que podia se transformar em uma ponte móvel. O projeto, encontrado em seus famosos cadernos de anotações, mostrava uma máquina",
+            "scene_number": 3,
+            "timing": "17-25s"
+          },
+          {
+            "image_prompt": "Foto do modelo construído em 2002 no museu de Florença, guerra versátil inovadora, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "de guerra versátil e inovadora para a época. Da Vinci imaginou que, quando não estivesse em batalha, a estrutura da",
+            "scene_number": 4,
+            "timing": "25-33s"
+          },
+          {
+            "image_prompt": "Montagem mostrando a evolução das pontes até estruturas modernas, catapulta poderia desmontada, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "catapulta poderia ser desmontada e usada para que tropas atravessassem rios ou fossos. Embora nunca tenha sido construída em sua",
+            "scene_number": 5,
+            "timing": "33-42s"
+          },
+          {
+            "image_prompt": "Ilustração de uma catapulta se transformando em ponte, época, ideia vinci, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "época, a ideia de Da Vinci inspirou engenheiros modernos. Em 2002, uma equipe do Museu de História e Ciência de",
+            "scene_number": 6,
+            "timing": "42-50s"
+          },
+          {
+            "image_prompt": "Página do caderno de Da Vinci com o desenho da catapulta-ponte, florença construiu modelo, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Florença construiu um modelo funcional baseado nos desenhos originais, provando que o conceito realmente funcionava! Continue assistindo a Parte 2 para descobrir o resto da história!",
+            "scene_number": 7,
+            "timing": "50-58s"
+          }
+        ],
+        "visual_prompts_text": "⏰ Cena 1: 0-8s\n📸 PROMPT IMAGEN 3:\nIlustração de uma catapulta se transformando em ponte, você imaginou catapulta, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 2: 8-17s\n📸 PROMPT IMAGEN 3:\nPágina do caderno de Da Vinci com o desenho da catapulta-ponte, exatamente isso leonardo, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 3: 17-25s\n📸 PROMPT IMAGEN 3:\nCena de batalha medieval com a catapulta em ação, podia transformar ponte, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 4: 25-33s\n📸 PROMPT IMAGEN 3:\nFoto do modelo construído em 2002 no museu de Florença, guerra versátil inovadora, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 5: 33-42s\n📸 PROMPT IMAGEN 3:\nMontagem mostrando a evolução das pontes até estruturas modernas, catapulta poderia desmontada, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 6: 42-50s\n📸 PROMPT IMAGEN 3:\nIlustração de uma catapulta se transformando em ponte, época, ideia vinci, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 7: 50-58s\n📸 PROMPT IMAGEN 3:\nPágina do caderno de Da Vinci com o desenho da catapulta-ponte, florença construiu modelo, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n"
+      },
+      "score": 42.5,
+      "analysis": {
+        "category_match": "curiosidade",
+        "cta_score": 0.5,
+        "hook_score": 0.7999999999999999,
+        "optimization_tips": [
+          "❓ Adicione pontuação impactante no hook (?, !, ...)"
+        ],
+        "recommendations": [
+          "⚠️ Potencial médio. Revise hook e hashtags.",
+          "Adicione mais elementos virais e um CTA mais forte."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 42.5
+      }
+    },
+    {
+      "name": "Gemini",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "gemini",
+        "call_to_action": "Explore os links na descrição para saber mais sobre as invenções militares de Da Vinci!",
+        "duracao_estimada": 75,
+        "estilo_visual": "curiosidade",
+        "estimated_duration": 59,
+        "estimated_parts": 2,
+        "estrutura_usada": [
+          "gancho_curiosidade",
+          "fato_surpreendente",
+          "explicacao_contexto",
+          "conexao_vida_real",
+          "conclusao_impactante",
+          "call_to_action"
+        ],
+        "hashtags": [
+          "#viral",
+          "#tiktok",
+          "#brasil",
+          "#interessante",
+          "#conteudo"
+        ],
+        "hook": "Imagine um mundo sem canhões. [PAUSA] Como os exércitos lançariam projéteis a",
+        "ia_used": "gemini",
+        "leonardo_prompts": [
+          {
+            "animation": "pan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "animation": "zoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 2,
+            "timing": "9-17s"
+          },
+          {
+            "animation": "rotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 3,
+            "timing": "17-26s"
+          },
+          {
+            "animation": "fade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 4,
+            "timing": "26-34s"
+          },
+          {
+            "animation": "slide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 5,
+            "timing": "34-43s"
+          },
+          {
+            "animation": "zoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 6,
+            "timing": "43-51s"
+          },
+          {
+            "animation": "tilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 7,
+            "timing": "51-60s"
+          }
+        ],
+        "leonardo_prompts_text": "⏰ Cena 1: 0-9s\n🎬 PROMPT LEONARDO AI:\npan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 2: 9-17s\n🎬 PROMPT LEONARDO AI:\nzoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 3: 17-26s\n🎬 PROMPT LEONARDO AI:\nrotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 4: 26-34s\n🎬 PROMPT LEONARDO AI:\nfade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 5: 34-43s\n🎬 PROMPT LEONARDO AI:\nslide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 6: 43-51s\n🎬 PROMPT LEONARDO AI:\nzoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 7: 51-60s\n🎬 PROMPT LEONARDO AI:\ntilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n",
+        "needs_parts": true,
+        "parte_atual": 1,
+        "roteiro_completo": "Imagine um mundo sem canhões. Como os exércitos lançariam projéteis a longas distâncias? Bem, muito antes da pólvora dominar os campos de batalha, mentes brilhantes já buscavam soluções. Leonardo da Vinci, além de suas obras-primas artísticas, projetou uma catapulta gigante, tão poderosa que poderia lançar projéteis enormes a distâncias inacreditáveis para a época. No século quinze, enquanto muitos ainda se apegavam a trabucos e balistas tradicionais, Da Vinci já imaginava uma máquina de guerra colossal, movida por um sistema complexo de cordas, polias e molas de madeira. Seu desenho inovador permitia armazenar e liberar energia de forma eficiente, impulsionando pedras, bolas de fogo e até mesmo explosivos rudimentares com força descomunal. Essa busca pela inovação bélica, tão presente na história da humanidade, ecoa até os dias de hoje, na busca por tecnologias de defesa cada vez mais avançadas. Continue assistindo a Parte 2 para descobrir o resto da história!",
+        "roteiro_original": "Imagine um mundo sem canhões. [PAUSA] Como os exércitos lançariam projéteis a longas distâncias? [PAUSA]  Bem, muito antes da pólvora dominar os campos de batalha, mentes brilhantes já buscavam soluções. [PAUSA] Leonardo da Vinci, além de suas obras-primas artísticas, projetou uma catapulta gigante, [ÊNFASE] tão poderosa que poderia lançar projéteis enormes a distâncias inacreditáveis para a época. [PAUSA]  No século quinze, enquanto muitos ainda se apegavam a trabucos e balistas tradicionais, Da Vinci já imaginava uma máquina de guerra colossal, movida por um sistema complexo de cordas, polias e molas de madeira. [PAUSA]  Seu desenho inovador permitia armazenar e liberar energia de forma eficiente, impulsionando pedras, bolas de fogo e até mesmo explosivos rudimentares com força descomunal. [PAUSA] Essa busca pela inovação bélica, tão presente na história da humanidade, ecoa até os dias de hoje, na busca por tecnologias de defesa cada vez mais avançadas. [PAUSA] A genialidade de Da Vinci nos mostra que a busca por soluções, mesmo em contextos de conflito, [ÊNFASE] pode impulsionar o conhecimento e a inventividade humana.  [PAUSA] Quer descobrir mais sobre as invenções militares de Da Vinci?  Explore os links na descrição e mergulhe nesse universo fascinante! [PAUSA]",
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "curiosidade",
+        "tipo_historia": "curiosidade",
+        "titulo": "A Super Catapulta de Da Vinci: Uma Arma Secreta do Renascimento",
+        "tom_narrativa": "envolvente e surpreendente",
+        "viral_analysis": {
+          "category_match": "curiosidade",
+          "cta_score": 0.5,
+          "hook_score": 0.7,
+          "optimization_tips": [
+            "❓ Adicione pontuação impactante no hook (?, !, ...)"
+          ],
+          "recommendations": [
+            "⚠️ Potencial médio. Revise hook e hashtags.",
+            "Adicione mais elementos virais e um CTA mais forte."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 40
+        },
+        "viral_score": 87,
+        "visual_prompts": [
+          {
+            "image_prompt": "Animação de um campo de batalha medieval sem canhões, imagine mundo canhões., vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Imagine um mundo sem canhões. Como os exércitos lançariam projéteis a longas distâncias? Bem, muito antes da pólvora dominar os campos",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "image_prompt": "Ilustração da catapulta gigante de Da Vinci em ação, batalha, mentes brilhantes, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "de batalha, mentes brilhantes já buscavam soluções. Leonardo da Vinci, além de suas obras-primas artísticas, projetou uma catapulta gigante, tão poderosa",
+            "scene_number": 2,
+            "timing": "9-17s"
+          },
+          {
+            "image_prompt": "Close-up animado do mecanismo de cordas, polias e molas da catapulta, poderia lançar projéteis, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "que poderia lançar projéteis enormes a distâncias inacreditáveis para a época. No século quinze, enquanto muitos ainda se apegavam a trabucos",
+            "scene_number": 3,
+            "timing": "17-26s"
+          },
+          {
+            "image_prompt": "Montagem de imagens mostrando a evolução das tecnologias militares até os dias de hoje, balistas tradicionais, vinci, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "e balistas tradicionais, Da Vinci já imaginava uma máquina de guerra colossal, movida por um sistema complexo de cordas, polias e",
+            "scene_number": 4,
+            "timing": "26-34s"
+          },
+          {
+            "image_prompt": "Animação de um livro se abrindo, revelando desenhos e anotações de Da Vinci, molas madeira. desenho, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "molas de madeira. Seu desenho inovador permitia armazenar e liberar energia de forma eficiente, impulsionando pedras, bolas de fogo e até",
+            "scene_number": 5,
+            "timing": "34-43s"
+          },
+          {
+            "image_prompt": "Animação de um campo de batalha medieval sem canhões, mesmo explosivos rudimentares, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "mesmo explosivos rudimentares com força descomunal. Essa busca pela inovação bélica, tão presente na história da humanidade, ecoa até os dias",
+            "scene_number": 6,
+            "timing": "43-51s"
+          },
+          {
+            "image_prompt": "Ilustração da catapulta gigante de Da Vinci em ação, hoje, busca tecnologias, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "de hoje, na busca por tecnologias de defesa cada vez mais avançadas. Continue assistindo a Parte 2 para descobrir o resto da história!",
+            "scene_number": 7,
+            "timing": "51-60s"
+          }
+        ],
+        "visual_prompts_text": "⏰ Cena 1: 0-9s\n📸 PROMPT IMAGEN 3:\nAnimação de um campo de batalha medieval sem canhões, imagine mundo canhões., vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 2: 9-17s\n📸 PROMPT IMAGEN 3:\nIlustração da catapulta gigante de Da Vinci em ação, batalha, mentes brilhantes, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 3: 17-26s\n📸 PROMPT IMAGEN 3:\nClose-up animado do mecanismo de cordas, polias e molas da catapulta, poderia lançar projéteis, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 4: 26-34s\n📸 PROMPT IMAGEN 3:\nMontagem de imagens mostrando a evolução das tecnologias militares até os dias de hoje, balistas tradicionais, vinci, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 5: 34-43s\n📸 PROMPT IMAGEN 3:\nAnimação de um livro se abrindo, revelando desenhos e anotações de Da Vinci, molas madeira. desenho, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 6: 43-51s\n📸 PROMPT IMAGEN 3:\nAnimação de um campo de batalha medieval sem canhões, mesmo explosivos rudimentares, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 7: 51-60s\n📸 PROMPT IMAGEN 3:\nIlustração da catapulta gigante de Da Vinci em ação, hoje, busca tecnologias, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n"
+      },
+      "score": 40,
+      "analysis": {
+        "category_match": "curiosidade",
+        "cta_score": 0.5,
+        "hook_score": 0.7,
+        "optimization_tips": [
+          "❓ Adicione pontuação impactante no hook (?, !, ...)"
+        ],
+        "recommendations": [
+          "⚠️ Potencial médio. Revise hook e hashtags.",
+          "Adicione mais elementos virais e um CTA mais forte."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 40
+      }
+    }
+  ],
+  "timestamp": "2025-08-13T11:15:01.766101",
+  "saved_at": "2025-08-13 11:15:01"
+}

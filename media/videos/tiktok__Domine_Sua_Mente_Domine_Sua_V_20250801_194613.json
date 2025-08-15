@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "video_file": "/var/www/tiktok-automation/media/videos/tiktok__Domine_Sua_Mente_Domine_Sua_V_20250801_194613.mp4",
+  "size_mb": 4.269865036010742,
+  "duration": 46.824,
+  "images_count": 5,
+  "type": "normal",
+  "created_at": "2025-08-01T19:47:22.134076",
+  "roteiro": {
+    "titulo": "🚀 Domine Sua Mente, Domine Sua Vida! ✨",
+    "categoria": "inspirational",
+    "hook": "Ei, você! Pare tudo o que está fazendo por 1 minuto!",
+    "hashtags": [
+      "#motivacao",
+      "#mindset",
+      "#inspiracao",
+      "#desenvolvimentopessoal",
+      "#sucesso"
+    ]
+  }
+}

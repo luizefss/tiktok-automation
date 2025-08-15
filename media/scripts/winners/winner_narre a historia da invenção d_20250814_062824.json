@@ -1,0 +1,406 @@
+{
+  "winner_provider": "Gemini",
+  "battle_theme": "narre a historia da invenção da internet, com o trabalho de Tim Berners-Lee para video de um minuto ",
+  "script_data": {
+    "fileName": "2025-08-14_03-28-24_WINNER-gemini_60s_narre-a-historia-da-inven",
+    "timestamp": "2025-08-14T06:28:24.980Z",
+    "type": "battle_winner",
+    "winner_ai": "Gemini",
+    "topic": "narre a historia da invenção da internet, com o trabalho de Tim Berners-Lee para video de um minuto ",
+    "script": "Imagine um mundo sem internet. Difícil, né?  Nos anos 80, a comunicação global era lenta e complexa.\nFoi então que Tim Berners-Lee, um físico no CERN, teve uma ideia revolucionária: conectar computadores globalmente.\nEm 1989, ele propôs a World Wide Web, um sistema para compartilhar informações usando links.\nBerners-Lee criou o HTML, a linguagem para construir páginas web, o HTTP para acessá-las, e o URL, o endereço web.\nEm 1990, o primeiro site da web foi ao ar no CERN, contendo informações sobre o projeto WWW.\nEm 1993, o CERN tornou a tecnologia livre, permitindo que qualquer pessoa criasse e compartilhasse informações online.\nA partir daí, a internet explodiu em popularidade, transformando a comunicação, o comércio e a cultura global.\nGraças à visão de Tim Berners-Lee, o mundo se tornou um lugar mais conectado e acessível.\nA internet continua evoluindo, mas sua essência permanece a mesma: conectar pessoas e informações.",
+    "winning_settings": {
+      "ai_model": "gemini",
+      "video_duration": 60,
+      "theme": "narre a historia da invenção da internet, com o trabalho de Tim Berners-Lee para video de um minuto ",
+      "provider": "gemini"
+    },
+    "battle_context": {
+      "participants": [
+        "Claude",
+        "Gemini"
+      ],
+      "total_participants": 2,
+      "winner_score": 15,
+      "battle_timestamp": "2025-08-14T06:28:24.980Z"
+    },
+    "success_factors": {
+      "script_length": 936,
+      "estimated_engagement": "high",
+      "category": "technology",
+      "tags": [
+        "narre",
+        "historia",
+        "invenção",
+        "internet,",
+        "com",
+        "trabalho",
+        "tim",
+        "berners-lee",
+        "para",
+        "video",
+        "minuto",
+        "tecnologia",
+        "medium"
+      ]
+    },
+    "status": "battle_winner",
+    "confidence": "user_selected",
+    "replication_ready": true
+  },
+  "battle_results": [
+    {
+      "name": "Claude",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "claude",
+        "audience": "history",
+        "duration_target_sec": 60,
+        "hashtags": [
+          "#historia",
+          "#shorts",
+          "#curiosidades"
+        ],
+        "hook": "Por trás de narre a historia da invencao da internet, com o trabalho de Tim Berners-Lee para video de um minuto, existe uma reviravolta que muda tudo.",
+        "ia_used": "claude",
+        "leonardo_prompts": [
+          "0 a 3s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+        ],
+        "leonardo_prompts_text": "0 a 3s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+        "music_style": "tensa_cinematica",
+        "provider_signature": {
+          "angle": "analitico-causal-com-nuancas",
+          "differentiation": "enfoque em causalidade/contexto",
+          "provider": "claude",
+          "topic_match": 0.111
+        },
+        "roteiro_completo": "Sem conteúdo",
+        "scenes": [
+          {
+            "image_prompt": "cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "intro_suave",
+            "narration": "Sem conteúdo",
+            "on_screen_text": "",
+            "sfx": [],
+            "t_end": 60,
+            "t_start": 0
+          }
+        ],
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "historia",
+        "thumbnail": {
+          "image_prompt": "historic cinematic thumbnail, powerful focal subject, dramatic rim light, vertical 9:16, no text, highly detailed, 8K resolution",
+          "text": "História em 60s"
+        },
+        "title": "História em 60s",
+        "viral_analysis": {
+          "category_match": "historia",
+          "cta_score": 0,
+          "hook_score": 0,
+          "optimization_tips": [
+            "📝 Hook muito curto - expanda para 10-50 caracteres",
+            "❓ Adicione pontuação impactante no hook (?, !, ...)",
+            "📢 CTA muito fraco - adicione call-to-action mais forte"
+          ],
+          "recommendations": [
+            "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+            "O hook precisa ser mais impactante e o roteiro mais envolvente."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 15
+        },
+        "visual_pack": "HistoryDark",
+        "visual_prompts": [
+          {
+            "image_prompt": "cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          }
+        ],
+        "visual_prompts_text": "0 a 3s - cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+        "voice_style": "documentary_grave"
+      },
+      "score": 15,
+      "analysis": {
+        "category_match": "historia",
+        "cta_score": 0,
+        "hook_score": 0,
+        "optimization_tips": [
+          "📝 Hook muito curto - expanda para 10-50 caracteres",
+          "❓ Adicione pontuação impactante no hook (?, !, ...)",
+          "📢 CTA muito fraco - adicione call-to-action mais forte"
+        ],
+        "recommendations": [
+          "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+          "O hook precisa ser mais impactante e o roteiro mais envolvente."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 15
+      }
+    },
+    {
+      "name": "Gemini",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "gemini",
+        "audience": "history",
+        "duration_target_sec": 90,
+        "hashtags": [
+          "#historia",
+          "#shorts",
+          "#curiosidades"
+        ],
+        "hook": "Por trás de narre a historia da invencao da internet, com o trabalho de Tim Berners-Lee para video de um minuto, existe uma reviravolta que muda tudo.",
+        "ia_used": "gemini",
+        "leonardo_prompts": [
+          "0 a 3s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "3 a 6s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+          "6 a 9s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "9 a 12s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+          "12 a 15s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "15 a 18s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+          "18 a 21s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "21 a 24s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+          "24 a 27s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+        ],
+        "leonardo_prompts_text": "0 a 3s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n3 a 6s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical\n6 a 9s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n9 a 12s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical\n12 a 15s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n15 a 18s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical\n18 a 21s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n21 a 24s - gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical\n24 a 27s - slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+        "music_style": "tensa_cinematica",
+        "provider_signature": {
+          "angle": "generico",
+          "differentiation": "",
+          "provider": "gemini",
+          "topic_match": 0.444
+        },
+        "roteiro_completo": "Imagine um mundo sem internet. Difícil, né?  Nos anos 80, a comunicação global era lenta e complexa.\nFoi então que Tim Berners-Lee, um físico no CERN, teve uma ideia revolucionária: conectar computadores globalmente.\nEm 1989, ele propôs a World Wide Web, um sistema para compartilhar informações usando links.\nBerners-Lee criou o HTML, a linguagem para construir páginas web, o HTTP para acessá-las, e o URL, o endereço web.\nEm 1990, o primeiro site da web foi ao ar no CERN, contendo informações sobre o projeto WWW.\nEm 1993, o CERN tornou a tecnologia livre, permitindo que qualquer pessoa criasse e compartilhasse informações online.\nA partir daí, a internet explodiu em popularidade, transformando a comunicação, o comércio e a cultura global.\nGraças à visão de Tim Berners-Lee, o mundo se tornou um lugar mais conectado e acessível.\nA internet continua evoluindo, mas sua essência permanece a mesma: conectar pessoas e informações.",
+        "scenes": [
+          {
+            "image_prompt": "A dark, moody library filled with towering bookshelves, old computers, and scattered papers. The light from a single window illuminates dust motes dancing in the air. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "intro_suave",
+            "narration": "Imagine um mundo sem internet. Difícil, né?  Nos anos 80, a comunicação global era lenta e complexa.",
+            "on_screen_text": "CERN, 1980",
+            "sfx": [
+              "efeitos sutis"
+            ],
+            "t_end": 8,
+            "t_start": 0
+          },
+          {
+            "image_prompt": "A portrait of a young Tim Berners-Lee, illuminated by the glow of an early computer screen. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "transicao",
+            "narration": "Foi então que Tim Berners-Lee, um físico no CERN, teve uma ideia revolucionária: conectar computadores globalmente.",
+            "on_screen_text": "Tim Berners-Lee",
+            "sfx": [
+              "efeitos sutis"
+            ],
+            "t_end": 16,
+            "t_start": 8
+          },
+          {
+            "image_prompt": "Abstract representation of data packets flowing between interconnected nodes, visualized as glowing orbs. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "transicao",
+            "narration": "Em 1989, ele propôs a World Wide Web, um sistema para compartilhar informações usando links.",
+            "on_screen_text": "World Wide Web",
+            "sfx": [
+              "efeitos sutis"
+            ],
+            "t_end": 25,
+            "t_start": 16
+          },
+          {
+            "image_prompt": "Close-up of lines of code on an old computer screen, bathed in the green glow of a CRT monitor. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "transicao",
+            "narration": "Berners-Lee criou o HTML, a linguagem para construir páginas web, o HTTP para acessá-las, e o URL, o endereço web.",
+            "on_screen_text": "HTML, HTTP, URL",
+            "sfx": [
+              "efeitos sutis"
+            ],
+            "t_end": 36,
+            "t_start": 25
+          },
+          {
+            "image_prompt": "A recreation of the first website on a NeXT Computer screen. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "climax",
+            "narration": "Em 1990, o primeiro site da web foi ao ar no CERN, contendo informações sobre o projeto WWW.",
+            "on_screen_text": "Primeiro Site",
+            "sfx": [
+              "efeitos sutis"
+            ],
+            "t_end": 48,
+            "t_start": 36
+          },
+          {
+            "image_prompt": "A world map with interconnected nodes, symbolizing the spread of the internet. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "transicao",
+            "narration": "Em 1993, o CERN tornou a tecnologia livre, permitindo que qualquer pessoa criasse e compartilhasse informações online.",
+            "on_screen_text": "Tecnologia Livre",
+            "sfx": [
+              "efeitos sutis"
+            ],
+            "t_end": 60,
+            "t_start": 48
+          },
+          {
+            "image_prompt": "A montage of various website interfaces and online activities, such as social media, e-commerce, and online gaming. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "climax",
+            "narration": "A partir daí, a internet explodiu em popularidade, transformando a comunicação, o comércio e a cultura global.",
+            "on_screen_text": "Explosão da Web",
+            "sfx": [
+              "efeitos sutis"
+            ],
+            "t_end": 72,
+            "t_start": 60
+          },
+          {
+            "image_prompt": "A futuristic cityscape with holographic projections and interconnected devices, representing the future of the internet. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "final",
+            "narration": "Graças à visão de Tim Berners-Lee, o mundo se tornou um lugar mais conectado e acessível.",
+            "on_screen_text": "Um Mundo Conectado",
+            "sfx": [
+              "efeitos sutis"
+            ],
+            "t_end": 84,
+            "t_start": 72
+          },
+          {
+            "image_prompt": "Abstract representation of data flowing through fiber optic cables, forming a complex network of light. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "final",
+            "narration": "A internet continua evoluindo, mas sua essência permanece a mesma: conectar pessoas e informações.",
+            "on_screen_text": "O Futuro da Web",
+            "sfx": [
+              "efeitos sutis"
+            ],
+            "t_end": 90,
+            "t_start": 84
+          }
+        ],
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "historia",
+        "thumbnail": {
+          "image_prompt": "A portrait of Tim Berners-Lee in front of an early computer, with a backdrop of interconnected nodes representing the internet. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution",
+          "text": "A História da Internet"
+        },
+        "title": "A Origem da Internet: A História de Tim Berners-Lee",
+        "viral_analysis": {
+          "category_match": "historia",
+          "cta_score": 0,
+          "hook_score": 0,
+          "optimization_tips": [
+            "📝 Hook muito curto - expanda para 10-50 caracteres",
+            "❓ Adicione pontuação impactante no hook (?, !, ...)",
+            "📢 CTA muito fraco - adicione call-to-action mais forte"
+          ],
+          "recommendations": [
+            "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+            "O hook precisa ser mais impactante e o roteiro mais envolvente."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 15
+        },
+        "visual_pack": "HistoryDark",
+        "visual_prompts": [
+          {
+            "image_prompt": "A dark, moody library filled with towering bookshelves, old computers, and scattered papers. The light from a single window illuminates dust motes dancing in the air. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "A portrait of a young Tim Berners-Lee, illuminated by the glow of an early computer screen. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Abstract representation of data packets flowing between interconnected nodes, visualized as glowing orbs. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Close-up of lines of code on an old computer screen, bathed in the green glow of a CRT monitor. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "A recreation of the first website on a NeXT Computer screen. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "A world map with interconnected nodes, symbolizing the spread of the internet. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "A montage of various website interfaces and online activities, such as social media, e-commerce, and online gaming. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "A futuristic cityscape with holographic projections and interconnected devices, representing the future of the internet. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Abstract representation of data flowing through fiber optic cables, forming a complex network of light. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          }
+        ],
+        "visual_prompts_text": "0 a 3s - A dark, moody library filled with towering bookshelves, old computers, and scattered papers. The light from a single window illuminates dust motes dancing in the air. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n3 a 6s - A portrait of a young Tim Berners-Lee, illuminated by the glow of an early computer screen. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n6 a 9s - Abstract representation of data packets flowing between interconnected nodes, visualized as glowing orbs. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n9 a 12s - Close-up of lines of code on an old computer screen, bathed in the green glow of a CRT monitor. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n12 a 15s - A recreation of the first website on a NeXT Computer screen. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n15 a 18s - A world map with interconnected nodes, symbolizing the spread of the internet. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n18 a 21s - A montage of various website interfaces and online activities, such as social media, e-commerce, and online gaming. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n21 a 24s - A futuristic cityscape with holographic projections and interconnected devices, representing the future of the internet. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n24 a 27s - Abstract representation of data flowing through fiber optic cables, forming a complex network of light. Ultra realistic, renaissance/early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+        "voice_style": "documentary_grave"
+      },
+      "score": 15,
+      "analysis": {
+        "category_match": "historia",
+        "cta_score": 0,
+        "hook_score": 0,
+        "optimization_tips": [
+          "📝 Hook muito curto - expanda para 10-50 caracteres",
+          "❓ Adicione pontuação impactante no hook (?, !, ...)",
+          "📢 CTA muito fraco - adicione call-to-action mais forte"
+        ],
+        "recommendations": [
+          "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+          "O hook precisa ser mais impactante e o roteiro mais envolvente."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 15
+      }
+    }
+  ],
+  "timestamp": "2025-08-14T06:28:24.705232",
+  "saved_at": "2025-08-14 06:28:24"
+}

@@ -1,0 +1,82 @@
+{
+  "success": true,
+  "video_file": "/var/www/tiktok-automation/media/videos/tiktok__Mindset_Milionário_Desbloquei_fallback_20250802_090828.mp4",
+  "size_mb": 2.1414966583251953,
+  "duration": 44.664,
+  "images_count": 1,
+  "type": "fallback",
+  "created_at": "2025-08-02T09:08:40.220662",
+  "settings_used": {
+    "content_ai_model": "gemini",
+    "content_type": "custom_message",
+    "custom_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "message_categories": [
+      "Motivação",
+      "Conhecimento",
+      "Reflexão"
+    ],
+    "tone": "motivational",
+    "image_style": "realistic",
+    "color_palette": "vibrant",
+    "animation_type": "parallax",
+    "voice_emotion": "enthusiastic",
+    "speaking_speed": 1.05,
+    "use_topmedia_ai": false,
+    "background_music": true,
+    "background_music_volume": 0.1,
+    "video_duration": 60,
+    "transitions": "smooth",
+    "text_overlay": true,
+    "custom_prompt_roteiro": "Crie um roteiro viral e impactante para TikTok com foco em {tema} e tom {tom}.",
+    "custom_prompt_imagem": "Cena visualmente impressionante para vídeo vertical, no estilo {estilo_imagem} com paleta {paleta_cores}, sem texto ou pessoas."
+  },
+  "generation_type": "custom_message",
+  "estimated_metrics": {
+    "engagement_score": 8.8,
+    "viral_potential": 7.3,
+    "audience_match": 8.85887012723983
+  },
+  "roteiro": {
+    "titulo": "🚀 Mindset Milionário! 💰 Desbloqueie Seu Potencial!",
+    "hook": "Pare tudo que você está fazendo! Esta dica pode DESTRUIR seus limites mentais e te impulsionar para o sucesso!",
+    "roteiro_completo": "Pare tudo que você está fazendo! Esta dica pode DESTRUIR seus limites mentais e te impulsionar para o sucesso! (Pausa curta) Você sabia que seu mindset é a CHAVE para alcançar tudo o que deseja? (Ênfase em CHAVE)  É isso mesmo!  Não é sorte, não é talento, é a sua MENTALIDADE! (Pausa) Eu costumava achar que era impossível alcançar meus sonhos, mas descobri que o único limite era a minha própria crença. (Tom mais pessoal e reflexivo) Pense nisso: quantas vezes você se sabotou por medo? Medo do fracasso? Medo do sucesso? (Pausa) Chega!  Você é CAPAZ! Acredite em si mesmo!  Comece HOJE a mudar sua perspectiva.  Visualize seus objetivos, repita afirmações positivas, e aja como se já tivesse conquistado!  (Entusiasmo crescente)  Pare de se limitar!  O mundo é seu! (Pausa)  Liberte seu potencial AGORA!",
+    "message_core": "Seu mindset é a chave para desbloquear seu potencial e conquistar seus sonhos.",
+    "call_to_action": "Comente aqui qual é o SEU maior sonho! Compartilhe este vídeo com alguém que precisa de uma dose de motivação! 🚀",
+    "hashtags": [
+      "#mindset",
+      "#motivacao",
+      "#sucesso",
+      "#desenvolvimentopessoal",
+      "#inspiracao"
+    ],
+    "categoria": "educational",
+    "estimated_duration": 55,
+    "key_moments": [
+      "Hook impactante",
+      "Reflexão pessoal sobre mindset",
+      "Dicas práticas para mudar a mentalidade",
+      "Chamada para ação inspiradora"
+    ],
+    "music_style": "Música eletrônica inspiradora e energética",
+    "timestamp": "2025-08-02T09:07:37.683393",
+    "is_personalized": true,
+    "selected_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "main_category": "Conhecimento",
+    "tone_applied": "motivational",
+    "voice_emotion": "enthusiastic",
+    "generation_type": "custom_message",
+    "ia_used": "gemini"
+  },
+  "prompts_usados": [
+    "Vibrant hot air balloon rising above a dramatic, swirling cloudscape, realistic,  intense sunrise lighting, vertical 9:16 high angle shot, uplifting and awe-inspiring, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, prof...",
+    "Keyhole shaped opening in a massive stone wall revealing a breathtaking vibrant landscape, realistic, dramatic godrays lighting, vertical 9:16 centered composition, mysterious and inviting, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 verti...",
+    "A powerful waterfall cascading down a cliff face into a vibrant turquoise pool, realistic, dappled sunlight and mist, vertical 9:16 close-up dynamic shot, energetic and invigorating, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical asp...",
+    "Chain breaking free from its restraints against a vibrant sunset backdrop, realistic, intense orange and red lighting, vertical 9:16 close-up, liberating and empowering, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, pr..."
+  ]
+}

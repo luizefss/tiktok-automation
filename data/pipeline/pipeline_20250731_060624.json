@@ -1,0 +1,71 @@
+{
+  "timestamp": "2025-07-31T06:06:24.236289",
+  "roteiro": {
+    "hook": "Já pensou em andar sobre a água?! 🤯",
+    "roteiro_completo": "**[Cena 1: 0-3 segundos]**\n(Vídeo de um lagarto basilisco correndo sobre a água em câmera lenta)\n**Voz:** Já pensou em ANDAR SOBRE A ÁGUA?!\n\n**[Cena 2: 3-15 segundos]**\n(Transição para criador com um copo d'água)\n**Voz:** Parece mágica, né? Mas é pura física, galera! Chama-se TENSÃO SUPERFICIAL!\n\n**[Cena 3: 15-30 segundos]**\n(Criador coloca clipe de papel delicadamente sobre a água)\n**Voz:** As moléculas da água se atraem com tanta força que criam uma \"película\" na superfície. É como se a água tivesse uma \"pele\" invisível!\n\n**[Cena 4: 30-45 segundos]**\n(Imagens de gotas d'água em folhas, insetos na água)\n**Voz:** Objetos leves, como esse clipe ou alguns insetos, conseguem distribuir seu peso e não rompem essa tensão. Tipo o lagarto basilisco, que corre tão rápido que não afunda!\n\n**[Cena 5: 45-55 segundos]**\n(Criador pinga detergente no copo d'água, o clipe afunda)\n**Voz:** Mas se adicionarmos detergente... PUM! Quebra a tensão e o clipe afunda! Sabão detona com a \"pele\" da água!\n\n**[Cena 6: 55-60 segundos]**\n(Criador sorri para a câmera)\n**Voz:** Ciência é demais, né? Me segue pra mais curiosidades! 😉",
+    "hashtags": [
+      "#tensãosuperficial",
+      "#cienciafacil",
+      "#experimento",
+      "#física",
+      "#viral",
+      "#fyp",
+      "#cienciatiktok",
+      "#aprendanotiktok"
+    ],
+    "titulo": "Andando Sobre a Água?! 🤯 #ciência",
+    "categoria": "ciencia",
+    "timestamp": "2025-07-31T06:05:24.641158"
+  },
+  "audio_file": "../media/audio/audio_20250731_060535.mp3",
+  "images": [
+    {
+      "file": "../media/images/picsum_laboratory_0_060543_20250731_060544.jpg",
+      "description": "Imagem 1 para laboratory",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_laboratory_1_060544_20250731_060545.jpg",
+      "description": "Imagem 2 para laboratory",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_laboratory_2_060545_20250731_060549.jpg",
+      "description": "Imagem 3 para laboratory",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_technology_0_060549_20250731_060550.jpg",
+      "description": "Imagem 1 para technology",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_technology_1_060550_20250731_060550.jpg",
+      "description": "Imagem 2 para technology",
+      "source": "picsum"
+    }
+  ],
+  "video": {
+    "success": true,
+    "video_file": "../media/videos/tiktok_Andando_Sobre_a_Água_ciência_20250731_060551.mp4",
+    "size_mb": 2.9814682006835938,
+    "duration": 56.88,
+    "images_count": 5,
+    "roteiro": {
+      "titulo": "Andando Sobre a Água?! 🤯 #ciência",
+      "categoria": "ciencia",
+      "hook": "Já pensou em andar sobre a água?! 🤯",
+      "hashtags": [
+        "#tensãosuperficial",
+        "#cienciafacil",
+        "#experimento",
+        "#física",
+        "#viral",
+        "#fyp",
+        "#cienciatiktok",
+        "#aprendanotiktok"
+      ]
+    }
+  },
+  "status": "completed"
+}

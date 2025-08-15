@@ -1,0 +1,83 @@
+{
+  "success": true,
+  "video_file": "/var/www/tiktok-automation/media/videos/tiktok__Mindset_Milionário_Desbloquei_fallback_20250802_084537.mp4",
+  "size_mb": 2.434925079345703,
+  "duration": 43.008,
+  "images_count": 1,
+  "type": "fallback",
+  "created_at": "2025-08-02T08:46:10.173461",
+  "settings_used": {
+    "content_ai_model": "gemini",
+    "content_type": "custom_message",
+    "custom_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "message_categories": [
+      "Motivação",
+      "Conhecimento",
+      "Reflexão"
+    ],
+    "tone": "motivational",
+    "image_style": "realistic",
+    "color_palette": "vibrant",
+    "animation_type": "parallax",
+    "voice_emotion": "enthusiastic",
+    "speaking_speed": 1.05,
+    "use_topmedia_ai": false,
+    "background_music": true,
+    "background_music_volume": 0.1,
+    "video_duration": 60,
+    "transitions": "smooth",
+    "text_overlay": true,
+    "custom_prompt_roteiro": "Crie um roteiro viral e impactante para TikTok com foco em {tema} e tom {tom}.",
+    "custom_prompt_imagem": "Cena visualmente impressionante para vídeo vertical, no estilo {estilo_imagem} com paleta {paleta_cores}, sem texto ou pessoas."
+  },
+  "generation_type": "custom_message",
+  "estimated_metrics": {
+    "engagement_score": 8.8,
+    "viral_potential": 7.3,
+    "audience_match": 9.022197318040162
+  },
+  "roteiro": {
+    "titulo": "🚀 Mindset Milionário: Desbloqueie Seu Potencial! ✨",
+    "hook": "Pare tudo que você está fazendo!  Você está a UM passo de transformar sua vida!",
+    "roteiro_completo": "Pare tudo que você está fazendo! Você está a UM passo de transformar sua vida!  (Pausa) Quantas vezes você já se sentiu preso, achando que não ia conseguir? (Pausa) Eu te entendo!  Mas a verdade é: o único limite é aquele que você coloca na sua mente! (Ênfase)  Imagine só...  (Pausa) Você acordando todos os dias com FOCO, com a CERTEZA de que está construindo o futuro dos seus sonhos!  (Pausa)  Não precisa ser fácil, precisa ser CONSTANTE!  Um passo de cada vez!  Comece HOJE a mudar seus pensamentos, a acreditar no seu potencial! (Ênfase)  Você é capaz de coisas INCRÍVEIS! (Pausa) Acredite em mim!  (Pausa)  Eu acredito em você! (Ênfase)  Liberte o poder que existe dentro de você!  (Pausa)  E comece a construir a vida que você SEMPRE mereceu!",
+    "message_core": "Libere seu potencial e construa a vida que você merece, com um mindset poderoso e ações consistentes.",
+    "call_to_action": "Marque alguém que precisa ouvir essa mensagem e comente \"EU POSSO!\" para reforçar seu compromisso!",
+    "hashtags": [
+      "#mindset",
+      "#motivacao",
+      "#motivacional",
+      "#sucesso",
+      "#inspiracao"
+    ],
+    "categoria": "motivational",
+    "estimated_duration": 55,
+    "key_moments": [
+      "Hook impactante",
+      "Reflexão sobre limites",
+      "Chamado para ação e constância",
+      "Mensagem final de empoderamento"
+    ],
+    "music_style": "Música épica e inspiradora",
+    "timestamp": "2025-08-02T08:44:47.359307",
+    "is_personalized": true,
+    "selected_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "main_category": "Motivação",
+    "tone_applied": "motivational",
+    "voice_emotion": "enthusiastic",
+    "generation_type": "custom_message",
+    "ia_used": "gemini"
+  },
+  "prompts_usados": [
+    "Sprouting plant breaking through cracked asphalt, realistic, vibrant morning sunlight, vertical 9:16, dynamic and hopeful, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "A single vibrant hot air balloon rising above a colorful valley, realistic, golden hour lighting, vertical 9:16, uplifting and adventurous, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "Time-lapse of a colorful flower blooming, realistic, vibrant time-lapse lighting, vertical 9:16, growth and transformation, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "Winding mountain road leading to a vibrant sunrise, realistic, dawn lighting, vertical 9:16, journey and progress, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition",
+    "A rushing waterfall cascading down vibrant moss-covered rocks, realistic, dappled sunlight, vertical 9:16, powerful and unstoppable, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional composition"
+  ]
+}

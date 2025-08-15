@@ -1,0 +1,27 @@
+{
+  "fileName": "2025-08-13_19-58-20_claude_60s_a-historia-de-georg-wilhelm-ri",
+  "timestamp": "2025-08-13T22:58:20.366Z",
+  "script": "Georg Richmann, cientista do século XVIII.\nEle estudava os perigosos raios.\nEm 1753, um experimento fatal.\nUm relâmpago o atingiu.\nSua morte foi um alerta.\nEle deixou um legado na ciência.\nA coragem de explorar o desconhecido.",
+  "topic": "a historia de Georg Wilhelm Richmann",
+  "ai_model": "claude",
+  "video_duration": 60,
+  "script_length": 226,
+  "estimated_audio_duration": 23,
+  "word_count": 31,
+  "generation_settings": {
+    "provider": "claude",
+    "format": "tiktok",
+    "duration": 60,
+    "theme": "a historia de Georg Wilhelm Richmann"
+  },
+  "category": "technology",
+  "tags": [
+    "historia",
+    "georg",
+    "wilhelm",
+    "richmann",
+    "medium"
+  ],
+  "status": "generated",
+  "version": "1.0"
+}

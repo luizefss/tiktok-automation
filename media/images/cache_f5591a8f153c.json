@@ -1,0 +1,38 @@
+{
+  "script_hash": "f5591a8f153c",
+  "script_elements": {
+    "title": "historia da invenção do telescopio video para um minuto",
+    "description": "",
+    "visual_cues": [],
+    "hook": "",
+    "content": "Imagine um mundo sem telescópios. Nossa visão do universo era turva, limitada.  Este vídeo de um minuto conta a história da invenção que mudou tudo.\nSéculo XVII, Holanda.  Lentes de vidro já existiam, mas Hans Lippershey, um fabricante de óculos, teve um insight revolucionário.\nAo alinhar duas lentes, objetos distantes pareciam próximos.  Nascia o primeiro telescópio, uma invenção que transformaria a história da astronomia.\nA notícia se espalhou como um incêndio. Galileu Galilei, na Itália, aprimorou o telescópio e apontou para o céu.\nEle viu as luas de Júpiter, as crateras da Lua, e desafiou a visão geocêntrica do universo. Um vídeo, hoje, não faria jus à sua descoberta.\nDo telescópio de Galileu aos gigantescos observatórios modernos, a invenção segue evoluindo.\nHoje, telescópios espaciais nos permitem enxergar além do que jamais imaginamos, desvendando os mistérios do cosmos.\nEm apenas um minuto, viajamos séculos de descobertas. A história do telescópio é a história da nossa busca incessante pelo conhecimento.",
+    "visual_style": "historia",
+    "image_provider": "hybrid"
+  },
+  "images": [
+    "/var/www/tiktok-automation/media/images/scene_1_20250814_084801.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_2_20250814_085614.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_3_20250814_085018.png",
+    "/var/www/tiktok-automation/media/images/scene_4_20250814_084815.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_5_20250814_085735.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_6_20250814_085059.png",
+    "/var/www/tiktok-automation/media/images/scene_7_20250814_084831.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_8_20250814_085905.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_9_20250814_085132.png",
+    "/var/www/tiktok-automation/media/images/scene_10_20250814_084848.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_11_20250814_090035.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_12_20250814_085221.png",
+    "/var/www/tiktok-automation/media/images/scene_13_20250814_084904.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_14_20250814_090205.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_15_20250814_085333.png",
+    "/var/www/tiktok-automation/media/images/scene_16_20250814_084919.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_17_20250814_090330.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_18_20250814_085453.png",
+    "/var/www/tiktok-automation/media/images/scene_19_20250814_084933.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_20_20250814_090505.png"
+  ],
+  "generated_at": "2025-08-14T09:05:06.462810",
+  "last_used": "2025-08-14T09:05:06.462828",
+  "image_count": 20,
+  "visual_style": "historia"
+}

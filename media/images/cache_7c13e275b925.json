@@ -1,0 +1,38 @@
+{
+  "script_hash": "7c13e275b925",
+  "script_elements": {
+    "title": "narre a historia da invenção da internet, com o trabalho de Tim Berners-Lee para video de um minuto ",
+    "description": "",
+    "visual_cues": [],
+    "hook": "",
+    "content": "Imagine um mundo sem internet. Difícil, né?  Nos anos 80, a comunicação global era lenta e complexa.\nTim Berners-Lee, um físico britânico no CERN, propôs uma solução: uma rede global de informações interligadas.\nEm 1989, ele escreveu a proposta do que viria a ser a World Wide Web.  Seu objetivo? Compartilhar informações entre pesquisadores do mundo todo.\nA ideia inicial era conectar documentos através de hyperlinks, permitindo acesso rápido e fácil a diferentes informações.\nEm 1990, Berners-Lee criou o primeiro servidor web e o primeiro navegador, dando vida à sua visão.\nEm 1991, a web foi aberta ao público, revolucionando a forma como acessamos e compartilhamos conhecimento.\nBerners-Lee optou por não patentear sua invenção, permitindo que a web se tornasse um recurso aberto e global.\nA internet como conhecemos hoje deve muito a essa decisão visionária.  Obrigado, Tim Berners-Lee!",
+    "visual_style": "tecnologia",
+    "image_provider": "hybrid"
+  },
+  "images": [
+    "/var/www/tiktok-automation/media/images/scene_1_20250814_061508.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_061639.png",
+    "/var/www/tiktok-automation/media/images/dalle3_20250814_061632.png",
+    "/var/www/tiktok-automation/media/images/scene_4_20250814_061520.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_061638.png",
+    "/var/www/tiktok-automation/media/images/dalle3_20250814_061632.png",
+    "/var/www/tiktok-automation/media/images/scene_7_20250814_061534.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_061638.png",
+    "/var/www/tiktok-automation/media/images/dalle3_20250814_061632.png",
+    "/var/www/tiktok-automation/media/images/scene_10_20250814_061551.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_061638.png",
+    "/var/www/tiktok-automation/media/images/dalle3_20250814_061632.png",
+    "/var/www/tiktok-automation/media/images/scene_13_20250814_061605.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_061640.png",
+    "/var/www/tiktok-automation/media/images/dalle3_20250814_061638.png",
+    "/var/www/tiktok-automation/media/images/scene_16_20250814_061619.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_061638.png",
+    "/var/www/tiktok-automation/media/images/dalle3_20250814_061655.png",
+    "/var/www/tiktok-automation/media/images/scene_19_20250814_061632.png",
+    "/var/www/tiktok-automation/media/images/leonardo_20250814_061638.png"
+  ],
+  "generated_at": "2025-08-14T06:16:58.082850",
+  "last_used": "2025-08-14T06:16:58.082858",
+  "image_count": 20,
+  "visual_style": "tecnologia"
+}

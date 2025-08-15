@@ -1,0 +1,26 @@
+{
+  "script_hash": "55274fc50f5a",
+  "script_elements": {
+    "title": "Narre sobre a historia de Georg Wilhelm Richmann para roteiro de video de 1 minuto",
+    "description": "",
+    "visual_cues": [],
+    "hook": "",
+    "content": "São Petersburgo, 1753. O cientista Georg Wilhelm Richmann dedicava-se a estudar um fenômeno ainda misterioso: a eletricidade.\nInspirado pelos experimentos de Benjamin Franklin, Richmann construiu uma 'máquina do tempo' para capturar raios durante tempestades.\nEm um dia de tempestade, Richmann convidou um gravador para documentar suas observações.  A atmosfera era tensa.\nEnquanto Richmann se aproximava do aparelho, um raio o atingiu em cheio.\nA descarga elétrica foi fatal. Richmann tornou-se uma das primeiras vítimas da eletricidade.\nO gravador sobreviveu, mas com queimaduras e ficou atordoado com o estrondo. A tragédia chocou a comunidade científica.\nA morte de Richmann serviu de alerta para os perigos da eletricidade, impulsionando novos estudos sobre segurança.\nSeu sacrifício involuntário contribuiu para o avanço da ciência, ainda que a um custo alto.",
+    "visual_style": "historia",
+    "image_provider": "hybrid"
+  },
+  "images": [
+    "/var/www/tiktok-automation/media/images/scene_1_20250813_231433.png",
+    "/var/www/tiktok-automation/media/images/scene_2_20250813_231446.png",
+    "/var/www/tiktok-automation/media/images/scene_3_20250813_231457.png",
+    "/var/www/tiktok-automation/media/images/dalle3_20250813_231541.png",
+    "/var/www/tiktok-automation/media/images/procedural_scene_5_20250813_231533.png",
+    "/var/www/tiktok-automation/media/images/scene_6_20250813_231514.png",
+    "/var/www/tiktok-automation/media/images/dalle3_20250813_231540.png",
+    "/var/www/tiktok-automation/media/images/dalle3_20250813_231548.png"
+  ],
+  "generated_at": "2025-08-13T23:15:51.020908",
+  "last_used": "2025-08-13T23:15:51.020919",
+  "image_count": 8,
+  "visual_style": "historia"
+}

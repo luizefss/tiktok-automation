@@ -1,0 +1,556 @@
+{
+  "winner_provider": "Gpt",
+  "battle_theme": "O desaparecimento do voo 513",
+  "script_data": {
+    "fileName": "2025-08-13_16-47-11_WINNER-gpt_60s_o-desaparecimento-do-voo-",
+    "timestamp": "2025-08-13T19:47:11.536Z",
+    "type": "battle_winner",
+    "winner_ai": "Gpt",
+    "topic": "O desaparecimento do voo 513",
+    "script": "Você já ouviu falar do misterioso voo quinhentos e treze? Este é um dos mistérios mais intrigantes da aviação! Em mil novecentos e cinquenta e quatro, um avião decolou da Alemanha rumo ao Brasil, mas nunca chegou ao seu destino. O mais surpreendente? Trinta e cinco anos depois, ele reapareceu! Como isso é possível? Vamos entender o contexto. Na época, as explicações eram escassas e as teorias conspiratórias, abundantes. Algumas pessoas acreditavam que o avião atravessou um portal temporal, enquanto outras pensavam em um sequestro alienígena. Mas o que isso tem a ver com nossa vida real? Este mistério nos lembra de como a busca por respostas pode nos levar a questionar nossa compreensão do tempo e do espaço. O voo quinhentos e treze nos desafia a nunca parar de explorar o desconhecido. Então, o que você acha que realmente aconteceu? Continue assistindo a Parte 2 para descobrir o resto da história!",
+    "winning_settings": {
+      "ai_model": "gpt",
+      "video_duration": 60,
+      "theme": "O desaparecimento do voo 513",
+      "provider": "gpt"
+    },
+    "battle_context": {
+      "participants": [
+        "Claude",
+        "Gpt",
+        "Gemini"
+      ],
+      "total_participants": 3,
+      "winner_score": 48,
+      "battle_timestamp": "2025-08-13T19:47:11.536Z"
+    },
+    "success_factors": {
+      "script_length": 909,
+      "estimated_engagement": "high",
+      "category": "mystery-terror",
+      "tags": [
+        "desaparecimento",
+        "voo",
+        "513",
+        "misterio",
+        "medium"
+      ]
+    },
+    "status": "battle_winner",
+    "confidence": "user_selected",
+    "replication_ready": true
+  },
+  "battle_results": [
+    {
+      "name": "Claude",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "claude",
+        "call_to_action": "Compartilhe sua teoria sobre o desaparecimento nos comentários",
+        "duracao_estimada": 75,
+        "estilo_visual": "curiosidade",
+        "estimated_duration": 62,
+        "estimated_parts": 2,
+        "estrutura_usada": [
+          "gancho_curiosidade",
+          "fato_surpreendente",
+          "explicacao_contexto",
+          "conexao_vida_real",
+          "conclusao_impactante",
+          "call_to_action"
+        ],
+        "hashtags": [
+          "#viral",
+          "#tiktok",
+          "#brasil",
+          "#interessante",
+          "#conteudo"
+        ],
+        "hook": "Você já imaginou embarcar em um voo e simplesmente desaparecer no ar? [PAUSA] Em",
+        "ia_used": "claude",
+        "leonardo_prompts": [
+          {
+            "animation": "pan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "animation": "zoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 2,
+            "timing": "9-18s"
+          },
+          {
+            "animation": "rotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 3,
+            "timing": "18-27s"
+          },
+          {
+            "animation": "fade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 4,
+            "timing": "27-36s"
+          },
+          {
+            "animation": "slide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 5,
+            "timing": "36-45s"
+          },
+          {
+            "animation": "zoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 6,
+            "timing": "45-54s"
+          },
+          {
+            "animation": "tilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 7,
+            "timing": "54-63s"
+          }
+        ],
+        "leonardo_prompts_text": "⏰ Cena 1: 0-9s\n🎬 PROMPT LEONARDO AI:\npan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 2: 9-18s\n🎬 PROMPT LEONARDO AI:\nzoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 3: 18-27s\n🎬 PROMPT LEONARDO AI:\nrotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 4: 27-36s\n🎬 PROMPT LEONARDO AI:\nfade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 5: 36-45s\n🎬 PROMPT LEONARDO AI:\nslide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 6: 45-54s\n🎬 PROMPT LEONARDO AI:\nzoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 7: 54-63s\n🎬 PROMPT LEONARDO AI:\ntilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n",
+        "needs_parts": true,
+        "parte_atual": 1,
+        "roteiro_completo": "Você já imaginou embarcar em um voo e simplesmente desaparecer no ar? Em mil novecentos e cinquenta e quatro, o voo quinhentos e treze da Panair do Brasil decolou do Rio de Janeiro com destino a São Paulo, mas nunca chegou ao seu destino. O avião sumiu sem deixar rastros. O que torna esse caso ainda mais intrigante é que, apesar de intensas buscas, nenhum destroço ou corpo foi encontrado. O desaparecimento ocorreu em uma época em que a aviação comercial ainda estava em desenvolvimento, com sistemas de rastreamento limitados. Teorias sobre o que aconteceu variam desde falha mecânica até abdução alienígena. Esse mistério nos faz refletir sobre a fragilidade da vida e como, mesmo com toda nossa tecnologia atual, ainda existem eventos inexplicáveis. O voo quinhentos e treze permanece como um dos grandes enigmas da aviação brasileira, lembrando-nos que nem sempre temos respostas para tudo. Continue assistindo a Parte 2 para descobrir o resto da história!",
+        "roteiro_original": "Você já imaginou embarcar em um voo e simplesmente desaparecer no ar? [PAUSA] Em mil novecentos e cinquenta e quatro, o voo quinhentos e treze da Panair do Brasil decolou do Rio de Janeiro com destino a São Paulo, mas nunca chegou ao seu destino. [ÊNFASE] O avião sumiu sem deixar rastros. [PAUSA] O que torna esse caso ainda mais intrigante é que, apesar de intensas buscas, nenhum destroço ou corpo foi encontrado. [PAUSA] O desaparecimento ocorreu em uma época em que a aviação comercial ainda estava em desenvolvimento, com sistemas de rastreamento limitados. Teorias sobre o que aconteceu variam desde falha mecânica até abdução alienígena. [PAUSA] Esse mistério nos faz refletir sobre a fragilidade da vida e como, mesmo com toda nossa tecnologia atual, ainda existem eventos inexplicáveis. [PAUSA] O voo quinhentos e treze permanece como um dos grandes enigmas da aviação brasileira, lembrando-nos que nem sempre temos respostas para tudo. [ÊNFASE] E você, o que acha que pode ter acontecido? [PAUSA] Compartilhe sua teoria nos comentários e vamos explorar juntos esse fascinante mistério!",
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "misterio",
+        "tipo_historia": "curiosidade",
+        "titulo": "O Enigma do Voo 513: O Avião que Sumiu no Ar",
+        "tom_narrativa": "envolvente e surpreendente",
+        "viral_analysis": {
+          "category_match": "misterio",
+          "cta_score": 0.7,
+          "hook_score": 0.8999999999999999,
+          "optimization_tips": [
+            "⏱️ Duração ideal é entre 45s e 60s."
+          ],
+          "recommendations": [
+            "⚠️ Potencial médio. Revise hook e hashtags.",
+            "Adicione mais elementos virais e um CTA mais forte."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 48
+        },
+        "viral_score": 87,
+        "visual_prompts": [
+          {
+            "image_prompt": "Silhueta de um avião desaparecendo em nuvens misteriosas, você imaginou embarcar, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Você já imaginou embarcar em um voo e simplesmente desaparecer no ar? Em mil novecentos e cinquenta e quatro, o voo quinhentos",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "image_prompt": "Mapa mostrando a rota planejada do voo Rio-São Paulo, treze panair brasil, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "e treze da Panair do Brasil decolou do Rio de Janeiro com destino a São Paulo, mas nunca chegou ao seu destino.",
+            "scene_number": 2,
+            "timing": "9-18s"
+          },
+          {
+            "image_prompt": "Imagens de buscas aéreas e marítimas sem resultados, avião sumiu deixar, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "O avião sumiu sem deixar rastros. O que torna esse caso ainda mais intrigante é que, apesar de intensas buscas, nenhum destroço",
+            "scene_number": 3,
+            "timing": "18-27s"
+          },
+          {
+            "image_prompt": "Linha do tempo com eventos inexplicáveis na história da aviação, corpo encontrado. desaparecimento, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "ou corpo foi encontrado. O desaparecimento ocorreu em uma época em que a aviação comercial ainda estava em desenvolvimento, com sistemas de",
+            "scene_number": 4,
+            "timing": "27-36s"
+          },
+          {
+            "image_prompt": "Montagem de manchetes de jornais da época sobre o desaparecimento, rastreamento limitados. teorias, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "rastreamento limitados. Teorias sobre o que aconteceu variam desde falha mecânica até abdução alienígena. Esse mistério nos faz refletir sobre a fragilidade",
+            "scene_number": 5,
+            "timing": "36-45s"
+          },
+          {
+            "image_prompt": "Silhueta de um avião desaparecendo em nuvens misteriosas, vida como, mesmo, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "da vida e como, mesmo com toda nossa tecnologia atual, ainda existem eventos inexplicáveis. O voo quinhentos e treze permanece como um",
+            "scene_number": 6,
+            "timing": "45-54s"
+          },
+          {
+            "image_prompt": "Mapa mostrando a rota planejada do voo Rio-São Paulo, grandes enigmas aviação, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "dos grandes enigmas da aviação brasileira, lembrando-nos que nem sempre temos respostas para tudo. Continue assistindo a Parte 2 para descobrir o resto da história!",
+            "scene_number": 7,
+            "timing": "54-63s"
+          }
+        ],
+        "visual_prompts_text": "⏰ Cena 1: 0-9s\n📸 PROMPT IMAGEN 3:\nSilhueta de um avião desaparecendo em nuvens misteriosas, você imaginou embarcar, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 2: 9-18s\n📸 PROMPT IMAGEN 3:\nMapa mostrando a rota planejada do voo Rio-São Paulo, treze panair brasil, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 3: 18-27s\n📸 PROMPT IMAGEN 3:\nImagens de buscas aéreas e marítimas sem resultados, avião sumiu deixar, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 4: 27-36s\n📸 PROMPT IMAGEN 3:\nLinha do tempo com eventos inexplicáveis na história da aviação, corpo encontrado. desaparecimento, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 5: 36-45s\n📸 PROMPT IMAGEN 3:\nMontagem de manchetes de jornais da época sobre o desaparecimento, rastreamento limitados. teorias, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 6: 45-54s\n📸 PROMPT IMAGEN 3:\nSilhueta de um avião desaparecendo em nuvens misteriosas, vida como, mesmo, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 7: 54-63s\n📸 PROMPT IMAGEN 3:\nMapa mostrando a rota planejada do voo Rio-São Paulo, grandes enigmas aviação, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n"
+      },
+      "score": 48,
+      "analysis": {
+        "category_match": "misterio",
+        "cta_score": 0.7,
+        "hook_score": 0.8999999999999999,
+        "optimization_tips": [
+          "⏱️ Duração ideal é entre 45s e 60s."
+        ],
+        "recommendations": [
+          "⚠️ Potencial médio. Revise hook e hashtags.",
+          "Adicione mais elementos virais e um CTA mais forte."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 48
+      }
+    },
+    {
+      "name": "Gpt",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "gpt",
+        "call_to_action": "Deixe seu comentário com sua teoria e compartilhe com quem adora um bom mistério!",
+        "duracao_estimada": 75,
+        "estilo_visual": "curiosidade",
+        "estimated_duration": 60,
+        "estimated_parts": 2,
+        "estrutura_usada": [
+          "gancho_curiosidade",
+          "fato_surpreendente",
+          "explicacao_contexto",
+          "conexao_vida_real",
+          "conclusao_impactante",
+          "call_to_action"
+        ],
+        "hashtags": [
+          "#viral",
+          "#tiktok",
+          "#brasil",
+          "#interessante",
+          "#conteudo"
+        ],
+        "hook": "Você já ouviu falar do misterioso voo quinhentos e treze? [PAUSA] Este é um dos",
+        "ia_used": "gpt",
+        "leonardo_prompts": [
+          {
+            "animation": "pan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "animation": "zoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 2,
+            "timing": "9-17s"
+          },
+          {
+            "animation": "rotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 3,
+            "timing": "17-26s"
+          },
+          {
+            "animation": "fade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 4,
+            "timing": "26-35s"
+          },
+          {
+            "animation": "slide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 5,
+            "timing": "35-43s"
+          },
+          {
+            "animation": "zoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 6,
+            "timing": "43-52s"
+          },
+          {
+            "animation": "tilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 7,
+            "timing": "52-61s"
+          }
+        ],
+        "leonardo_prompts_text": "⏰ Cena 1: 0-9s\n🎬 PROMPT LEONARDO AI:\npan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 2: 9-17s\n🎬 PROMPT LEONARDO AI:\nzoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 3: 17-26s\n🎬 PROMPT LEONARDO AI:\nrotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 4: 26-35s\n🎬 PROMPT LEONARDO AI:\nfade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 5: 35-43s\n🎬 PROMPT LEONARDO AI:\nslide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 6: 43-52s\n🎬 PROMPT LEONARDO AI:\nzoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 7: 52-61s\n🎬 PROMPT LEONARDO AI:\ntilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n",
+        "needs_parts": true,
+        "parte_atual": 1,
+        "roteiro_completo": "Você já ouviu falar do misterioso voo quinhentos e treze? Este é um dos mistérios mais intrigantes da aviação! Em mil novecentos e cinquenta e quatro, um avião decolou da Alemanha rumo ao Brasil, mas nunca chegou ao seu destino. O mais surpreendente? Trinta e cinco anos depois, ele reapareceu! Como isso é possível? Vamos entender o contexto. Na época, as explicações eram escassas e as teorias conspiratórias, abundantes. Algumas pessoas acreditavam que o avião atravessou um portal temporal, enquanto outras pensavam em um sequestro alienígena. Mas o que isso tem a ver com nossa vida real? Este mistério nos lembra de como a busca por respostas pode nos levar a questionar nossa compreensão do tempo e do espaço. O voo quinhentos e treze nos desafia a nunca parar de explorar o desconhecido. Então, o que você acha que realmente aconteceu? Continue assistindo a Parte 2 para descobrir o resto da história!",
+        "roteiro_original": "Você já ouviu falar do misterioso voo quinhentos e treze? [PAUSA] Este é um dos mistérios mais intrigantes da aviação! [PAUSA] Em mil novecentos e cinquenta e quatro, um avião decolou da Alemanha rumo ao Brasil, mas nunca chegou ao seu destino. [PAUSA] O mais surpreendente? [PAUSA] Trinta e cinco anos depois, ele reapareceu! [ÊNFASE] [PAUSA] Como isso é possível? [PAUSA] Vamos entender o contexto. [PAUSA] Na época, as explicações eram escassas e as teorias conspiratórias, abundantes. [PAUSA] Algumas pessoas acreditavam que o avião atravessou um portal temporal, enquanto outras pensavam em um sequestro alienígena. [PAUSA] Mas o que isso tem a ver com nossa vida real? [PAUSA] Este mistério nos lembra de como a busca por respostas pode nos levar a questionar nossa compreensão do tempo e do espaço. [PAUSA] O voo quinhentos e treze nos desafia a nunca parar de explorar o desconhecido. [PAUSA] Então, o que você acha que realmente aconteceu? [PAUSA] Deixe seu comentário com sua teoria e compartilhe com quem adora um bom mistério!",
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "misterio",
+        "tipo_historia": "curiosidade",
+        "titulo": "O Mistério do Voo 513: Uma Viagem no Tempo?",
+        "tom_narrativa": "envolvente e surpreendente",
+        "viral_analysis": {
+          "category_match": "misterio",
+          "cta_score": 0.7,
+          "hook_score": 0.8999999999999999,
+          "optimization_tips": [],
+          "recommendations": [
+            "⚠️ Potencial médio. Revise hook e hashtags.",
+            "Adicione mais elementos virais e um CTA mais forte."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 48
+        },
+        "viral_score": 87,
+        "visual_prompts": [
+          {
+            "image_prompt": "imagem de um avião dos anos cinquenta, você ouviu falar, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Você já ouviu falar do misterioso voo quinhentos e treze? Este é um dos mistérios mais intrigantes da aviação! Em mil",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "image_prompt": "mapa da rota de voo da Alemanha ao Brasil, novecentos cinquenta quatro,, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "novecentos e cinquenta e quatro, um avião decolou da Alemanha rumo ao Brasil, mas nunca chegou ao seu destino. O mais",
+            "scene_number": 2,
+            "timing": "9-17s"
+          },
+          {
+            "image_prompt": "representação gráfica de um portal temporal, surpreendente? trinta cinco, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "surpreendente? Trinta e cinco anos depois, ele reapareceu! Como isso é possível? Vamos entender o contexto. Na época, as explicações eram",
+            "scene_number": 3,
+            "timing": "17-26s"
+          },
+          {
+            "image_prompt": "imagem de um relógio antigo, escassas teorias conspiratórias,, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "escassas e as teorias conspiratórias, abundantes. Algumas pessoas acreditavam que o avião atravessou um portal temporal, enquanto outras pensavam em um",
+            "scene_number": 4,
+            "timing": "26-35s"
+          },
+          {
+            "image_prompt": "comentários animados sobre teorias, sequestro alienígena. isso, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "sequestro alienígena. Mas o que isso tem a ver com nossa vida real? Este mistério nos lembra de como a busca",
+            "scene_number": 5,
+            "timing": "35-43s"
+          },
+          {
+            "image_prompt": "imagem de um avião dos anos cinquenta, respostas pode levar, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "por respostas pode nos levar a questionar nossa compreensão do tempo e do espaço. O voo quinhentos e treze nos desafia",
+            "scene_number": 6,
+            "timing": "43-52s"
+          },
+          {
+            "image_prompt": "mapa da rota de voo da Alemanha ao Brasil, nunca parar explorar, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "a nunca parar de explorar o desconhecido. Então, o que você acha que realmente aconteceu? Continue assistindo a Parte 2 para descobrir o resto da história!",
+            "scene_number": 7,
+            "timing": "52-61s"
+          }
+        ],
+        "visual_prompts_text": "⏰ Cena 1: 0-9s\n📸 PROMPT IMAGEN 3:\nimagem de um avião dos anos cinquenta, você ouviu falar, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 2: 9-17s\n📸 PROMPT IMAGEN 3:\nmapa da rota de voo da Alemanha ao Brasil, novecentos cinquenta quatro,, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 3: 17-26s\n📸 PROMPT IMAGEN 3:\nrepresentação gráfica de um portal temporal, surpreendente? trinta cinco, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 4: 26-35s\n📸 PROMPT IMAGEN 3:\nimagem de um relógio antigo, escassas teorias conspiratórias,, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 5: 35-43s\n📸 PROMPT IMAGEN 3:\ncomentários animados sobre teorias, sequestro alienígena. isso, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 6: 43-52s\n📸 PROMPT IMAGEN 3:\nimagem de um avião dos anos cinquenta, respostas pode levar, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 7: 52-61s\n📸 PROMPT IMAGEN 3:\nmapa da rota de voo da Alemanha ao Brasil, nunca parar explorar, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n"
+      },
+      "score": 48,
+      "analysis": {
+        "category_match": "misterio",
+        "cta_score": 0.7,
+        "hook_score": 0.8999999999999999,
+        "optimization_tips": [],
+        "recommendations": [
+          "⚠️ Potencial médio. Revise hook e hashtags.",
+          "Adicione mais elementos virais e um CTA mais forte."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 48
+      }
+    },
+    {
+      "name": "Gemini",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "gemini",
+        "call_to_action": "Pesquise sobre o voo 513",
+        "duracao_estimada": 75,
+        "estilo_visual": "curiosidade",
+        "estimated_duration": 60,
+        "estimated_parts": 2,
+        "estrutura_usada": [
+          "gancho_curiosidade",
+          "fato_surpreendente",
+          "explicacao_contexto",
+          "conexao_vida_real",
+          "conclusao_impactante",
+          "call_to_action"
+        ],
+        "hashtags": [
+          "#viral",
+          "#tiktok",
+          "#brasil",
+          "#interessante",
+          "#conteudo"
+        ],
+        "hook": "Imagine um avião, desaparecido por décadas, reaparecendo do nada. [PAUSA] Parece",
+        "ia_used": "gemini",
+        "leonardo_prompts": [
+          {
+            "animation": "pan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "animation": "zoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 2,
+            "timing": "9-17s"
+          },
+          {
+            "animation": "rotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 3,
+            "timing": "17-26s"
+          },
+          {
+            "animation": "fade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 4,
+            "timing": "26-35s"
+          },
+          {
+            "animation": "slide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 5,
+            "timing": "35-43s"
+          },
+          {
+            "animation": "zoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 6,
+            "timing": "43-52s"
+          },
+          {
+            "animation": "tilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly",
+            "duration": "9 seconds",
+            "scene_number": 7,
+            "timing": "52-60s"
+          }
+        ],
+        "leonardo_prompts_text": "⏰ Cena 1: 0-9s\n🎬 PROMPT LEONARDO AI:\npan left to right, slow dramatic camera movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 2: 9-17s\n🎬 PROMPT LEONARDO AI:\nzoom in slowly, smooth cinematic transition, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 3: 17-26s\n🎬 PROMPT LEONARDO AI:\nrotate 360 degrees, elegant camera rotation, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 4: 26-35s\n🎬 PROMPT LEONARDO AI:\nfade transition, atmospheric depth effect, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 5: 35-43s\n🎬 PROMPT LEONARDO AI:\nslide up reveal, dynamic vertical movement, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 6: 43-52s\n🎬 PROMPT LEONARDO AI:\nzoom out reveal, expansive perspective change, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n\n⏰ Cena 7: 52-60s\n🎬 PROMPT LEONARDO AI:\ntilt shift effect, professional depth focus, cinematic style, smooth transitions, professional quality, 4-8 seconds duration, loop seamlessly\n",
+        "needs_parts": true,
+        "parte_atual": 1,
+        "roteiro_completo": "Imagine um avião, desaparecido por décadas, reaparecendo do nada. Parece ficção científica, não é? Mas a história do voo quinhentas e treze é ainda mais estranha. Trinta e cinco anos depois de sumir dos radares, ele pousou em Porto Alegre, como se nada tivesse acontecido. A tripulação? Esqueletos sentados em seus lugares, café ainda fumegando nas xícaras. Como um avião pode simplesmente desaparecer por tanto tempo e reaparecer intacto? A teoria dominante fala de uma distorção temporal, uma anomalia inexplicável que desafiaria nossa compreensão da física. Pense no tempo como um rio. E se esse rio tivesse redemoinhos, lugares onde a corrente te leva para outro ponto da história? Assustador, não é? O mistério do voo quinhentas e treze permanece sem solução, um lembrete de que o universo guarda segredos que talvez nunca compreendamos. Quer mergulhar mais fundo nesse mistério? Continue assistindo a Parte 2 para descobrir o resto da história!",
+        "roteiro_original": "Imagine um avião, desaparecido por décadas, reaparecendo do nada. [PAUSA]  Parece ficção científica, não é? [PAUSA] Mas a história do voo quinhentas e treze é ainda mais estranha. [PAUSA] Trinta e cinco anos depois de sumir dos radares, ele pousou em Porto Alegre, como se nada tivesse acontecido. [PAUSA]  A tripulação? [PAUSA] Esqueletos sentados em seus lugares, café ainda fumegando nas xícaras.  [PAUSA] Como um avião pode simplesmente desaparecer por tanto tempo e reaparecer intacto? [PAUSA]  A teoria dominante fala de uma distorção temporal, uma anomalia inexplicável que desafiaria nossa compreensão da física. [PAUSA] Pense no tempo como um rio. [PAUSA]  E se esse rio tivesse redemoinhos, lugares onde a corrente te leva para outro ponto da história? [PAUSA]  Assustador, não é? [PAUSA]  O mistério do voo quinhentas e treze permanece sem solução, um lembrete de que o universo guarda segredos que talvez nunca compreendamos. [PAUSA] Quer mergulhar mais fundo nesse mistério? [PAUSA] Pesquise sobre o voo quinhentas e treze e explore as teorias por trás desse desaparecimento inexplicável.",
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "misterio",
+        "tipo_historia": "curiosidade",
+        "titulo": "O Enigma do Voo 513: Uma Jornada no Tempo?",
+        "tom_narrativa": "envolvente e surpreendente",
+        "viral_analysis": {
+          "category_match": "misterio",
+          "cta_score": 0.5,
+          "hook_score": 0.7,
+          "optimization_tips": [
+            "❓ Adicione pontuação impactante no hook (?, !, ...)"
+          ],
+          "recommendations": [
+            "⚠️ Potencial médio. Revise hook e hashtags.",
+            "Adicione mais elementos virais e um CTA mais forte."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 40
+        },
+        "viral_score": 87,
+        "visual_prompts": [
+          {
+            "image_prompt": "Animação de um avião desaparecendo em uma nuvem, imagine avião, desaparecido, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "Imagine um avião, desaparecido por décadas, reaparecendo do nada. Parece ficção científica, não é? Mas a história do voo quinhentas e",
+            "scene_number": 1,
+            "timing": "0-9s"
+          },
+          {
+            "image_prompt": "Imagens do avião pousando em Porto Alegre, com aspecto antigo, treze ainda mais, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "treze é ainda mais estranha. Trinta e cinco anos depois de sumir dos radares, ele pousou em Porto Alegre, como se",
+            "scene_number": 2,
+            "timing": "9-17s"
+          },
+          {
+            "image_prompt": "Ilustração de esqueletos sentados em um avião, nada tivesse acontecido., vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "nada tivesse acontecido. A tripulação? Esqueletos sentados em seus lugares, café ainda fumegando nas xícaras. Como um avião pode simplesmente desaparecer",
+            "scene_number": 3,
+            "timing": "17-26s"
+          },
+          {
+            "image_prompt": "Animação de um rio com redemoinhos, tanto tempo reaparecer, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "por tanto tempo e reaparecer intacto? A teoria dominante fala de uma distorção temporal, uma anomalia inexplicável que desafiaria nossa compreensão",
+            "scene_number": 4,
+            "timing": "26-35s"
+          },
+          {
+            "image_prompt": "Close-up em um relógio com os ponteiros girando rapidamente, física. pense tempo, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "da física. Pense no tempo como um rio. E se esse rio tivesse redemoinhos, lugares onde a corrente te leva para",
+            "scene_number": 5,
+            "timing": "35-43s"
+          },
+          {
+            "image_prompt": "Animação de um avião desaparecendo em uma nuvem, outro ponto história?, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "outro ponto da história? Assustador, não é? O mistério do voo quinhentas e treze permanece sem solução, um lembrete de que",
+            "scene_number": 6,
+            "timing": "43-52s"
+          },
+          {
+            "image_prompt": "Imagens do avião pousando em Porto Alegre, com aspecto antigo, universo guarda segredos, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation",
+            "narration": "o universo guarda segredos que talvez nunca compreendamos. Quer mergulhar mais fundo nesse mistério? Continue assistindo a Parte 2 para descobrir o resto da história!",
+            "scene_number": 7,
+            "timing": "52-60s"
+          }
+        ],
+        "visual_prompts_text": "⏰ Cena 1: 0-9s\n📸 PROMPT IMAGEN 3:\nAnimação de um avião desaparecendo em uma nuvem, imagine avião, desaparecido, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 2: 9-17s\n📸 PROMPT IMAGEN 3:\nImagens do avião pousando em Porto Alegre, com aspecto antigo, treze ainda mais, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 3: 17-26s\n📸 PROMPT IMAGEN 3:\nIlustração de esqueletos sentados em um avião, nada tivesse acontecido., vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 4: 26-35s\n📸 PROMPT IMAGEN 3:\nAnimação de um rio com redemoinhos, tanto tempo reaparecer, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 5: 35-43s\n📸 PROMPT IMAGEN 3:\nClose-up em um relógio com os ponteiros girando rapidamente, física. pense tempo, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 6: 43-52s\n📸 PROMPT IMAGEN 3:\nAnimação de um avião desaparecendo em uma nuvem, outro ponto história?, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n\n⏰ Cena 7: 52-60s\n📸 PROMPT IMAGEN 3:\nImagens do avião pousando em Porto Alegre, com aspecto antigo, universo guarda segredos, vibrant colors, engaging composition, educational style, modern design, ultra detailed, 8K resolution, professional photography, vertical format 9:16, no text, trending on artstation\n"
+      },
+      "score": 40,
+      "analysis": {
+        "category_match": "misterio",
+        "cta_score": 0.5,
+        "hook_score": 0.7,
+        "optimization_tips": [
+          "❓ Adicione pontuação impactante no hook (?, !, ...)"
+        ],
+        "recommendations": [
+          "⚠️ Potencial médio. Revise hook e hashtags.",
+          "Adicione mais elementos virais e um CTA mais forte."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 40
+      }
+    }
+  ],
+  "timestamp": "2025-08-13T19:47:10.071076",
+  "saved_at": "2025-08-13 19:47:10"
+}

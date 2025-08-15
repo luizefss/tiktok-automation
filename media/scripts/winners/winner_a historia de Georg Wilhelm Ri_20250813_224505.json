@@ -1,0 +1,469 @@
+{
+  "winner_provider": "Claude",
+  "battle_theme": "a historia de Georg Wilhelm Richmann",
+  "script_data": {
+    "fileName": "2025-08-13_19-45-07_WINNER-claude_60s_a-historia-de-georg-wilhe",
+    "timestamp": "2025-08-13T22:45:07.500Z",
+    "type": "battle_winner",
+    "winner_ai": "Claude",
+    "topic": "a historia de Georg Wilhelm Richmann",
+    "script": "No século XVIII, um cientista ousou desafiar as forças da natureza.\nGeorg Wilhelm Richmann, físico russo-alemão, pioneiro no estudo da eletricidade atmosférica.\nInspirado por Benjamin Franklin, Richmann construiu seu próprio 'coletor de raios'.\nEm 6 de agosto de 1753, durante uma tempestade, ele realizou seu experimento fatal.\nUm globo de fogo azul saltou do aparelho, atingindo Richmann na testa.\nRichmann tornou-se a primeira pessoa conhecida a morrer durante um experimento elétrico.\nSua morte trágica alertou outros cientistas sobre os perigos da eletricidade, mas também impulsionou avanços na segurança elétrica.",
+    "winning_settings": {
+      "ai_model": "claude",
+      "video_duration": 60,
+      "theme": "a historia de Georg Wilhelm Richmann",
+      "provider": "claude"
+    },
+    "battle_context": {
+      "participants": [
+        "Gemini",
+        "Gpt",
+        "Claude"
+      ],
+      "total_participants": 3,
+      "winner_score": 15,
+      "battle_timestamp": "2025-08-13T22:45:07.500Z"
+    },
+    "success_factors": {
+      "script_length": 620,
+      "estimated_engagement": "high",
+      "category": "technology",
+      "tags": [
+        "historia",
+        "georg",
+        "wilhelm",
+        "richmann",
+        "medium"
+      ]
+    },
+    "status": "battle_winner",
+    "confidence": "user_selected",
+    "replication_ready": true
+  },
+  "battle_results": [
+    {
+      "name": "Gemini",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "gemini",
+        "audience": "history",
+        "call_to_action": "",
+        "duracao_estimada": 60,
+        "duration_target_sec": 60,
+        "estilo_visual": "curiosidade",
+        "estimated_duration": 0,
+        "estrutura_usada": [],
+        "hashtags": [
+          "#viral",
+          "#tiktok",
+          "#brasil",
+          "#interessante",
+          "#conteudo"
+        ],
+        "hook": "Você já ouviu falar de a historia de Georg Wilhelm Richmann? Hoje, a versão que quase foi esquecida.",
+        "ia_used": "gemini",
+        "leonardo_prompts": [
+          "[dur: 60s] gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+        ],
+        "leonardo_prompts_text": "[dur: 60s] gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+        "music_style": "tensa_cinematica",
+        "roteiro_completo": "Sem conteúdo",
+        "roteiro_original": "",
+        "scenes": [
+          {
+            "image_prompt": "cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "intro_suave",
+            "narration": "Sem conteúdo",
+            "on_screen_text": "",
+            "sfx": [],
+            "t_end": 60,
+            "t_start": 0
+          }
+        ],
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "curiosidade",
+        "thumbnail": {
+          "image_prompt": "historic cinematic thumbnail, powerful focal subject, dramatic rim light, vertical 9:16, no text, highly detailed, 8K resolution",
+          "text": "Conteúdo Viral"
+        },
+        "tipo_historia": "",
+        "title": "Conteúdo Viral",
+        "titulo": "Conteúdo Viral",
+        "tom_narrativa": "",
+        "viral_analysis": {
+          "category_match": "curiosidade",
+          "cta_score": 0,
+          "hook_score": 0.7,
+          "optimization_tips": [
+            "📢 CTA muito fraco - adicione call-to-action mais forte",
+            "⏱️ Duração ideal é entre 45s e 60s."
+          ],
+          "recommendations": [
+            "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+            "O hook precisa ser mais impactante e o roteiro mais envolvente."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 17.5
+        },
+        "viral_score": 87,
+        "visual_pack": "HistoryDark",
+        "visual_prompts": [
+          {
+            "image_prompt": "cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          }
+        ],
+        "visual_prompts_text": "[dur: 60s] cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+        "voice_style": "documentary_grave"
+      },
+      "score": 17.5,
+      "analysis": {
+        "category_match": "curiosidade",
+        "cta_score": 0,
+        "hook_score": 0.7,
+        "optimization_tips": [
+          "📢 CTA muito fraco - adicione call-to-action mais forte",
+          "⏱️ Duração ideal é entre 45s e 60s."
+        ],
+        "recommendations": [
+          "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+          "O hook precisa ser mais impactante e o roteiro mais envolvente."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 17.5
+      }
+    },
+    {
+      "name": "Gpt",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "gpt",
+        "audience": "history",
+        "call_to_action": "",
+        "duracao_estimada": 60,
+        "duration_target_sec": 60,
+        "estilo_visual": "curiosidade",
+        "estimated_duration": 0,
+        "estrutura_usada": [],
+        "hashtags": [
+          "#viral",
+          "#tiktok",
+          "#brasil",
+          "#interessante",
+          "#conteudo"
+        ],
+        "hook": "Você já ouviu falar de a historia de Georg Wilhelm Richmann? Hoje, a versão que quase foi esquecida.",
+        "ia_used": "gpt",
+        "leonardo_prompts": [
+          "[dur: 60s] gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+        ],
+        "leonardo_prompts_text": "[dur: 60s] gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+        "music_style": "tensa_cinematica",
+        "roteiro_completo": "Sem conteúdo",
+        "roteiro_original": "",
+        "scenes": [
+          {
+            "image_prompt": "cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "intro_suave",
+            "narration": "Sem conteúdo",
+            "on_screen_text": "",
+            "sfx": [],
+            "t_end": 60,
+            "t_start": 0
+          }
+        ],
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "curiosidade",
+        "thumbnail": {
+          "image_prompt": "historic cinematic thumbnail, powerful focal subject, dramatic rim light, vertical 9:16, no text, highly detailed, 8K resolution",
+          "text": "Conteúdo Viral"
+        },
+        "tipo_historia": "",
+        "title": "Conteúdo Viral",
+        "titulo": "Conteúdo Viral",
+        "tom_narrativa": "",
+        "viral_analysis": {
+          "category_match": "curiosidade",
+          "cta_score": 0,
+          "hook_score": 0.7,
+          "optimization_tips": [
+            "📢 CTA muito fraco - adicione call-to-action mais forte",
+            "⏱️ Duração ideal é entre 45s e 60s."
+          ],
+          "recommendations": [
+            "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+            "O hook precisa ser mais impactante e o roteiro mais envolvente."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 17.5
+        },
+        "viral_score": 87,
+        "visual_pack": "HistoryDark",
+        "visual_prompts": [
+          {
+            "image_prompt": "cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left/right, slow zoom out, subtle parallax, 9:16 vertical"
+          }
+        ],
+        "visual_prompts_text": "[dur: 60s] cinematic historic illustration, renaissance vibes, dramatic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+        "voice_style": "documentary_grave"
+      },
+      "score": 17.5,
+      "analysis": {
+        "category_match": "curiosidade",
+        "cta_score": 0,
+        "hook_score": 0.7,
+        "optimization_tips": [
+          "📢 CTA muito fraco - adicione call-to-action mais forte",
+          "⏱️ Duração ideal é entre 45s e 60s."
+        ],
+        "recommendations": [
+          "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+          "O hook precisa ser mais impactante e o roteiro mais envolvente."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 17.5
+      }
+    },
+    {
+      "name": "Claude",
+      "script": {
+        "accent": "brasileiro",
+        "ai_provider": "claude",
+        "audience": "history",
+        "duration_target_sec": 60,
+        "hashtags": [
+          "#HistoriaDaCiencia",
+          "#GeorgRichmann",
+          "#ExperimentosFatais"
+        ],
+        "hook": "Você já ouviu falar de a historia de Georg Wilhelm Richmann? Hoje, a versão que quase foi esquecida.",
+        "ia_used": "claude",
+        "leonardo_prompts": [
+          "[dur: 8s] slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "[dur: 8s] gentle pan left, slow zoom out, subtle parallax, 9:16 vertical",
+          "[dur: 8s] slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "[dur: 8s] gentle pan right, slow zoom out, subtle parallax, 9:16 vertical",
+          "[dur: 8s] slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+          "[dur: 8s] gentle pan left, slow zoom out, subtle parallax, 9:16 vertical",
+          "[dur: 12s] slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+        ],
+        "leonardo_prompts_text": "[dur: 8s] slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n[dur: 8s] gentle pan left, slow zoom out, subtle parallax, 9:16 vertical\n[dur: 8s] slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n[dur: 8s] gentle pan right, slow zoom out, subtle parallax, 9:16 vertical\n[dur: 8s] slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical\n[dur: 8s] gentle pan left, slow zoom out, subtle parallax, 9:16 vertical\n[dur: 12s] slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+        "music_style": "tensa_cinematica",
+        "roteiro_completo": "No século XVIII, um cientista ousou desafiar as forças da natureza.\nGeorg Wilhelm Richmann, físico russo-alemão, pioneiro no estudo da eletricidade atmosférica.\nInspirado por Benjamin Franklin, Richmann construiu seu próprio 'coletor de raios'.\nEm 6 de agosto de 1753, durante uma tempestade, ele realizou seu experimento fatal.\nUm globo de fogo azul saltou do aparelho, atingindo Richmann na testa.\nRichmann tornou-se a primeira pessoa conhecida a morrer durante um experimento elétrico.\nSua morte trágica alertou outros cientistas sobre os perigos da eletricidade, mas também impulsionou avanços na segurança elétrica.",
+        "scenes": [
+          {
+            "image_prompt": "18th century scientist in his laboratory, surrounded by electrical equipment, ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "intro_suave",
+            "narration": "No século XVIII, um cientista ousou desafiar as forças da natureza.",
+            "on_screen_text": "Georg Wilhelm Richmann",
+            "sfx": [
+              "lab equipment hum"
+            ],
+            "t_end": 8,
+            "t_start": 0
+          },
+          {
+            "image_prompt": "Portrait of Georg Wilhelm Richmann, painterly realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "continue",
+            "narration": "Georg Wilhelm Richmann, físico russo-alemão, pioneiro no estudo da eletricidade atmosférica.",
+            "on_screen_text": "",
+            "sfx": [
+              "quill writing"
+            ],
+            "t_end": 16,
+            "t_start": 8
+          },
+          {
+            "image_prompt": "Richmann building a tall metal rod on a rooftop, storm clouds gathering, ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "crescendo",
+            "narration": "Inspirado por Benjamin Franklin, Richmann construiu seu próprio 'coletor de raios'.",
+            "on_screen_text": "",
+            "sfx": [
+              "thunder rumble"
+            ],
+            "t_end": 24,
+            "t_start": 16
+          },
+          {
+            "image_prompt": "Richmann in his laboratory, connecting wires to his apparatus, lightning visible through window, painterly realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan right, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "intensify",
+            "narration": "Em 6 de agosto de 1753, durante uma tempestade, ele realizou seu experimento fatal.",
+            "on_screen_text": "",
+            "sfx": [
+              "electrical crackling"
+            ],
+            "t_end": 32,
+            "t_start": 24
+          },
+          {
+            "image_prompt": "Dramatic scene of a blue fireball striking Richmann, ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "climax",
+            "narration": "Um globo de fogo azul saltou do aparelho, atingindo Richmann na testa.",
+            "on_screen_text": "",
+            "sfx": [
+              "electrical zap",
+              "body falling"
+            ],
+            "t_end": 40,
+            "t_start": 32
+          },
+          {
+            "image_prompt": "Richmann's lifeless body on laboratory floor, colleagues rushing in, painterly realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "MEDIA",
+            "motion_prompt": "gentle pan left, slow zoom out, subtle parallax, 9:16 vertical",
+            "music_cue": "somber",
+            "narration": "Richmann tornou-se a primeira pessoa conhecida a morrer durante um experimento elétrico.",
+            "on_screen_text": "",
+            "sfx": [
+              "distant thunder"
+            ],
+            "t_end": 48,
+            "t_start": 40
+          },
+          {
+            "image_prompt": "Montage of electrical safety equipment and modern lightning rods, transitioning from 18th century to present, ultra realistic, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "intensity": "ALTA",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+            "music_cue": "resolução",
+            "narration": "Sua morte trágica alertou outros cientistas sobre os perigos da eletricidade, mas também impulsionou avanços na segurança elétrica.",
+            "on_screen_text": "",
+            "sfx": [
+              "electrical humming"
+            ],
+            "t_end": 60,
+            "t_start": 48
+          }
+        ],
+        "speech_optimized": true,
+        "story_type": "curiosidade",
+        "style": "curiosidade",
+        "thumbnail": {
+          "image_prompt": "Split image: Georg Richmann portrait and a dramatic lightning strike, ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution",
+          "text": "O Cientista que Morreu pelo Raio"
+        },
+        "title": "Georg Richmann: O Cientista Que Morreu Desafiando os Raios",
+        "viral_analysis": {
+          "category_match": "curiosidade",
+          "cta_score": 0,
+          "hook_score": 0,
+          "optimization_tips": [
+            "📝 Hook muito curto - expanda para 10-50 caracteres",
+            "❓ Adicione pontuação impactante no hook (?, !, ...)",
+            "📢 CTA muito fraco - adicione call-to-action mais forte"
+          ],
+          "recommendations": [
+            "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+            "O hook precisa ser mais impactante e o roteiro mais envolvente."
+          ],
+          "strategy_used": {
+            "cta_type": "engagement_medio",
+            "duration": "45-60s",
+            "emotional_trigger": "curiosity",
+            "hook_style": "curiosidade_geral",
+            "pattern_interrupt": "unexpected_fact"
+          },
+          "viral_score": 15
+        },
+        "visual_pack": "HistoryDark",
+        "visual_prompts": [
+          {
+            "image_prompt": "18th century scientist in his laboratory, surrounded by electrical equipment, ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Portrait of Georg Wilhelm Richmann, painterly realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Richmann building a tall metal rod on a rooftop, storm clouds gathering, ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Richmann in his laboratory, connecting wires to his apparatus, lightning visible through window, painterly realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan right, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Dramatic scene of a blue fireball striking Richmann, ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Richmann's lifeless body on laboratory floor, colleagues rushing in, painterly realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "gentle pan left, slow zoom out, subtle parallax, 9:16 vertical"
+          },
+          {
+            "image_prompt": "Montage of electrical safety equipment and modern lightning rods, transitioning from 18th century to present, ultra realistic, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+            "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical"
+          }
+        ],
+        "visual_prompts_text": "[dur: 8s] 18th century scientist in his laboratory, surrounded by electrical equipment, ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n[dur: 8s] Portrait of Georg Wilhelm Richmann, painterly realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n[dur: 8s] Richmann building a tall metal rod on a rooftop, storm clouds gathering, ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n[dur: 8s] Richmann in his laboratory, connecting wires to his apparatus, lightning visible through window, painterly realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n[dur: 8s] Dramatic scene of a blue fireball striking Richmann, ultra realistic, renaissance vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n[dur: 8s] Richmann's lifeless body on laboratory floor, colleagues rushing in, painterly realistic, early-modern vibes, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution\n[dur: 12s] Montage of electrical safety equipment and modern lightning rods, transitioning from 18th century to present, ultra realistic, cinematic lighting, moody shadows, volumetric light, rich textures, dark teal/orange palette, highly detailed, vertical 9:16, no text, 8K resolution, vertical 9:16, no text, highly detailed, 8K resolution",
+        "voice_style": "documentary_grave"
+      },
+      "score": 15,
+      "analysis": {
+        "category_match": "curiosidade",
+        "cta_score": 0,
+        "hook_score": 0,
+        "optimization_tips": [
+          "📝 Hook muito curto - expanda para 10-50 caracteres",
+          "❓ Adicione pontuação impactante no hook (?, !, ...)",
+          "📢 CTA muito fraco - adicione call-to-action mais forte"
+        ],
+        "recommendations": [
+          "❌ Baixo potencial viral. Reformule completamente o roteiro.",
+          "O hook precisa ser mais impactante e o roteiro mais envolvente."
+        ],
+        "strategy_used": {
+          "cta_type": "engagement_medio",
+          "duration": "45-60s",
+          "emotional_trigger": "curiosity",
+          "hook_style": "curiosidade_geral",
+          "pattern_interrupt": "unexpected_fact"
+        },
+        "viral_score": 15
+      }
+    }
+  ],
+  "timestamp": "2025-08-13T22:45:05.861228",
+  "saved_at": "2025-08-13 22:45:05"
+}

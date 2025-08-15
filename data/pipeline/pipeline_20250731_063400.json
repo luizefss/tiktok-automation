@@ -1,0 +1,74 @@
+{
+  "timestamp": "2025-07-31T06:34:00.669975",
+  "roteiro": {
+    "hook": "😱 A Terra está GIRANDO?! E você nem sente!",
+    "roteiro_completo": "[Cena 1: 0-5 segundos]\n(Música animada e rápida de fundo)\nVisual: Close no rosto do criador com expressão surpresa.\nCriador: \"Mano, você sabia que a gente tá girando a mais de MIL QUILÔMETROS por hora agora?! 🤯\"\n\n[Cena 2: 5-15 segundos]\nVisual: Animação simples da Terra girando com uma pessoa em cima.\nCriador (voz acelerada): \"É isso mesmo! A Terra gira em torno do seu próprio eixo, tipo um peão gigante. E por que a gente não voa pra fora?\"\n\n[Cena 3: 15-30 segundos]\nVisual: Ilustração da força da gravidade.\nCriador: \"Graças à GRAVIDADE! Ela nos puxa para o centro da Terra, nos mantendo firmes no chão. É como um abraço cósmico! 🤗\"\n\n[Cena 4: 30-45 segundos]\nVisual: Timelapse do céu mostrando o movimento aparente do sol.\nCriador: \"E essa rotação é o que causa o dia e a noite! ☀️🌙 A parte da Terra virada para o Sol, tem sol. A outra, tem lua! Simples assim!\"\n\n[Cena 5: 45-55 segundos]\nVisual: Criador apontando para a câmera com um sorriso.\nCriador: \"Curtiu essa curiosidade? Segue pra mais ciência divertida! 😉\"\n\n[Cena 6: 55-60 segundos]\nVisual: Texto na tela: \"#ciencia #curiosidade #terra #gravidade #fy #viral\"\n(Música aumenta)",
+    "hashtags": [
+      "#ciencia",
+      "#curiosidade",
+      "#terra",
+      "#gravidade",
+      "#fy",
+      "#viral",
+      "#rotaçãodaterra",
+      "#física"
+    ],
+    "titulo": "Girando a 1000km/h! 🌎",
+    "categoria": "ciencia",
+    "timestamp": "2025-07-31T06:32:34.010898"
+  },
+  "audio_file": "../media/audio/audio_20250731_063244.mp3",
+  "images": [
+    {
+      "file": "../media/images/picsum_laboratory_0_063254_20250731_063256.jpg",
+      "description": "Imagem 1 para laboratory",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_laboratory_2_063259_20250731_063300.jpg",
+      "description": "Imagem 3 para laboratory",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_technology_0_063300_20250731_063301.jpg",
+      "description": "Imagem 1 para technology",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_technology_1_063301_20250731_063304.jpg",
+      "description": "Imagem 2 para technology",
+      "source": "picsum"
+    },
+    {
+      "file": "../media/images/picsum_technology_2_063304_20250731_063307.jpg",
+      "description": "Imagem 3 para technology",
+      "source": "picsum"
+    }
+  ],
+  "video": {
+    "success": true,
+    "video_file": "../media/videos/tiktok_Girando_a_1000kmh__20250731_063307.mp4",
+    "size_mb": 4.253066062927246,
+    "duration": 85.68,
+    "images_count": 5,
+    "roteiro": {
+      "hook": "😱 A Terra está GIRANDO?! E você nem sente!",
+      "roteiro_completo": "[Cena 1: 0-5 segundos]\n(Música animada e rápida de fundo)\nVisual: Close no rosto do criador com expressão surpresa.\nCriador: \"Mano, você sabia que a gente tá girando a mais de MIL QUILÔMETROS por hora agora?! 🤯\"\n\n[Cena 2: 5-15 segundos]\nVisual: Animação simples da Terra girando com uma pessoa em cima.\nCriador (voz acelerada): \"É isso mesmo! A Terra gira em torno do seu próprio eixo, tipo um peão gigante. E por que a gente não voa pra fora?\"\n\n[Cena 3: 15-30 segundos]\nVisual: Ilustração da força da gravidade.\nCriador: \"Graças à GRAVIDADE! Ela nos puxa para o centro da Terra, nos mantendo firmes no chão. É como um abraço cósmico! 🤗\"\n\n[Cena 4: 30-45 segundos]\nVisual: Timelapse do céu mostrando o movimento aparente do sol.\nCriador: \"E essa rotação é o que causa o dia e a noite! ☀️🌙 A parte da Terra virada para o Sol, tem sol. A outra, tem lua! Simples assim!\"\n\n[Cena 5: 45-55 segundos]\nVisual: Criador apontando para a câmera com um sorriso.\nCriador: \"Curtiu essa curiosidade? Segue pra mais ciência divertida! 😉\"\n\n[Cena 6: 55-60 segundos]\nVisual: Texto na tela: \"#ciencia #curiosidade #terra #gravidade #fy #viral\"\n(Música aumenta)",
+      "hashtags": [
+        "#ciencia",
+        "#curiosidade",
+        "#terra",
+        "#gravidade",
+        "#fy",
+        "#viral",
+        "#rotaçãodaterra",
+        "#física"
+      ],
+      "titulo": "Girando a 1000km/h! 🌎",
+      "categoria": "ciencia",
+      "timestamp": "2025-07-31T06:32:34.010898"
+    },
+    "status": "Aguardando Revisão"
+  },
+  "status": "completed"
+}

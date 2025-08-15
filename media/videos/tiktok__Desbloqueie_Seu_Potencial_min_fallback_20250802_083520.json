@@ -1,0 +1,82 @@
+{
+  "success": true,
+  "video_file": "/var/www/tiktok-automation/media/videos/tiktok__Desbloqueie_Seu_Potencial_min_fallback_20250802_083520.mp4",
+  "size_mb": 3.295283317565918,
+  "duration": 51.096,
+  "images_count": 1,
+  "type": "fallback",
+  "created_at": "2025-08-02T08:36:04.249828",
+  "settings_used": {
+    "content_ai_model": "gemini",
+    "content_type": "custom_message",
+    "custom_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "message_categories": [
+      "Motivação",
+      "Conhecimento",
+      "Reflexão"
+    ],
+    "tone": "motivational",
+    "image_style": "realistic",
+    "color_palette": "vibrant",
+    "animation_type": "parallax",
+    "voice_emotion": "enthusiastic",
+    "speaking_speed": 1.05,
+    "use_topmedia_ai": false,
+    "background_music": true,
+    "background_music_volume": 0.1,
+    "video_duration": 60,
+    "transitions": "smooth",
+    "text_overlay": true,
+    "custom_prompt_roteiro": "Crie um roteiro viral e impactante para TikTok com foco em {tema} e tom {tom}.",
+    "custom_prompt_imagem": "Cena visualmente impressionante para vídeo vertical, no estilo {estilo_imagem} com paleta {paleta_cores}, sem texto ou pessoas."
+  },
+  "generation_type": "custom_message",
+  "estimated_metrics": {
+    "engagement_score": 8.8,
+    "viral_potential": 7.3,
+    "audience_match": 9.160516699060828
+  },
+  "roteiro": {
+    "titulo": "🚀 Desbloqueie Seu Potencial! 💪 #mindset",
+    "hook": "Você está a um passo da sua melhor versão... mas a maioria desiste ANTES de chegar lá!",
+    "roteiro_completo": "Você está a um passo da sua melhor versão... mas a maioria desiste ANTES de chegar lá! (pausa)  Eu sei, a jornada é difícil. Cheia de obstáculos, de dúvidas... Mas escuta só: o que te separa do seu sonho não é a dificuldade, é a sua MENTALIDADE! (ênfase)  Pensa comigo: quantas vezes você já se sabotou? Quantas vezes deixou o medo te paralisar? (pausa) Chega!  A partir de hoje, você escolhe ser o dono do seu destino.  Visualize o seu sucesso, sinta a energia da conquista, e aja!  Um passo de cada vez.  Um dia de cada vez.  Consistência, meu amigo, consistência! (ênfase) Não precisa ser perfeito, precisa ser PERSISTENTE.  Acredite no seu potencial, porque EU acredito! (pausa)  Você é capaz de coisas INCRÍVEIS.  Mostre ao mundo do que você é feito!",
+    "message_core": "Desbloqueie seu potencial com a mentalidade certa e persistência.",
+    "call_to_action": "Comenta aqui embaixo qual é o SEU próximo passo rumo ao sucesso! 👇🔥",
+    "hashtags": [
+      "#motivacao",
+      "#mindset",
+      "#sucesso",
+      "#persistencia",
+      "#inspiracao"
+    ],
+    "categoria": "motivational",
+    "estimated_duration": 55,
+    "key_moments": [
+      "Hook impactante",
+      "Reflexão sobre a mentalidade",
+      "Chamada para ação"
+    ],
+    "music_style": "Música épica e inspiradora",
+    "timestamp": "2025-08-02T08:34:32.660502",
+    "is_personalized": true,
+    "selected_topics": [
+      "Motivação Pessoal",
+      "Mindset"
+    ],
+    "main_category": "Motivação",
+    "tone_applied": "motivational",
+    "voice_emotion": "enthusiastic",
+    "generation_type": "custom_message",
+    "ia_used": "gemini"
+  },
+  "prompts_usados": [
+    "A single sprout breaking through cracked vibrant earth, realistic, dramatic spotlighting from above, vertical 9:16 close-up, hopeful and determined, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professional compositio...",
+    "A winding mountain road leading to a vibrant sunrise over majestic peaks, realistic, golden hour lighting, vertical 9:16 aerial view, challenging yet inspiring, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, professiona...",
+    "A tightrope stretched between two towering cliffs over a vibrant valley, realistic, midday sun with dramatic shadows, vertical 9:16 wide shot, precarious and exhilarating, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, ...",
+    "A vibrant river flowing powerfully around a large boulder, realistic, dappled sunlight filtering through trees, vertical 9:16 long exposure, persistent and unstoppable, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, pro...",
+    "A vibrant hot air balloon rising above a sea of swirling fog, realistic, dawn light breaking through the clouds, vertical 9:16 low angle shot, liberating and transcendent, hyper-realistic, natural textures, vibrant colors, saturated, bold color scheme, energetic palette, 9:16 vertical aspect ratio, ..."
+  ]
+}

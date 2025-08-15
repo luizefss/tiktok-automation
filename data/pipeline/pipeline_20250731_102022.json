@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-07-31T10:20:22.745026",
+  "roteiro": {
+    "titulo": "🚀 Invenções Espaciais que Mudaram TUDO! 🤯",
+    "hook": "Já imaginou um mundo sem GPS? 🛰️",
+    "roteiro_completo": "[Cena: Vídeo acelerado de estrelas passando no céu noturno] (Voz animada e curiosa): Já imaginou um mundo sem GPS? 🛰️  Impossível, né? Mas a gente só tem essa maravilha graças à exploração espacial! [Cena: Transição rápida para um smartphone mostrando um mapa com localização] (Voz explicativa): Nos anos 60, pra saber onde os satélites estavam, a NASA inventou uma rede de monitoramento... que evoluiu pro GPS que usamos hoje! 🤯 [Cena: Animação de um satélite orbitando a Terra e emitindo sinais] (Voz com tom de surpresa): Sabiam que o GPS foi inicialmente usado só pelos militares? 😱 Só depois de um incidente com um avião coreano, em 1983, que o sinal foi liberado pra todo mundo!  [Cena: Close em um mapa com rotas sendo traçadas] (Voz convidativa): Comenta aqui qual invenção espacial você acha mais incrível! 👇  E não esquece de seguir pra mais curiosidades espaciais! 🚀",
+    "hashtags": [
+      "#viral",
+      "#espaço",
+      "#curiosidades",
+      "#aprendanotiktok",
+      "#gps",
+      "#nasa",
+      "#tecnologia"
+    ],
+    "categoria": "espaço",
+    "topico_original": "invenções que mudaram tudo",
+    "timestamp": "2025-07-31T10:19:49.963208"
+  },
+  "audio_file": "../media/audio/audio_google_20250731_101952.mp3",
+  "images": [
+    "../media/images/picsum_abstract_0_101952_20250731_101953.jpg",
+    "../media/images/picsum_abstract_1_101953_20250731_101958.jpg",
+    "../media/images/picsum_abstract_2_101958_20250731_102000.jpg",
+    "../media/images/picsum_colorful_0_102000_20250731_102002.jpg",
+    "../media/images/picsum_colorful_1_102002_20250731_102003.jpg"
+  ],
+  "video": {
+    "success": true,
+    "video_file": "../media/videos/tiktok__Invenções_Espaciais_que_Mudar_20250731_102005.mp4",
+    "size_mb": 1.6302719116210938,
+    "duration": 37.032,
+    "images_count": 5,
+    "roteiro": {
+      "titulo": "🚀 Invenções Espaciais que Mudaram TUDO! 🤯",
+      "hook": "Já imaginou um mundo sem GPS? 🛰️",
+      "roteiro_completo": "[Cena: Vídeo acelerado de estrelas passando no céu noturno] (Voz animada e curiosa): Já imaginou um mundo sem GPS? 🛰️  Impossível, né? Mas a gente só tem essa maravilha graças à exploração espacial! [Cena: Transição rápida para um smartphone mostrando um mapa com localização] (Voz explicativa): Nos anos 60, pra saber onde os satélites estavam, a NASA inventou uma rede de monitoramento... que evoluiu pro GPS que usamos hoje! 🤯 [Cena: Animação de um satélite orbitando a Terra e emitindo sinais] (Voz com tom de surpresa): Sabiam que o GPS foi inicialmente usado só pelos militares? 😱 Só depois de um incidente com um avião coreano, em 1983, que o sinal foi liberado pra todo mundo!  [Cena: Close em um mapa com rotas sendo traçadas] (Voz convidativa): Comenta aqui qual invenção espacial você acha mais incrível! 👇  E não esquece de seguir pra mais curiosidades espaciais! 🚀",
+      "hashtags": [
+        "#viral",
+        "#espaço",
+        "#curiosidades",
+        "#aprendanotiktok",
+        "#gps",
+        "#nasa",
+        "#tecnologia"
+      ],
+      "categoria": "espaço",
+      "topico_original": "invenções que mudaram tudo",
+      "timestamp": "2025-07-31T10:19:49.963208"
+    },
+    "status": "Aguardando Revisão"
+  },
+  "status": "completed"
+}

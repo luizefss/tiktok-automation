@@ -1,0 +1,92 @@
+{
+  "title": "O Prisma que Revelou as Cores da Luz",
+  "audience": "history",
+  "visual_pack": "HistoryDark",
+  "duration_target_sec": 60,
+  "voice_style": "documentary_grave",
+  "music_style": "tensa_cinematica",
+  "scenes": [
+    {
+      "t_start": 0,
+      "t_end": 7,
+      "narration": "Você sabia que um simples prisma ajudou Newton a decifrar o segredo da luz branca?",
+      "on_screen_text": "O Segredo da Luz",
+      "image_prompt": "17th-century study room, wooden desk by a window, sunlight beam entering, Isaac Newton holding a glass prism, dust motes in the air, cinematic lighting, moody shadows, painterly realistic, rich textures, vertical 9:16, no text, highly detailed, 8K resolution",
+      "motion_prompt": "slow cinematic zoom in, subtle parallax, gentle camera drift, 9:16 vertical",
+      "intensity": "ALTA",
+      "sfx": ["ambiente silencioso", "leve ranger de madeira"],
+      "music_cue": "intro_suave"
+    },
+    {
+      "t_start": 7,
+      "t_end": 14,
+      "narration": "No século XVII, ele suspeitava que a luz branca não era pura, mas composta por várias cores.",
+      "on_screen_text": "A Hipótese",
+      "image_prompt": "close-up of a hand positioning a glass prism in a sunbeam on a wooden desk, scientific instruments nearby, candle on the side, cinematic rim light, painterly realistic, vertical 9:16, no text, highly detailed, 8K resolution",
+      "motion_prompt": "gentle pan left across the desk, slow zoom toward the prism, 9:16 vertical",
+      "intensity": "MEDIA",
+      "sfx": ["vidro tilintando"],
+      "music_cue": "transicao"
+    },
+    {
+      "t_start": 14,
+      "t_end": 22,
+      "narration": "Ao passar o feixe pelo prisma, a luz se dividiu num arco-íris perfeito: do vermelho ao violeta.",
+      "on_screen_text": "O Espectro",
+      "image_prompt": "macro shot of a transparent glass prism splitting sunlight into a vivid rainbow spectrum on parchment, dramatic highlights, painterly realistic, vertical 9:16, no text, highly detailed, 8K resolution",
+      "motion_prompt": "slow zoom out revealing the full rainbow spectrum, subtle parallax, 9:16 vertical",
+      "intensity": "ALTA",
+      "sfx": ["brilho suave cristalino"],
+      "music_cue": "climax"
+    },
+    {
+      "t_start": 22,
+      "t_end": 30,
+      "narration": "Newton mostrou que as cores já estavam na luz e que o prisma apenas as separava.",
+      "on_screen_text": "A Prova",
+      "image_prompt": "Newton conducting a second prism experiment recombining the spectrum back into white light, two prisms aligned, scientific setup, painterly realistic, cinematic lighting, vertical 9:16, no text, highly detailed, 8K resolution",
+      "motion_prompt": "gentle tilt down following the light path through both prisms, 9:16 vertical",
+      "intensity": "MEDIA",
+      "sfx": ["anotações com pena"],
+      "music_cue": "transicao"
+    },
+    {
+      "t_start": 30,
+      "t_end": 40,
+      "narration": "Com isso, ele derrubou ideias antigas e lançou as bases da óptica moderna.",
+      "on_screen_text": "Óptica Moderna",
+      "image_prompt": "montage: Newton's notes and diagrams overlaying a dark background, sketches of light rays and prisms, subtle glow, painterly-realistic blend, cinematic, vertical 9:16, no text, highly detailed, 8K resolution",
+      "motion_prompt": "crossfade with slow zoom in on key diagrams, subtle parallax, 9:16 vertical",
+      "intensity": "MEDIA",
+      "sfx": ["página virando"],
+      "music_cue": "transicao"
+    },
+    {
+      "t_start": 40,
+      "t_end": 50,
+      "narration": "Do laboratório iluminado a vela às tecnologias de hoje, o espectro de Newton atravessou séculos.",
+      "on_screen_text": "Do Passado ao Presente",
+      "image_prompt": "transition scene from candlelit 17th-century lab to a modern optics lab with prisms and lasers, elegant blend of eras, cinematic lighting, painterly realistic, vertical 9:16, no text, highly detailed, 8K resolution",
+      "motion_prompt": "slow push forward through the transition from old lab to modern lab, 9:16 vertical",
+      "intensity": "ALTA",
+      "sfx": ["chiado leve de laser"],
+      "music_cue": "climax"
+    },
+    {
+      "t_start": 50,
+      "t_end": 60,
+      "narration": "Tudo começou com um prisma… e a coragem de fazer a pergunta certa. Quer outra descoberta brilhante? Siga para a próxima parte.",
+      "on_screen_text": "Próxima Parte →",
+      "image_prompt": "hero shot of a glass prism on a dark velvet surface with a sharp rainbow beam, dramatic spotlight, elegant negative space for title, painterly realistic, cinematic, vertical 9:16, no text, highly detailed, 8K resolution",
+      "motion_prompt": "slow zoom out with fade to black at the end, 9:16 vertical",
+      "intensity": "MEDIA",
+      "sfx": ["hit orquestral suave"],
+      "music_cue": "final"
+    }
+  ],
+  "thumbnail": {
+    "text": "O Prisma de Newton",
+    "image_prompt": "Isaac Newton holding a glass prism with a vivid rainbow beam emerging, dark background, dramatic rim light, painterly realistic, cinematic, vertical 9:16, no text, highly detailed, 8K resolution"
+  },
+  "hashtags": ["#historia", "#ciencia", "#newton", "#optics", "#shorts", "#curiosidades"]
+}

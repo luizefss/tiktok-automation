@@ -1,0 +1,12 @@
+{
+  "title": "Newton e o Prisma - Descoberta da Luz",
+  "description": "Uma demonstração da descoberta de Isaac Newton sobre a decomposição da luz branca através de um prisma",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "image_prompt": "Isaac Newton em seu laboratório escuro, segurando um prisma triangular de vidro, luz solar entrando por uma pequena fresta na janela, ambiente científico do século 17, vertical 9:16",
+      "narration": "Em 1666, Isaac Newton fez uma descoberta revolucionária em seu laboratório.",
+      "motion_prompt": "slow cinematic zoom in on the prism, subtle light rays moving"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-07-31T10:52:00.945615",
+  "roteiro": {
+    "titulo": "Chuva de Aranhas 🕷️🕸️😱 #experimentobizarro",
+    "hook": "Você acredita que já choveu aranhas do céu?",
+    "roteiro_completo": "[Cena: Vídeo curto de aranhas em teias com efeito de chuva caindo em câmera lenta] (Voz animada e curiosa): Já ouviu falar da \"chuva de aranhas\"? Parece filme de terror, né? [Cena: Ilustração de aranhas \"balonando\"] (Voz explicativa): Mas é um fenômeno natural!  Aranhas jovens lançam fios de seda que agem como balões, carregando-as pelo vento. [Cena: Mapa mostrando regiões onde o fenômeno ocorre com zoom em uma região específica] (Voz surpresa): Imagine milhares de aranhas flutuando e pousando em uma única área! Isso cria a ilusão de uma chuva de aranhas.  Acontece em lugares como Austrália e Brasil! [Cena: Close em uma aranha pequena em uma teia] (Voz incentivando interação): Já presenciou algo parecido? Conta nos comentários! Compartilhe com seus amigos e siga para mais curiosidades!",
+    "hashtags": [
+      "#viral",
+      "#natureza",
+      "#curiosidades",
+      "#aprendanotiktok",
+      "#aranhas",
+      "#ciência",
+      "#experimentobizarro"
+    ],
+    "categoria": "natureza",
+    "topico_original": "experimentos científicos bizarros",
+    "timestamp": "2025-07-31T10:51:33.642932"
+  },
+  "audio_file": "../media/audio/audio_google_20250731_105135.mp3",
+  "images": [
+    "../media/images/picsum_abstract_0_105135_20250731_105139.jpg",
+    "../media/images/picsum_abstract_1_105139_20250731_105141.jpg",
+    "../media/images/picsum_abstract_2_105141_20250731_105142.jpg",
+    "../media/images/picsum_colorful_0_105142_20250731_105143.jpg",
+    "../media/images/picsum_colorful_1_105143_20250731_105145.jpg"
+  ],
+  "video": {
+    "success": true,
+    "video_file": "../media/videos/tiktok_Chuva_de_Aranhas_experimentobi_20250731_105146.mp4",
+    "size_mb": 1.329026222229004,
+    "duration": 31.584,
+    "images_count": 5,
+    "roteiro": {
+      "titulo": "Chuva de Aranhas 🕷️🕸️😱 #experimentobizarro",
+      "hook": "Você acredita que já choveu aranhas do céu?",
+      "roteiro_completo": "[Cena: Vídeo curto de aranhas em teias com efeito de chuva caindo em câmera lenta] (Voz animada e curiosa): Já ouviu falar da \"chuva de aranhas\"? Parece filme de terror, né? [Cena: Ilustração de aranhas \"balonando\"] (Voz explicativa): Mas é um fenômeno natural!  Aranhas jovens lançam fios de seda que agem como balões, carregando-as pelo vento. [Cena: Mapa mostrando regiões onde o fenômeno ocorre com zoom em uma região específica] (Voz surpresa): Imagine milhares de aranhas flutuando e pousando em uma única área! Isso cria a ilusão de uma chuva de aranhas.  Acontece em lugares como Austrália e Brasil! [Cena: Close em uma aranha pequena em uma teia] (Voz incentivando interação): Já presenciou algo parecido? Conta nos comentários! Compartilhe com seus amigos e siga para mais curiosidades!",
+      "hashtags": [
+        "#viral",
+        "#natureza",
+        "#curiosidades",
+        "#aprendanotiktok",
+        "#aranhas",
+        "#ciência",
+        "#experimentobizarro"
+      ],
+      "categoria": "natureza",
+      "topico_original": "experimentos científicos bizarros",
+      "timestamp": "2025-07-31T10:51:33.642932"
+    },
+    "status": "Aguardando Revisão"
+  },
+  "status": "completed"
+}
