@@ -1,0 +1,22 @@
+node_modules/
+.env
+.DS_Store
+dist/
+build/
+*.log
+uploads/*
+!uploads/.gitkeep
+venv
+.venv
+venv/
+.venv/
+env/
+.env/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Outros
+.DS_Store
